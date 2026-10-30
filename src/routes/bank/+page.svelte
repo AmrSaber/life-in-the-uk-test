@@ -7,7 +7,8 @@
 	import QuestionCard from '#lib/QuestionCard.svelte';
 	import TagFilter from '#lib/TagFilter.svelte';
 
-	const isStarredLink = (url: URL) => url.searchParams.get('starred') === '1';
+	const isStarredLink = (url: { searchParams: { get(k: string): string | null } }) =>
+		url.searchParams.get('starred') === '1';
 	const filters = $state({ ...emptyFilters(), starredOnly: isStarredLink(page.url) });
 
 	// Follow the "Starred questions" shortcut both ways; the checkbox can still override it.
