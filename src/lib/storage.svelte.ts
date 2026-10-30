@@ -40,6 +40,11 @@ export function starAll(ids: Iterable<string>) {
 	saveStars();
 }
 
+export function unstarAll(ids: Iterable<string>) {
+	for (const id of ids) stars.delete(id);
+	saveStars();
+}
+
 // ---- Saved exams
 
 const isSavedExam = (v: unknown) => {

@@ -10,6 +10,7 @@
 		getSavedExam,
 		savedExams,
 		starAll,
+		unstarAll,
 		stars,
 		toggleInSavedExam,
 		updateSavedExam
@@ -32,6 +33,8 @@
 	// Temporary and separate from stars; survives filter changes but not a refresh.
 	const selection = new SvelteSet<string>();
 	let editName = $state('');
+	// While editing, the selection is the exam's draft membership.
+	let onlyInExam = $state(false);
 
 	afterNavigate(({ from, to }) => {
 		if (!to) return;
@@ -39,6 +42,7 @@
 		// The header links set the starred filter; other view changes keep it.
 		if (!to.url.search || p.has('starred')) filters.starredOnly = p.get('starred') === '1';
 		const edit = getSavedExam(p.get('edit'));
+		onlyInExam = false;
 		if (edit) {
 			selection.clear();
 			for (const id of edit.questions) selection.add(id);
@@ -49,17 +53,27 @@
 	});
 
 	const base = $derived(
-		saved ? questions.filter((q) => saved.questions.includes(q.id)) : questions
+		saved
+			? questions.filter((q) => saved.questions.includes(q.id))
+			: editing && onlyInExam
+				? questions.filter((q) => selection.has(q.id))
+				: questions
 	);
 	const shown = $derived(filterQuestions(base, filters, stars));
 	const shownIds = $derived(new Set(shown.map((q) => q.id)));
 	const hiddenSelected = $derived([...selection].filter((id) => !shownIds.has(id)).length);
+	const shownSelected = $derived(shown.filter((q) => selection.has(q.id)));
+	const allShownSelected = $derived(shownSelected.length === shown.length);
+	const allSelectedStarred = $derived(
+		selection.size > 0 && [...selection].every((id) => stars.has(id))
+	);
 	const filtersActive = $derived(
-		filters.tags.length > 0 || filters.search.trim() !== '' || filters.starredOnly
+		filters.tags.length > 0 || filters.search.trim() !== '' || filters.starredOnly || onlyInExam
 	);
 
 	function clearFilters() {
 		Object.assign(filters, emptyFilters());
+		onlyInExam = false;
 	}
 
 	function toggleSelect(id: string) {
@@ -69,6 +83,10 @@
 
 	function selectAllMatching() {
 		for (const q of shown) selection.add(q.id);
+	}
+
+	function removeShownFromExam() {
+		for (const q of shownSelected) selection.delete(q.id);
 	}
 
 	// ---- Saved exams
@@ -206,6 +224,12 @@
 				<input type="checkbox" bind:checked={filters.starredOnly} />
 				<span aria-hidden="true">★</span> Starred only
 			</label>
+			{#if editing}
+				<label class="check">
+					<input type="checkbox" bind:checked={onlyInExam} />
+					Only questions in this exam
+				</label>
+			{/if}
 			{#if filtersActive}
 				<button type="button" onclick={clearFilters}>Clear filters</button>
 			{/if}
@@ -213,7 +237,9 @@
 	</search>
 
 	<p class="count" role="status">
-		Showing {shown.length} of {base.length} questions{saved ? ' in this exam' : ''}
+		Showing {shown.length} of {base.length} questions{saved || (editing && onlyInExam)
+			? ' in this exam'
+			: ''}
 	</p>
 
 	{#if shown.length}
@@ -284,15 +310,31 @@
 				<strong>{selection.size} selected</strong>{#if hiddenSelected}, {hiddenSelected} hidden by filters{/if}
 			</p>
 			<div class="bar-actions">
-				<button type="button" disabled={!shown.length} onclick={selectAllMatching}>
+				<button type="button" disabled={allShownSelected} onclick={selectAllMatching}>
 					Select all {shown.length}
 				</button>
 				<button type="button" disabled={!selection.size} onclick={() => selection.clear()}>
 					Clear selection
 				</button>
-				<button type="button" disabled={!selection.size} onclick={() => starAll(selection)}>
-					<span aria-hidden="true">★</span> Star selected
-				</button>
+				{#if allSelectedStarred}
+					<button type="button" onclick={() => unstarAll(selection)}>
+						<span aria-hidden="true">☆</span> Unstar selected
+					</button>
+				{:else}
+					<button type="button" disabled={!selection.size} onclick={() => starAll(selection)}>
+						<span aria-hidden="true">★</span> Star selected
+					</button>
+				{/if}
+				{#if editing}
+					<button
+						type="button"
+						class="danger"
+						disabled={!shownSelected.length}
+						onclick={removeShownFromExam}
+					>
+						Remove {shownSelected.length} shown from exam
+					</button>
+				{/if}
 				{#if !editing}
 					<button
 						type="button"
