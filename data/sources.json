@@ -1,0 +1,2316 @@
+{
+  "reviewed-on": "2026-10-29",
+  "question-reference-format": "The questions arrays contain persistent question IDs from questions.json; IDs do not change when questions are reordered or edited.",
+  "scope": "Explanations distinguish the reference's teaching from researched corrections and current context. The online study-material pages are third-party transcriptions. Practice questions, options, IDs and answer keys remain unchanged. Reference alignment is recorded below; an outdated tag flags superseded reference information, not an instruction to change the practice answer. Historical inaccuracies and overbroad wording are explained as corrections or clarifications rather than automatically labelled outdated.",
+  "study-material": [
+    {
+      "url": "https://lifeintheuktestweb.co.uk/the-values-and-principles-of-the-uk/",
+      "sections": [
+        "becoming-a-permanent-resident",
+        "the-values-and-principles-of-the-uk"
+      ]
+    },
+    {
+      "url": "https://lifeintheuktestweb.co.uk/what-is-the-uk/",
+      "sections": [
+        "what-is-the-uk"
+      ]
+    },
+    {
+      "url": "https://lifeintheuktestweb.co.uk/a-long-and-illustrious-history/",
+      "sections": [
+        "early-britain",
+        "the-middle-ages",
+        "the-tudors-and-stuarts",
+        "a-global-power",
+        "the-20th-century",
+        "britain-since-1945"
+      ]
+    },
+    {
+      "url": "https://lifeintheuktestweb.co.uk/a-modern-thriving-society/",
+      "sections": [
+        "the-uk-today",
+        "religion",
+        "customs-and-traditions",
+        "sport",
+        "arts-and-culture",
+        "leisure",
+        "places-of-interest"
+      ]
+    },
+    {
+      "url": "https://lifeintheuktestweb.co.uk/the-uk-government-the-law-and-your-role/",
+      "sections": [
+        "the-development-of-british-democracy",
+        "the-british-constitution",
+        "the-government",
+        "the-uk-and-international-institutions",
+        "respecting-the-law",
+        "fundamental-principles",
+        "your-role-in-the-community"
+      ]
+    }
+  ],
+  "additional-references": [
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/hadrian/",
+      "questions": [
+        "q0236",
+        "q0323"
+      ],
+      "finding": "Hadrian visited Britain in AD 122. The wall formed part of his frontier policy, controlled unauthorised movement and deterred raids. Use this explanation rather than the mirror's oversimplified claim about keeping out the Picts."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/description/",
+      "questions": [
+        "q0349"
+      ],
+      "finding": "English Heritage describes a frontier landscape containing forts, roads, towers and civilian settlements, including Housesteads and Vindolanda. The answer identifies forts associated with the frontier; it need not imply both stood directly on the wall."
+    },
+    {
+      "url": "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/",
+      "questions": [
+        "q0253",
+        "q0345",
+        "q0140",
+        "q0211"
+      ],
+      "finding": "William ordered the survey at Christmas 1085, and it was undertaken in 1086. Domesday records landholdings, land use and values, not a complete population census. It omits London, Winchester, Northumberland, Durham and other areas."
+    },
+    {
+      "url": "https://www.royal.uk/alfred-great-r-871-899",
+      "questions": [
+        "q0293",
+        "q0035"
+      ],
+      "finding": "Alfred was king of Wessex and defeated Guthrum's army at Edington in May 878. His victory preserved Wessex; Danish control continued in northern and eastern England. The Royal Household describes the subsequent territorial agreement and Danelaw."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/carlisle-castle/history/mary-queen-of-scots",
+      "questions": [
+        "q0361",
+        "q0173"
+      ],
+      "finding": "Mary arrived in England in May 1568 and was executed on 8 February 1587. English Heritage describes almost 19 years of captivity, not 20. It also describes her conviction following involvement in a plot against Elizabeth."
+    },
+    {
+      "url": "https://www.royal.uk/mary-queen-scots-r1542-1567",
+      "questions": [
+        "q0361",
+        "q0173",
+        "q0110"
+      ],
+      "finding": "The Royal Household confirms Mary's Catholic religion, captivity in England for 19 years, the Babington Plot and execution in 1587."
+    },
+    {
+      "url": "https://www.royal.uk/elizabeth-i",
+      "questions": [
+        "q0142",
+        "q0297"
+      ],
+      "finding": "Elizabeth's religious settlement sought a compromise and outward conformity. Her reign nevertheless included rebellion and harsh laws against Catholics. Do not equate a compromise settlement with the absence of religious conflict."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/learn/story-of-england/tudors/religion/",
+      "questions": [
+        "q0142"
+      ],
+      "finding": "English Heritage describes an essentially Protestant settlement, private belief tolerated in theory, and later Catholic persecution, including fines, imprisonment and execution."
+    },
+    {
+      "url": "https://www.readingmuseum.org.uk/blog/short-history-reading-from-market-town-silicon-city",
+      "questions": [
+        "q0113"
+      ],
+      "finding": "Reading Museum records the deadly Reading Skirmish between James's and William's supporters in 1688. The Glorious Revolution was largely peaceful in England, not entirely without fighting."
+    },
+    {
+      "url": "https://www.nam.ac.uk/explore/army-and-glorious-revolution",
+      "questions": [
+        "q0113",
+        "q0043",
+        "q0167"
+      ],
+      "finding": "The National Army Museum describes the collapse of James II's army, William's takeover with hardly a shot fired, restrictions on royal power and increased parliamentary authority. Its account also demonstrates why an absolute last successful foreign invasion claim about 1066 needs attribution to the handbook."
+    },
+    {
+      "url": "https://www.nts.org.uk/visit/places/glencoe/the-glencoe-massacre",
+      "questions": [
+        "q0151"
+      ],
+      "finding": "The National Trust for Scotland records the missed oath deadline, an oath eventually taken on 6 January 1692, the massacre on 13 February, 38 people killed in the attack, deaths from exposure and survivors. The whole clan was not killed."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/unesco/equal-franchise-act-1928/",
+      "questions": [
+        "q0003",
+        "q0083",
+        "q0198",
+        "q0221",
+        "q0029",
+        "q0183"
+      ],
+      "finding": "The Equal Franchise Act became law on 2 July 1928 and removed the unequal qualifications that had remained after the 1918 reform. Women gained voting rights on the same terms as men at 21."
+    },
+    {
+      "url": "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F3404&src=CalmView.Persons",
+      "questions": [
+        "q0003",
+        "q0083",
+        "q0198"
+      ],
+      "finding": "The Royal Albert Hall archive records Pankhurst's death on 14 June 1928, before the Equal Franchise Act became law on 2 July. The mirror reverses this chronology."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/1918-centenary-votes-for-some-women-and-all-men/",
+      "questions": [
+        "q0003",
+        "q0221",
+        "q0029",
+        "q0083",
+        "q0183",
+        "q0198"
+      ],
+      "finding": "The 1918 Act enfranchised women aged 30 and over who met property-related qualifications, including qualification through a husband. It did not enfranchise every woman over 30. The Commons Library distinguishes this from men's much wider franchise."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/nancy-astor/parliament-qualification-of-women-act/",
+      "questions": [
+        "q0029",
+        "q0183"
+      ],
+      "finding": "A separate 1918 Act permitted women to stand for Parliament from 21. The voting age of 30 and property qualifications did not apply to candidature."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+      "questions": [
+        "q0232",
+        "q0260",
+        "q0068",
+        "q0159"
+      ],
+      "finding": "Parliament identifies Pankhurst with the Women's Social and Political Union, its militant campaign and hunger strikes. Attribute these methods to the WSPU, not automatically to the earlier Women's Franchise League or every suffrage campaigner."
+    },
+    {
+      "url": "https://heritagecollections.parliament.uk/stories/the-transatlantic-slave-trade/",
+      "questions": [
+        "q0355",
+        "q0155"
+      ],
+      "finding": "Parliament distinguishes the 1833 Slavery Abolition Act from its implementation on 1 August 1834 and notes territorial exclusions and compulsory apprenticeship."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/pdfs/ukpga_18330073_en.pdf",
+      "questions": [
+        "q0355",
+        "q0155"
+      ],
+      "finding": "The original Act received assent on 28 August 1833. Its operative provisions use 1 August 1834 and convert many formerly enslaved people into apprenticed labourers."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-west-indian-colonies-and-emancipation/",
+      "questions": [
+        "q0355",
+        "q0155"
+      ],
+      "finding": "Parliament records formal emancipation in the British West Indies on 1 August 1834 and the end of the apprenticeship system on 1 August 1838."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/laterfactoryleg/",
+      "questions": [
+        "q0404"
+      ],
+      "finding": "The 1847 Factory Act achieved the campaign for a ten-hour day for women and young people aged 13 to 18. Younger children had already received a shorter statutory day under the 1844 Act."
+    },
+    {
+      "url": "https://api.parliament.uk/historic-hansard/commons/1847/feb/17/factories-bill-adjourned-debate",
+      "questions": [
+        "q0404"
+      ],
+      "finding": "The contemporary debate explicitly discusses the textile manufacturing districts, women and young people aged 13 to 18, and a ten-hour day rather than a limit applying identically to all workers."
+    },
+    {
+      "url": "https://www.nam.ac.uk/explore/crimean-war",
+      "questions": [
+        "q0261",
+        "q0322"
+      ],
+      "finding": "The National Army Museum dates Britain's campaign to 1854–1856 and identifies Russia as the opponent, with Britain allied to France, Turkey and Sardinia. The wider war began before Britain's intervention."
+    },
+    {
+      "url": "https://www.nam.ac.uk/whats-on/art-crimean-war",
+      "questions": [
+        "q0261",
+        "q0322"
+      ],
+      "finding": "The museum distinguishes the Ottoman declaration of war in October 1853 from British and French entry the following year. The unchanged 1853–1856 range describes the wider conflict, not Britain's full participation."
+    },
+    {
+      "url": "https://www.rmg.co.uk/collections/objects/rmgc-object-543610",
+      "questions": [
+        "q0321"
+      ],
+      "finding": "The National Maritime Museum's chart commemorates Cook's 1770 survey of Australia's east coast and shows Endeavour's track. Specify the eastern coast rather than implying he mapped the entire coastline."
+    },
+    {
+      "url": "https://www.nma.gov.au/defining-moments/resources/cook-claims-australia",
+      "questions": [
+        "q0321"
+      ],
+      "finding": "The National Museum of Australia describes Endeavour's mapping of the east coast in 1770, quotes Cook's journal and distinguishes the later arrival of the First Fleet."
+    },
+    {
+      "url": "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-railway",
+      "questions": [
+        "q0378"
+      ],
+      "finding": "The museum records the Liverpool and Manchester Railway opening in 1830 as the world's first steam-powered inter-urban passenger and goods railway. Remove the mirror's unsupported description of Brunel's Great Western Railway as Britain's first major railway."
+    },
+    {
+      "url": "https://www.iwm.org.uk/history/second-world-war/north-africa-campaign/how-the-royal-navy-helped-win-a-war-in-the-desert",
+      "questions": [
+        "q0073",
+        "q0193"
+      ],
+      "finding": "Imperial War Museums records Britain's bombardment of the French squadron at Mers-el-Kebir in July 1940, disproving an absolute assertion that Waterloo was the last fighting between British and French forces."
+    },
+    {
+      "url": "https://www.iwm.org.uk/collections/item/object/1060007655",
+      "questions": [
+        "q0073",
+        "q0193"
+      ],
+      "finding": "The museum's official wartime newsreel catalogue describes British and Commonwealth operations against Vichy French defenders in Syria in June 1941. Waterloo is safely described as Napoleon's final defeat, not the final British–French battle in all history."
+    },
+    {
+      "url": "https://col-albert-frontend.rct.uk/collections/photographs-collection/exhibitions-and-records-of-works-of-art/the-eastern-nave-of-the-crystal-palace",
+      "questions": [
+        "q0214"
+      ],
+      "finding": "The Royal Collection's contemporary photograph catalogue identifies the Crystal Palace as a cast-iron building. Use iron and glass, not the mirror's steel and glass."
+    },
+    {
+      "url": "https://www.rct.uk/group/381/content/collections/photographs-collection/exhibitions-and-records-of-works-of-art/great-exhibition-1851",
+      "questions": [
+        "q0214"
+      ],
+      "finding": "The Royal Collection confirms the purpose-built Crystal Palace in Hyde Park, Joseph Paxton's design and its role housing the Great Exhibition of 1851."
+    },
+    {
+      "url": "https://www.iwm.org.uk/history/first-world-war/armistice/armistice-day-1918-in-pictures",
+      "questions": [
+        "q0235",
+        "q0340"
+      ],
+      "finding": "The armistice stopped Western Front fighting at 11am on 11 November 1918. Formal peace treaties followed in 1919, a useful distinction from the shorthand that the war ended in 1918."
+    },
+    {
+      "url": "https://www.manchester.ac.uk/about/news/rutherfords-legacy--the-birth-of-nuclear-physics-in-manchester/",
+      "questions": [
+        "q0346"
+      ],
+      "finding": "The University of Manchester explains that Rutherford's work produced the first artificial nuclear reaction. The common phrase splitting the atom must not be confused with the later discovery of nuclear fission."
+    },
+    {
+      "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+      "questions": [
+        "q0277"
+      ],
+      "finding": "CERN identifies Tim Berners-Lee's invention of the Web in 1989 and a working browser and server by the end of 1990. Use this verified chronology rather than an unnecessary exact first-transfer date."
+    },
+    {
+      "url": "https://www.museumofflight.org/exhibits-and-events/aircraft/concorde",
+      "questions": [
+        "q0332",
+        "q0058"
+      ],
+      "finding": "The Museum of Flight documents British–French collaboration, the 1969 first flights, supersonic operation and retirement from passenger service in 2003."
+    },
+    {
+      "url": "https://www.sfomuseum.org/exhibitions/supersonic-transport",
+      "questions": [
+        "q0332",
+        "q0058"
+      ],
+      "finding": "SFO Museum records passenger operations by the Soviet Tu-144 as well as Concorde. Concorde was not literally the only supersonic commercial airliner ever to operate."
+    },
+    {
+      "url": "https://blog.scienceandmediamuseum.org.uk/history-of-british-television-timeline/",
+      "questions": [
+        "q0048"
+      ],
+      "finding": "The National Science and Media Museum dates Baird's public television demonstration to 26 January 1926 and London-to-Glasgow transmission to 24–27 May 1927. The mirror's 1932 date for the latter is wrong."
+    },
+    {
+      "url": "https://collection.sciencemuseumgroup.org.uk/objects/co8998281/photograph-entitled-1927-early-spot-light-transmitter",
+      "questions": [
+        "q0048"
+      ],
+      "finding": "The Science Museum Group holds a photograph explicitly captioned as Baird's transmitter for the London-to-Glasgow experiment in 1927."
+    },
+    {
+      "url": "https://publications.parliament.uk/pa/ld201314/ldselect/ldconst/130/13004.htm",
+      "questions": [
+        "q0135"
+      ],
+      "finding": "The House of Lords Constitution Committee identifies the 2010 government as the first Westminster coalition since the Second World War and the first peacetime coalition formed since 1931."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn04951/",
+      "questions": [
+        "q0135"
+      ],
+      "finding": "The Commons Library distinguishes the February 1974 minority government from the Conservative–Liberal Democrat coalition formed in 2010. The original draft confused a hung parliament with a coalition."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/industrycommunity/collections/equal-pay/equal-pay-act-1970/",
+      "questions": [
+        "q0188",
+        "q0271"
+      ],
+      "finding": "The Equal Pay Act passed in 1970 and came into force on 29 December 1975. Remove the draft's suggestion that the legal right to equal pay arrived during the 1960s."
+    },
+    {
+      "url": "https://wordsworth.org.uk/daffodils/",
+      "questions": [
+        "q0022",
+        "q0256",
+        "q0301"
+      ],
+      "finding": "Wordsworth Grasmere gives the poem's opening as 'I wandered lonely as a Cloud' and explains that William and Dorothy saw the daffodils at Ullswater in April 1802. It was composed in 1804 and first published in 1807. Used to correct a misquoted opening and add the nature-and-Lake-District context."
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/banknotes",
+      "questions": [
+        "q0227",
+        "q0241",
+        "q0194"
+      ],
+      "finding": "The Bank of England issues £5, £10, £20 and £50 notes. This list is not an exhaustive list of denominations issued by other authorised UK banks."
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/banknotes/uk-notes-and-coins",
+      "questions": [
+        "q0227",
+        "q0194"
+      ],
+      "finding": "The Bank of England confirms that Bank of Scotland has issued £100 polymer notes. A blanket claim that £100 notes do not exist in the UK is false."
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+      "questions": [
+        "q0037",
+        "q0077",
+        "q0175"
+      ],
+      "finding": "Scottish and Northern Irish notes are not legal tender anywhere in the UK. This differs from their validity as sterling currency; shops can choose whether to accept them."
+    },
+    {
+      "url": "https://www.royalmint.com/aboutus/policies-and-guidelines/legal-tender-guidelines/",
+      "questions": [
+        "q0097"
+      ],
+      "finding": "The Royal Mint lists 25p crowns as legal tender for amounts up to £10. They are commemorative coins, not a standard everyday circulating denomination."
+    },
+    {
+      "url": "https://www.royalmint.com/faqs/uk-currency/can-i-spend-or-exchange-a-commemorative-crown/",
+      "questions": [
+        "q0097"
+      ],
+      "finding": "Pre-1990 commemorative crowns retain a 25p face value and legal tender status. New crowns have a £5 face value from 1990."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-11048/",
+      "questions": [
+        "q0050",
+        "q0124",
+        "q0102",
+        "q0304",
+        "q0084"
+      ],
+      "finding": "The Church in Wales was disestablished in 1920 and the Church of Ireland in 1871. Scotland's national Church is spiritually independent, with a distinct and debated form of establishment. The monarch is Supreme Governor of the Church of England, not head of the Church of Scotland."
+    },
+    {
+      "url": "https://www.churchofscotland.org.uk/about-us/our-structure",
+      "questions": [
+        "q0102"
+      ],
+      "finding": "The Church of Scotland is the national Church and is not controlled by the state. Its constitution and the handbook describe its Presbyterian governance."
+    },
+    {
+      "url": "https://www.gov.uk/bank-holidays",
+      "questions": [
+        "q0257",
+        "q0042",
+        "q0016",
+        "q0219",
+        "q0220",
+        "q0291",
+        "q0317",
+        "q0051",
+        "q0199"
+      ],
+      "finding": "The official calendars distinguish the UK nations. St Andrew's Day is a Scottish bank holiday and St Patrick's Day a Northern Irish bank holiday. Christmas and Easter-related dates appear in bank holiday calendars. Paid leave on those dates is not automatic."
+    },
+    {
+      "url": "https://www.gov.scot/publications/bank-holidays/",
+      "questions": [
+        "q0016",
+        "q0220",
+        "q0291"
+      ],
+      "finding": "There is no law requiring banks or other businesses to close on bank holidays. Removed drafts' absolute closure and non-religious claims."
+    },
+    {
+      "url": "https://www.churchofengland.org/faith-life/what-we-believe/lent-holy-week-and-easter",
+      "questions": [
+        "q0024",
+        "q0166",
+        "q0041",
+        "q0179"
+      ],
+      "finding": "Lent begins on Ash Wednesday; its forty-day count excludes Sundays. Good Friday commemorates the crucifixion and death of Jesus; Easter Sunday celebrates the resurrection."
+    },
+    {
+      "url": "https://www.englandfootball.com/england/mens-senior-team/squad/Legends-profiles/Bobby-Moore",
+      "questions": [
+        "q0011"
+      ],
+      "finding": "Bobby Moore captained England's men's team to the 1966 World Cup victory. The England men's legend profile identifies the World Cup-winning captain. The FA's match account confirms Moore captained the 1966 winning side. Avoid the mirror's unqualified claim about England's only international tournament victory."
+    },
+    {
+      "url": "https://www.thefa.com/news/2014/jul/30/the-barber-fan-special-remembering-this-day-in-1966",
+      "questions": [
+        "q0011"
+      ],
+      "finding": "Bobby Moore captained England's men's team to the 1966 World Cup victory. The England men's legend profile identifies the World Cup-winning captain. The FA's match account confirms Moore captained the 1966 winning side. Avoid the mirror's unqualified claim about England's only international tournament victory."
+    },
+    {
+      "url": "https://www.royal.uk/remembrance-day",
+      "questions": [
+        "q0008",
+        "q0250",
+        "q0186"
+      ],
+      "finding": "Lutyens designed the Whitehall Cenotaph, the focus of the national Remembrance Sunday service. The Royal Household describes the annual Remembrance Sunday service at Whitehall and credits Edwin Lutyens. English Heritage documents the memorial's 1919 temporary and 1920 permanent versions."
+    },
+    {
+      "url": "https://www.english-heritage.org.uk/visit/places/the-cenotaph/history/",
+      "questions": [
+        "q0008",
+        "q0250",
+        "q0186"
+      ],
+      "finding": "Lutyens designed the Whitehall Cenotaph, the focus of the national Remembrance Sunday service. The Royal Household describes the annual Remembrance Sunday service at Whitehall and credits Edwin Lutyens. English Heritage documents the memorial's 1919 temporary and 1920 permanent versions."
+    },
+    {
+      "url": "https://thebookerprizes.com/booker-prize",
+      "questions": [
+        "q0189"
+      ],
+      "finding": "The Booker Prize is for fiction, was first awarded in 1969, admitted any nationality from 2014, and no longer uses Man sponsorship in its name. The foundation's main page explicitly gives first award 1969 and any-nationality eligibility from 2014. Its facts page and notes document the change back to Booker Prize in 2019 after Man sponsorship."
+    },
+    {
+      "url": "https://thebookerprizes.com/the-booker-library/features/booker-prizes-facts-and-figures",
+      "questions": [
+        "q0189"
+      ],
+      "finding": "The Booker Prize is for fiction, was first awarded in 1969, admitted any nationality from 2014, and no longer uses Man sponsorship in its name. The foundation's main page explicitly gives first award 1969 and any-nationality eligibility from 2014. Its facts page and notes document the change back to Booker Prize in 2019 after Man sponsorship."
+    },
+    {
+      "url": "https://thebookerprizes.com/notes-to-editors",
+      "questions": [
+        "q0189"
+      ],
+      "finding": "The Booker Prize is for fiction, was first awarded in 1969, admitted any nationality from 2014, and no longer uses Man sponsorship in its name. The foundation's main page explicitly gives first award 1969 and any-nationality eligibility from 2014. Its facts page and notes document the change back to Booker Prize in 2019 after Man sponsorship."
+    },
+    {
+      "url": "https://www.tate.org.uk/art/turner-prize",
+      "questions": [
+        "q0191",
+        "q0269"
+      ],
+      "finding": "The Turner Prize first appeared in 1984, shortlists four artists and uses venues beyond Tate Britain. Tate also has galleries outside London. Tate says the jury shortlists four artists, the prize was first awarded in 1984, and every other year an outside venue hosts it. Its official navigation lists Tate Britain, Tate Modern, Tate Liverpool and Tate St Ives."
+    },
+    {
+      "url": "https://www.gov.uk/alcohol-young-people-law",
+      "questions": [
+        "q0262"
+      ],
+      "finding": "Buying alcohol requires age 18. England and Wales distinguish purchasing from the accompanied 16/17 meal exception; Northern Ireland does not have that exception. GOV.UK specifies beer, wine or cider with a meal for 16/17-year-olds accompanied by an adult, but not purchasing. NI Direct says under-18s cannot buy alcohol or drink it outside a private house and cannot drink in licensed premises. The explanation does not make a UK-wide meal-exception claim or describe Scottish exceptions."
+    },
+    {
+      "url": "https://www.nidirect.gov.uk/articles/alcohol-and-law",
+      "questions": [
+        "q0262"
+      ],
+      "finding": "Buying alcohol requires age 18. England and Wales distinguish purchasing from the accompanied 16/17 meal exception; Northern Ireland does not have that exception. GOV.UK specifies beer, wine or cider with a meal for 16/17-year-olds accompanied by an adult, but not purchasing. NI Direct says under-18s cannot buy alcohol or drink it outside a private house and cannot drink in licensed premises. The explanation does not make a UK-wide meal-exception claim or describe Scottish exceptions."
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/bbc-charter-and-framework-agreement/bbc-charter",
+      "questions": [
+        "q0264"
+      ],
+      "finding": "The BBC's Royal Charter requires editorial and creative independence from government. Charter article 3 requires BBC independence, especially in editorial and creative decisions. Article 20 bars board members from taking ministerial instructions. The BBC describes its principal funding as the licence fee."
+    },
+    {
+      "url": "https://www.bbc.com/aboutthebbc",
+      "questions": [
+        "q0264"
+      ],
+      "finding": "The BBC's Royal Charter requires editorial and creative independence from government. Charter article 3 requires BBC independence, especially in editorial and creative decisions. Article 20 bars board members from taking ministerial instructions. The BBC describes its principal funding as the licence fee."
+    },
+    {
+      "url": "https://www.nts.org.uk/visit/places/crathes-castle/planning-your-visit",
+      "questions": [
+        "q0309"
+      ],
+      "finding": "Crathes Castle is near Banchory in Aberdeenshire and is a 16th-century tower house with painted ceilings and a walled garden. The National Trust for Scotland provides the Banchory, Aberdeenshire address and describes the castle, painted ceilings and walled garden. No other castle is classified merely from its absence in a handbook list."
+    },
+    {
+      "url": "https://www.nts.org.uk/visit/places/crathes-castle/overview",
+      "questions": [
+        "q0309"
+      ],
+      "finding": "Crathes Castle is near Banchory in Aberdeenshire and is a 16th-century tower house with painted ceilings and a walled garden. The National Trust for Scotland provides the Banchory, Aberdeenshire address and describes the castle, painted ceilings and walled garden. No other castle is classified merely from its absence in a handbook list."
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/1997",
+      "questions": [
+        "q0314"
+      ],
+      "finding": "Emily Watson was nominated, not awarded an Oscar, for Breaking the Waves and Hilary and Jackie. Judi Dench is an Oscar winner. The Academy lists Watson as a nominee in 1997 and 1999, with Frances McDormand and Gwyneth Paltrow the respective winners. It lists Judi Dench as supporting-actress winner in 1999, Tilda Swinton as supporting-actress winner in 2008 and Kate Winslet as leading-actress winner in 2009. BIFA's 2025 career account describes Watson's two Oscar nominations."
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/1999",
+      "questions": [
+        "q0314"
+      ],
+      "finding": "Emily Watson was nominated, not awarded an Oscar, for Breaking the Waves and Hilary and Jackie. Judi Dench is an Oscar winner. The Academy lists Watson as a nominee in 1997 and 1999, with Frances McDormand and Gwyneth Paltrow the respective winners. It lists Judi Dench as supporting-actress winner in 1999, Tilda Swinton as supporting-actress winner in 2008 and Kate Winslet as leading-actress winner in 2009. BIFA's 2025 career account describes Watson's two Oscar nominations."
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/2008",
+      "questions": [
+        "q0314"
+      ],
+      "finding": "Emily Watson was nominated, not awarded an Oscar, for Breaking the Waves and Hilary and Jackie. Judi Dench is an Oscar winner. The Academy lists Watson as a nominee in 1997 and 1999, with Frances McDormand and Gwyneth Paltrow the respective winners. It lists Judi Dench as supporting-actress winner in 1999, Tilda Swinton as supporting-actress winner in 2008 and Kate Winslet as leading-actress winner in 2009. BIFA's 2025 career account describes Watson's two Oscar nominations."
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/2009",
+      "questions": [
+        "q0314"
+      ],
+      "finding": "Emily Watson was nominated, not awarded an Oscar, for Breaking the Waves and Hilary and Jackie. Judi Dench is an Oscar winner. The Academy lists Watson as a nominee in 1997 and 1999, with Frances McDormand and Gwyneth Paltrow the respective winners. It lists Judi Dench as supporting-actress winner in 1999, Tilda Swinton as supporting-actress winner in 2008 and Kate Winslet as leading-actress winner in 2009. BIFA's 2025 career account describes Watson's two Oscar nominations."
+    },
+    {
+      "url": "https://www.bifa.film/news/emily-watson-to-receive-the-2025-richard-harris-award/",
+      "questions": [
+        "q0314"
+      ],
+      "finding": "Emily Watson was nominated, not awarded an Oscar, for Breaking the Waves and Hilary and Jackie. Judi Dench is an Oscar winner. The Academy lists Watson as a nominee in 1997 and 1999, with Frances McDormand and Gwyneth Paltrow the respective winners. It lists Judi Dench as supporting-actress winner in 1999, Tilda Swinton as supporting-actress winner in 2008 and Kate Winslet as leading-actress winner in 2009. BIFA's 2025 career account describes Watson's two Oscar nominations."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2005/19/section/47",
+      "questions": [
+        "q0325"
+      ],
+      "finding": "Under-18 customers cannot enter betting premises or operating casino premises; adult accompaniment does not remove the restriction. Gambling Act 2005 section 47 prohibits inviting or permitting children and young people into operating casino premises and betting premises other than tracks. This legislation covers Great Britain; the basic exam answer of 18 also appears in the handbook."
+    },
+    {
+      "url": "https://www.wbstudiotour.co.uk/the-experience/explore-the-tour/sets/",
+      "questions": [
+        "q0338"
+      ],
+      "finding": "The Harry Potter films used Leavesden, and their success does not justify repeating a dated global franchise ranking. Warner Bros documents sets used across the eight Potter films and filming at Leavesden. The British Film Commission lists the Harry Potter franchise among Leavesden credits. Neither source is used to claim a current highest-grossing ranking."
+    },
+    {
+      "url": "https://britishfilmcommission.org.uk/studios/warner-bros-studios-leavesden/",
+      "questions": [
+        "q0338"
+      ],
+      "finding": "The Harry Potter films used Leavesden, and their success does not justify repeating a dated global franchise ranking. Warner Bros documents sets used across the eight Potter films and filming at Leavesden. The British Film Commission lists the Harry Potter franchise among Leavesden credits. Neither source is used to claim a current highest-grossing ranking."
+    },
+    {
+      "url": "https://www.bfi.org.uk/features/set-star-wars-episode-iv-new-hope",
+      "questions": [
+        "q0363"
+      ],
+      "finding": "James Bond filmed at Pinewood, but Star Wars also filmed in the UK, including Elstree. The BFI uses its own archival continuity materials to document Star Wars filming in Tunisia and at Elstree, Hertfordshire. Its No Time to Die record transcribes Pinewood filming credits. Pinewood says 23 of the first 25 official Bond films shot there. The explanation preserves James Bond as the intended answer and flags the ambiguity."
+    },
+    {
+      "url": "https://collections-search.bfi.org.uk/web/Details/ChoiceFilmWorks/157067216",
+      "questions": [
+        "q0363"
+      ],
+      "finding": "James Bond filmed at Pinewood, but Star Wars also filmed in the UK, including Elstree. The BFI uses its own archival continuity materials to document Star Wars filming in Tunisia and at Elstree, Hertfordshire. Its No Time to Die record transcribes Pinewood filming credits. Pinewood says 23 of the first 25 official Bond films shot there. The explanation preserves James Bond as the intended answer and flags the ambiguity."
+    },
+    {
+      "url": "https://pinewoodgroup.com/news/pinewood-studios-celebrates-60-years-since-dr-no-and-opens-the-sean-connery-stage/",
+      "questions": [
+        "q0363"
+      ],
+      "finding": "James Bond filmed at Pinewood, but Star Wars also filmed in the UK, including Elstree. The BFI uses its own archival continuity materials to document Star Wars filming in Tunisia and at Elstree, Hertfordshire. Its No Time to Die record transcribes Pinewood filming credits. Pinewood says 23 of the first 25 official Bond films shot there. The explanation preserves James Bond as the intended answer and flags the ambiguity."
+    },
+    {
+      "url": "https://www.aardman.com/about/people/nick-park-biography/",
+      "questions": [
+        "q0357",
+        "q0367",
+        "q0382"
+      ],
+      "finding": "Nick Park's four Oscar-winning animations are Creature Comforts, The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit; the last three feature Wallace and Gromit. Aardman's creator biography enumerates the four winning films. Academy materials confirm the animation awards. No ceremony year is inferred from a film's release year."
+    },
+    {
+      "url": "https://www.oscars.org/events/wallace-and-gromit-restored",
+      "questions": [
+        "q0357",
+        "q0367",
+        "q0382"
+      ],
+      "finding": "Nick Park's four Oscar-winning animations are Creature Comforts, The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit; the last three feature Wallace and Gromit. Aardman's creator biography enumerates the four winning films. Academy materials confirm the animation awards. No ceremony year is inferred from a film's release year."
+    },
+    {
+      "url": "https://www.oscars.org/oscars/ceremonies/1991",
+      "questions": [
+        "q0357",
+        "q0367",
+        "q0382"
+      ],
+      "finding": "Nick Park's four Oscar-winning animations are Creature Comforts, The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit; the last three feature Wallace and Gromit. Aardman's creator biography enumerates the four winning films. Academy materials confirm the animation awards. No ceremony year is inferred from a film's release year."
+    },
+    {
+      "url": "https://aaspeechesdb.oscars.org/link/078-5/info.aspx",
+      "questions": [
+        "q0357",
+        "q0367",
+        "q0382"
+      ],
+      "finding": "Nick Park's four Oscar-winning animations are Creature Comforts, The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit; the last three feature Wallace and Gromit. Aardman's creator biography enumerates the four winning films. Academy materials confirm the animation awards. No ceremony year is inferred from a film's release year."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/1992/901/article/2/made",
+      "questions": [
+        "q0028",
+        "q0178"
+      ],
+      "finding": "The Great Britain collar rule requires the owner's name and address on a collar or attached plate or badge, for dogs on highways or in places of public resort, subject to exceptions. Article 2 states the identifying details, applicable places and specific exceptions. The introduction identifies England, Scotland and Wales. The explanation avoids treating the rule as an exceptionless law for all dogs in every public place throughout the UK."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/1992/901/introduction/made",
+      "questions": [
+        "q0028",
+        "q0178"
+      ],
+      "finding": "The Great Britain collar rule requires the owner's name and address on a collar or attached plate or badge, for dogs on highways or in places of public resort, subject to exceptions. Article 2 states the identifying details, applicable places and specific exceptions. The introduction identifies England, Scotland and Wales. The explanation avoids treating the rule as an exceptionless law for all dogs in every public place throughout the UK."
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/",
+      "questions": [
+        "q0002"
+      ],
+      "finding": "Big Ben is the Great Bell in Elizabeth Tower at the Palace of Westminster. The tower and clock are distinct from the bell. Checked live on 2026-10-29."
+    },
+    {
+      "url": "https://www.lochlomond-trossachs.org/discover-the-park/key-facts/",
+      "questions": [
+        "q0217"
+      ],
+      "finding": "The park is in Scotland and includes lowland landscapes, mountains, lochs, rivers, forests and woodlands."
+    },
+    {
+      "url": "https://lakedistrict.gov.uk/authority/contact-us/media-centre/facts-and-figures/",
+      "questions": [
+        "q0288",
+        "q0063",
+        "q0195"
+      ],
+      "finding": "The Lake District is England's largest national park, covering 2,362 square kilometres. It contains Scafell Pike, Windermere and Wastwater, England's deepest lake."
+    },
+    {
+      "url": "https://www.hrp.org.uk/tower-of-london/whats-on/yeoman-warder-tours/",
+      "questions": [
+        "q0295",
+        "q0057"
+      ],
+      "finding": "Historic Royal Palaces identifies Yeoman Warders as Beefeaters and describes their tours covering the Tower's history as a fortress, palace and prison. Its Tower history page also confirms ceremonial duties."
+    },
+    {
+      "url": "https://www.hrp.org.uk/media/2880/tower-of-london-did-you-know-pdf.pdf",
+      "questions": [
+        "q0295",
+        "q0057"
+      ],
+      "finding": "The palace operator explicitly states that Beefeaters give guided tours and perform ceremonial and security roles."
+    },
+    {
+      "url": "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway",
+      "questions": [
+        "q0360"
+      ],
+      "finding": "The site is in County Antrim, Northern Ireland. Cooling lava contracted and cracked into basalt columns. The custodian dates formation to just under 60 million years ago, not the mirror's approximately 50 million years."
+    },
+    {
+      "url": "https://www.hrp.org.uk/tower-of-london/whats-on/the-crown-jewels/",
+      "questions": [
+        "q0044"
+      ],
+      "finding": "The Crown Jewels are under armed guard in the Tower of London's Jewel House. They remain in use for coronations and other national ceremonies."
+    },
+    {
+      "url": "https://eryri.gov.wales/discover/landscapes-and-wildlife/uplands/",
+      "questions": [
+        "q0059",
+        "q0288"
+      ],
+      "finding": "Eryri National Park describes Yr Wyddfa as Wales's highest peak. The official park website and Welsh Government tourism site identify Eryri as Snowdonia in North Wales."
+    },
+    {
+      "url": "https://www.visitwales.com/destinations/north-wales/snowdonia",
+      "questions": [
+        "q0059"
+      ],
+      "finding": "Welsh Government tourism information explicitly equates Eryri with Snowdonia and locates the area in North Wales."
+    },
+    {
+      "url": "https://www.nationaltrust.org.uk/who-we-are/about-us/the-history-of-the-national-trust",
+      "questions": [
+        "q0078"
+      ],
+      "finding": "The National Trust conserves coastline, countryside and historic buildings in England, Wales and Northern Ireland. The National Trust for Scotland has an entirely independent constitution."
+    },
+    {
+      "url": "https://www.edenproject.com/visit",
+      "questions": [
+        "q0098"
+      ],
+      "finding": "The Eden Project gives its address as Bodelva, Cornwall, and describes its indoor rainforest and Mediterranean Biome."
+    },
+    {
+      "url": "https://www.hrp.org.uk/tower-of-london/history-and-stories/the-story-of-the-tower-of-london/",
+      "questions": [
+        "q0122"
+      ],
+      "finding": "William the Conqueror built the Tower's great stone fortress to defend London and proclaim his royal authority after the conquest. Construction developed over time; the explanation does not imply that William personally completed every building."
+    },
+    {
+      "url": "https://nationalparks.uk/what-is-a-national-park/",
+      "questions": [
+        "q0123",
+        "q0176",
+        "q0288"
+      ],
+      "finding": "National Parks UK confirms 15 designated national parks: ten in England, three in Wales and two in Scotland. These are protected landscapes, and park authorities do not own all their land."
+    },
+    {
+      "url": "https://lakedistrict.gov.uk/explore/places-to-go/explore-wasdale-wastwater-and-west-coast/",
+      "questions": [
+        "q0160"
+      ],
+      "finding": "The park authority identifies the view from the south-western end of Wastwater as the view television viewers chose as Britain's favourite in 2007."
+    },
+    {
+      "url": "https://www.parliament.uk/about/mps-and-lords/members/mps/",
+      "questions": [
+        "q0326",
+        "q0386",
+        "q0180",
+        "q0354"
+      ],
+      "finding": "MPs are elected local representatives in the House of Commons. Their core parliamentary work includes legislation, scrutiny and debate, alongside constituency work."
+    },
+    {
+      "url": "https://www.gov.uk/ride-motorcycle-moped/bike-categories-ages-and-licence-requirements",
+      "questions": [
+        "q0370",
+        "q0353"
+      ],
+      "finding": "The licensing table gives 16 for AM mopeds, 17 for A1 light motorcycles, 19 for A2 and higher requirements for unrestricted motorcycles. Being 17 does not authorise every motorcycle category."
+    },
+    {
+      "url": "https://www.parliament.uk/business/commons/the-speaker/speaker-and-the-chamber/",
+      "questions": [
+        "q0010",
+        "q0395"
+      ],
+      "finding": "The Speaker keeps order, calls MPs and acts impartially. The Speaker remains an MP, represents a constituency and deals with constituents' problems after leaving party affiliation behind."
+    },
+    {
+      "url": "https://www.parliament.uk/about/how/role/sovereignty/",
+      "questions": [
+        "q0238"
+      ],
+      "finding": "Parliament describes the constitution as partly written and wholly uncodified. Much is written in statute law, despite the absence of a single constitutional document."
+    },
+    {
+      "url": "https://www.parliament.uk/get-involved/contact-an-mp-or-lord/contact-your-mp/",
+      "questions": [
+        "q0274",
+        "q0209",
+        "q0180",
+        "q0386"
+      ],
+      "finding": "MPs represent everyone in their constituency. Contact routes include post, email, parliamentary and constituency telephone numbers, and advice surgeries."
+    },
+    {
+      "url": "https://www.parliament.uk/business/lords/whos-in-the-house-of-lords/members-and-their-roles/how-members-are-appointed/",
+      "questions": [
+        "q0320",
+        "q0354"
+      ],
+      "finding": "Life peers are appointed by the King on the Prime Minister's advice, not elected by the public. HOLAC recommends non-party nominees and vets nominations; appointments are formalised by the King."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10065/",
+      "questions": [
+        "q0383"
+      ],
+      "finding": "Parliament explains the constitutional requirement for parliamentary consent to maintain the armed forces. Absence from the handbook's teaching list does not establish that the armed forces lack constitutional status or controls."
+    },
+    {
+      "url": "https://www.college.police.uk/app/operations/operational-planning/core-planning-principles",
+      "questions": [
+        "q0386"
+      ],
+      "finding": "The police's core operational duties include protecting life and property, preserving order, preventing offences and bringing offenders to justice."
+    },
+    {
+      "url": "https://www.royal.uk/the-sovereign-and-the-prime-minister",
+      "questions": [
+        "q0392",
+        "q0326"
+      ],
+      "finding": "The monarch is a politically impartial head of state, formally appoints the Prime Minister under constitutional conventions, and can advise and warn ministers in private audiences. The appointee must be able to command Commons confidence."
+    },
+    {
+      "url": "https://history.blog.gov.uk/2012/09/01/queen-elizabeth-and-her-twelve-prime-ministers/",
+      "questions": [
+        "q0392"
+      ],
+      "finding": "The government history account identifies the constitutional monarch's rights to be consulted, encourage and warn. This supports the handbook's wording without attributing policy decisions to the monarch."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/how-is-a-government-formed/",
+      "questions": [
+        "q0392"
+      ],
+      "finding": "The Prime Minister recommends ministerial appointments for the monarch's approval. Therefore the option about appointing cabinet members overlaps with the site's preferred responsibilities."
+    },
+    {
+      "url": "https://www.parliament.uk/about/how/elections-and-voting/general/",
+      "questions": [
+        "q0076"
+      ],
+      "finding": "A Parliament has a maximum five-year term from its first meeting. Earlier elections are possible; exact fixed five-year intervals are not the rule."
+    },
+    {
+      "url": "https://www.parliament.uk/about/how/role/relations-with-other-institutions/parliament-crown/",
+      "questions": [
+        "q0082"
+      ],
+      "finding": "Parliament comprises the House of Commons, House of Lords and Crown. The Commons and Lords are its two chambers."
+    },
+    {
+      "url": "https://www.parliament.uk/about/how/elections-and-voting/constituencies/",
+      "questions": [
+        "q0190",
+        "q0180"
+      ],
+      "finding": "Constituencies elect MPs. When a seat becomes vacant, a by-election is held in that constituency rather than a nationwide general election."
+    },
+    {
+      "url": "https://www.gov.uk/how-to-vote/voting-in-person",
+      "questions": [
+        "q0017"
+      ],
+      "finding": "Poll cards tell voters where and when to vote. Ballot papers are issued at the polling station. Most voters need not bring a poll card; the explanation avoids an absolute claim because anonymous electors have special requirements."
+    },
+    {
+      "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+      "questions": [
+        "q0019",
+        "q0248"
+      ],
+      "finding": "Rule 6.2 requires due weight for parties and independent candidates, taking past electoral support or current support into account. It does not require identical airtime for every party."
+    },
+    {
+      "url": "https://www.ofcom.org.uk/siteassets/resources/documents/tv-radio-and-on-demand/broadcast-codes/politicians-research/broadcast-code-guidance-section-5.pdf?v=380776",
+      "questions": [
+        "q0019",
+        "q0248"
+      ],
+      "finding": "Ofcom explicitly says due impartiality does not mean an equal division of time for every view or that every argument must be represented."
+    },
+    {
+      "url": "https://senedd.wales/how-we-work/our-role/senedd-election-and-member-changes/",
+      "questions": [
+        "q0224",
+        "q0187"
+      ],
+      "finding": "From the election on 7 May 2026, the Senedd has 96 members rather than 60, and elections follow a four-year cycle. Voters elect the legislature, not the Welsh Government directly."
+    },
+    {
+      "url": "https://senedd.wales/how-we-work/elections-and-voting/senedd-elections/",
+      "questions": [
+        "q0224",
+        "q0187"
+      ],
+      "finding": "The live Senedd election page confirms 96 members, six per constituency across 16 constituencies, with the next election expected in May 2030."
+    },
+    {
+      "url": "https://erskinemay.parliament.uk/section/4536/devolution",
+      "questions": [
+        "q0251"
+      ],
+      "finding": "Erskine May records formal Assembly suspensions, including October 2002 to restoration in May 2007. It distinguishes the later absence of functioning institutions from formal suspension."
+    },
+    {
+      "url": "https://www.niassembly.gov.uk/globalassets/documents/raise/publications/2022-2027/2025/ad-hoc/2925.pdf",
+      "questions": [
+        "q0254",
+        "q0406",
+        "q0152",
+        "q0203",
+        "q0356",
+        "q0025"
+      ],
+      "finding": "The Assembly's 2025 comparative briefing confirms health and education across all three settlements; defence and immigration remain UK responsibilities. Social security is devolved in Northern Ireland and partly in Scotland. Justice and policing are also devolved in Northern Ireland and Scotland."
+    },
+    {
+      "url": "https://www.gov.uk/elections-in-the-uk/northern-ireland-assembly",
+      "questions": [
+        "q0265",
+        "q0312"
+      ],
+      "finding": "There are 90 MLAs, elected by Single Transferable Vote. Voters rank candidates by preference."
+    },
+    {
+      "url": "https://education.niassembly.gov.uk/primary/how-do-we-elect-mlas",
+      "questions": [
+        "q0265",
+        "q0312"
+      ],
+      "finding": "The Assembly education service explains that 18 constituencies each elect five MLAs, using numbered preferences under STV."
+    },
+    {
+      "url": "https://blog.niassembly.gov.uk/2022/04/a-guide-to-voting-in-assembly-election.html",
+      "questions": [
+        "q0312"
+      ],
+      "finding": "The Assembly explicitly calls STV a form of proportional representation and explains the ranked ballot. Both option descriptions therefore overlap."
+    },
+    {
+      "url": "https://www.gov.uk/understand-how-your-council-works/local-councillors-and-elections",
+      "questions": [
+        "q0268"
+      ],
+      "finding": "Local communities elect councillors. The linked decision-making guidance distinguishes elected council members from paid council officers."
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code",
+      "questions": [
+        "q0278",
+        "q0331"
+      ],
+      "finding": "Permanent civil servants are appointed on merit through fair and open competition and must serve governments impartially regardless of personal political views. This does not mean government departments never appoint staff."
+    },
+    {
+      "url": "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+      "questions": [
+        "q0278",
+        "q0331"
+      ],
+      "finding": "Government departments design and conduct recruitment and make appointments subject to the statutory recruitment principles. The rule concerns merit and impartiality, not absence of government employment."
+    },
+    {
+      "url": "https://www.gov.uk/elections-in-the-uk/general-election",
+      "questions": [
+        "q0300"
+      ],
+      "finding": "The live general-election eligibility page requires voters to be at least 18 on polling day, registered, and otherwise eligible. The explanation does not treat proposals to lower the voting age as already operative."
+    },
+    {
+      "url": "https://www.parliament.uk/about/how/publications/hansard/",
+      "questions": [
+        "q0318"
+      ],
+      "finding": "Hansard is Parliament's edited verbatim report. It also includes votes and written ministerial statements, and editing removes repetitions or obvious mistakes without changing meaning."
+    },
+    {
+      "url": "https://www.gov.uk/government/organisations/home-office/about",
+      "questions": [
+        "q0356",
+        "q0025",
+        "q0171"
+      ],
+      "finding": "Home Office responsibilities include immigration, crime, counter-terrorism and police. These broad ministerial responsibilities do not place every operational police decision under the Home Secretary."
+    },
+    {
+      "url": "https://www.parliament.uk/about/mps-and-lords/principal/government-opposition/",
+      "questions": [
+        "q0385",
+        "q0405",
+        "q0126"
+      ],
+      "finding": "The Leader of the Opposition selects a shadow cabinet to examine government departments and develop alternative policies. Prime Minister's Questions is weekly on Wednesdays during Commons sittings. Not every opposition MP belongs to the shadow cabinet."
+    },
+    {
+      "url": "https://www.deliveringforscotland.gov.uk/scotland-in-the-uk/devolution/",
+      "questions": [
+        "q0406",
+        "q0152",
+        "q0203",
+        "q0356",
+        "q0025"
+      ],
+      "finding": "The UK Government's Scotland information identifies education, health, law and order and parts of social security as devolved, with defence, national security and immigration reserved."
+    },
+    {
+      "url": "https://www.parliament.uk/about/mps-and-lords/members/electing-mps/candidates/",
+      "questions": [
+        "q0093",
+        "q0204"
+      ],
+      "finding": "MP candidates must be at least 18 and British, Irish or eligible Commonwealth citizens. Disqualifications include certain occupations and legal restrictions; age alone does not establish eligibility."
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/job-profiles/mp",
+      "questions": [
+        "q0093"
+      ],
+      "finding": "The National Careers Service confirms that candidates can stand for a party or as independents."
+    },
+    {
+      "url": "https://www.parliament.uk/site-information/glossary/prime-minister/",
+      "questions": [
+        "q0095"
+      ],
+      "finding": "Parliament identifies 10 Downing Street as the Prime Minister's residence and offices."
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/about-individual-electoral-registration-ier/about-individual-electoral-registration",
+      "questions": [
+        "q0131",
+        "q0202"
+      ],
+      "finding": "Individual electoral registration began in England and Wales in June 2014 and Scotland in September 2014. The previous household-versus-Northern-Ireland distinction is obsolete."
+    },
+    {
+      "url": "https://www.policeconduct.gov.uk/sites/default/files/documents/20220707_A_guide_to_complaint_system_2022.pdf",
+      "questions": [
+        "q0013",
+        "q0255",
+        "q0107",
+        "q0170"
+      ],
+      "finding": "The IOPC's guide confirms complaint routes in England and Wales through writing, telephone, visiting a police station, or the IOPC complaints form. Most complaints initially go to the force concerned."
+    },
+    {
+      "url": "https://www.policeconduct.gov.uk/complaints/submit-a-complaint",
+      "questions": [
+        "q0013",
+        "q0255",
+        "q0107",
+        "q0170"
+      ],
+      "finding": "The current IOPC form sends complaints to the force concerned. Eligibility rules apply; a person reacting only to news or social media might not qualify. Complaints about a chief constable personally go to the appropriate police and crime commissioner."
+    },
+    {
+      "url": "https://www.gov.uk/jury-service",
+      "questions": [
+        "q0015",
+        "q0039",
+        "q0014",
+        "q0280",
+        "q0101"
+      ],
+      "finding": "For England and Wales, jury summonses arise from random selection from the electoral register, and the normal criminal trial jury contains 12 people."
+    },
+    {
+      "url": "https://www.gov.uk/jury-service/who-can-be-on-jury",
+      "questions": [
+        "q0015",
+        "q0014",
+        "q0280",
+        "q0101"
+      ],
+      "finding": "England and Wales eligibility starts at 18 and extends through age 75, subject to registration, residence and disqualification rules. The mirror's blanket upper age of 70 is outdated."
+    },
+    {
+      "url": "https://www.scotcourts.gov.uk/coming-to-court/jurors/about-jury-duty-in-scotland/",
+      "questions": [
+        "q0165",
+        "q0039",
+        "q0015",
+        "q0101"
+      ],
+      "finding": "Scottish Courts confirms 15 members in criminal juries and 12 in civil juries, selected randomly from the electoral register."
+    },
+    {
+      "url": "https://www.scotcourts.gov.uk/coming-to-court/jurors/excusal-from-jury-service/",
+      "questions": [
+        "q0014",
+        "q0280",
+        "q0101",
+        "q0015"
+      ],
+      "finding": "Scottish jury eligibility begins at 18, with registration and residence requirements. Age 71 gives a right to apply for excusal rather than establishing a blanket age-70 eligibility ceiling."
+    },
+    {
+      "url": "https://www.sra.org.uk/solicitors/standards-regulations/transparency-rules/",
+      "questions": [
+        "q0018"
+      ],
+      "finding": "The regulator's transparency rules expressly recognise hourly rates and fixed fees and require relevant price information. They do not establish that time is the exclusive determinant of cost."
+    },
+    {
+      "url": "https://www.lawsociety.org.uk/public/for-public-visitors/using-a-solicitor/paying-for-a-solicitor",
+      "questions": [
+        "q0018"
+      ],
+      "finding": "Solicitors charge for time and services and must explain likely costs at the outset. Different payment arrangements exist."
+    },
+    {
+      "url": "https://www.cps.gov.uk/prosecution-guidance/children-suspects-and-defendants",
+      "questions": [
+        "q0225"
+      ],
+      "finding": "Youth-court reporting restrictions normally apply automatically to defendants under 18, expire at 18, and can be lifted in specified circumstances. A universal prohibition on publication is inaccurate."
+    },
+    {
+      "url": "https://www.gov.uk/courts/youth-courts",
+      "questions": [
+        "q0343",
+        "q0364",
+        "q0400"
+      ],
+      "finding": "For England and Wales, youth courts use magistrates or a district judge, without a jury. This source does not establish the Northern Ireland panel."
+    },
+    {
+      "url": "https://www.nijac.gov.uk/youth-courts",
+      "questions": [
+        "q0343",
+        "q0364",
+        "q0400"
+      ],
+      "finding": "Northern Ireland's Judicial Appointments Commission states that youth courts comprise a district judge and two lay magistrates, at least one of whom must be a woman. These are normally a combined panel, not alternatives."
+    },
+    {
+      "url": "https://www.judiciaryni.uk/lay-magistrates",
+      "questions": [
+        "q0343",
+        "q0364",
+        "q0400"
+      ],
+      "finding": "Judiciary NI independently confirms a youth court chaired by a district judge sitting with two lay magistrates, each with an equal say."
+    },
+    {
+      "url": "https://www.scotcourts.gov.uk/taking-action/simple-procedure/guide-to-simple-procedure/",
+      "questions": [
+        "q0372",
+        "q0213"
+      ],
+      "finding": "Scotland's Simple Procedure provides an inexpensive, informal process for qualifying claims of £5,000 or less. A solicitor is not required, though one can be used."
+    },
+    {
+      "url": "https://www.scotcourts.gov.uk/taking-action/small-claims/",
+      "questions": [
+        "q0372",
+        "q0213"
+      ],
+      "finding": "The former Scottish small claims procedure applies to actions raised before 28 November 2016 and had a £3,000 limit. Current qualifying new claims up to £5,000 use Simple Procedure."
+    },
+    {
+      "url": "https://www.nidirect.gov.uk/articles/small-claims-process",
+      "questions": [
+        "q0372",
+        "q0213"
+      ],
+      "finding": "Northern Ireland's small claims process generally covers qualifying claims not exceeding £5,000, subject to exclusions, and is usually usable without a solicitor or barrister."
+    },
+    {
+      "url": "https://www.gov.uk/terrorism-national-emergency/reporting-suspected-terrorism",
+      "questions": [
+        "q0375",
+        "q0055"
+      ],
+      "finding": "GOV.UK advises reporting suspected terrorism to police through telephone or official online channels. It also lists other official routes, so the explanations do not claim police are the sole possible contact."
+    },
+    {
+      "url": "https://www.gov.uk/report-terrorism",
+      "questions": [
+        "q0375",
+        "q0055"
+      ],
+      "finding": "Call 999 for a crime in progress or immediate danger. The explanations give that emergency qualification rather than treating an ordinary online report as an emergency response."
+    },
+    {
+      "url": "https://www.nidirect.gov.uk/articles/what-happens-jury-trial",
+      "questions": [
+        "q0039"
+      ],
+      "finding": "Northern Ireland's government guidance describes a criminal trial jury of 12 randomly chosen people who decide guilt from the evidence."
+    },
+    {
+      "url": "https://www.gov.uk/courts",
+      "questions": [
+        "q0047"
+      ],
+      "finding": "Magistrates' courts in England and Wales normally handle summary offences, including most motoring offences, minor criminal damage and common assault. More serious cases pass to the Crown Court."
+    },
+    {
+      "url": "https://www.nidirect.gov.uk/articles/going-court-victim-or-witness",
+      "questions": [
+        "q0047"
+      ],
+      "finding": "Northern Ireland guidance confirms magistrates' courts hear less serious criminal cases, with more serious cases generally sent to the Crown Court."
+    },
+    {
+      "url": "https://www.gov.uk/smoking-at-work-the-law",
+      "questions": [
+        "q0091",
+        "q0150"
+      ],
+      "finding": "Smoking prohibitions apply to enclosed workplaces, public buildings and public transport, with criminal penalties. This is not a ban on smoking in every public location."
+    },
+    {
+      "url": "https://www.cps.gov.uk/prosecution-guidance/racist-and-religious-hate-crime-prosecution-guidance",
+      "questions": [
+        "q0091"
+      ],
+      "finding": "The CPS describes specific racially aggravated criminal offences, including assault, criminal damage and harassment."
+    },
+    {
+      "url": "https://www.equalityhumanrights.com/guidance/home/dealing-discrimination-employment/discrimination-cases-work-situation",
+      "questions": [
+        "q0111",
+        "q0150"
+      ],
+      "finding": "The statutory equality regulator explains that workplace discrimination claims go to employment tribunals and use the civil standard of proof. The explanation avoids claiming that related conduct can never also be criminal."
+    },
+    {
+      "url": "https://www.scotcourts.gov.uk/courts-and-tribunals/sheriff-and-justice-of-the-peace-courts/justice-of-the-peace-courts/",
+      "questions": [
+        "q0139",
+        "q0047"
+      ],
+      "finding": "Justice of the Peace Courts hear less serious summary crimes in Scotland. Lay justices receive training and legal advice."
+    },
+    {
+      "url": "https://www.gov.uk/legal-obligations-drivers-riders",
+      "questions": [
+        "q0222"
+      ],
+      "finding": "Drivers and riders need the correct driving licence, the relevant minimum age, insurance and other requirements. Learner plates do not replace licence entitlement."
+    },
+    {
+      "url": "https://www.gov.uk/forced-marriage",
+      "questions": [
+        "q0341"
+      ],
+      "finding": "Forced marriage involves lack of free consent and coercion or inability to consent. Victims and people at risk can apply for a Forced Marriage Protection Order. No marriage-age or sentencing generalisation is needed for this question."
+    },
+    {
+      "url": "https://www.gov.uk/report-domestic-abuse",
+      "questions": [
+        "q0358"
+      ],
+      "finding": "Domestic abuse or violence is a crime and can be reported to police. The page provides support routes for women, men and LGBT people, without treating marriage as a defence."
+    },
+    {
+      "url": "https://www.cps.gov.uk/publication/cps-and-equally-ours-research-public-understanding-rape-and-serious-sexual-offences",
+      "questions": [
+        "q0115"
+      ],
+      "finding": "The CPS explicitly identifies the fact that a relationship or marriage does not establish continuing consent to sex."
+    },
+    {
+      "url": "https://www.cps.gov.uk/types-crime/violence-against-women-and-girls/rape-and-sexual-assault/what-are-rape-and-sexual-assault",
+      "questions": [
+        "q0115"
+      ],
+      "finding": "The CPS explains free choice and capacity for consent, rape without consent, and the right to withdraw consent at any point during sexual activity."
+    },
+    {
+      "url": "https://www.gov.uk/apply-national-insurance-number",
+      "questions": [
+        "q0143",
+        "q0163"
+      ],
+      "finding": "For employment-related applications, applicants must live in the UK, have the right to work and be working, looking for work or have an offer. Work can start before a number arrives if the right to work is proved."
+    },
+    {
+      "url": "https://www.gov.uk/apply-national-insurance-number/how-to-apply",
+      "questions": [
+        "q0143",
+        "q0163"
+      ],
+      "finding": "The current service starts online and requires identity verification. Listed identity documents include passports and specified national identity cards. Applicants without them can still apply and might need an appointment; there is no universal requirement for two separate paper documents."
+    },
+    {
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn04281/",
+      "questions": [
+        "q0163",
+        "q0143"
+      ],
+      "finding": "The Commons Library identifies DWP as handling applications in England, Scotland and Wales, with a separate Northern Ireland process. A National Insurance number is not itself proof of a right to work. For the current application workflow, the live GOV.UK service takes precedence over this briefing's older interview wording."
+    },
+    {
+      "url": "https://www.gov.uk/female-genital-mutilation",
+      "questions": [
+        "q0182"
+      ],
+      "finding": "FGM is illegal in the UK. The law can also criminalise arranging it overseas; territorial, nationality and residence conditions apply, so the explanation uses 'can also' rather than asserting unlimited worldwide jurisdiction."
+    },
+    {
+      "url": "https://friendsoftheearth.uk/about-us/friends-earth-charitable-trust",
+      "questions": [
+        "q0244",
+        "q0114"
+      ],
+      "finding": "Friends of the Earth Charitable Trust is a registered charity whose objects include conservation, environmental education and sustainable development. The wider Friends of the Earth organisation also has a non-charitable campaigning company."
+    },
+    {
+      "url": "https://www.gov.uk/government/organisations/national-citizen-service",
+      "questions": [
+        "q0366",
+        "q0056"
+      ],
+      "finding": "The official page states that NCS provided opportunities for 16- and 17-year-olds in England and that programme delivery concluded on 31 March 2025."
+    },
+    {
+      "url": "https://www.gov.uk/government/news/major-expansion-of-national-citizen-service-for-16-year-olds",
+      "questions": [
+        "q0056"
+      ],
+      "finding": "The archived government announcement explicitly describes NCS as voluntary. This verifies the historical answer without claiming the programme remains active."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/ukpga/2017/15/part/1",
+      "questions": [
+        "q0366"
+      ],
+      "finding": "The NCS Act identifies 16 and 17 as the main age group but permits inclusion of 15-year-olds and some people aged 18 to 24. The explanation says 'main age group', not an exclusive age restriction."
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/effective-governance-resources/governing-strategically-in-your-school-or-academy-trust-resources",
+      "questions": [
+        "q0065"
+      ],
+      "finding": "The Department for Education describes boards' strategic oversight and accountability role, leaving day-to-day management to executive leaders."
+    },
+    {
+      "url": "https://www.legislation.gov.uk/uksi/2013/1624/part/2",
+      "questions": [
+        "q0065"
+      ],
+      "finding": "The governing body's statutory functions include strategic direction and ensuring the headteacher performs educational responsibilities. The headteacher manages the school's internal organisation and operation. This legislation applies to England, not a uniform UK-wide governance model."
+    },
+    {
+      "url": "https://www.electoralcommission.org.uk/resources/welcome-your-vote/campaigning",
+      "questions": [
+        "q0117"
+      ],
+      "finding": "The Electoral Commission describes candidates seeking support by door knocking or street conversations as canvassing, and emphasises that voters control their own choices."
+    },
+    {
+      "url": "https://www.un.org/en/about-us/history-of-the-un",
+      "questions": [
+        "q0359"
+      ],
+      "finding": "The UN officially began on 24 October 1945 after ratification of its Charter, with the prevention of another world war and international peace and security central to its purpose."
+    },
+    {
+      "url": "https://thecommonwealth.org/charter",
+      "questions": [
+        "q0379"
+      ],
+      "finding": "The Commonwealth Charter describes a voluntary association of independent and equal sovereign states, each responsible for its own policies, cooperating on democracy, development and peace."
+    },
+    {
+      "url": "https://www.englandfootball.com/england/womens-senior-team/UEFA-Womens-EURO-2022",
+      "questions": [
+        "q0011"
+      ],
+      "finding": "England's women won the 2022 European Championship, so the reference's unqualified statement about England's only international tournament victory is outdated."
+    },
+    {
+      "url": "https://www.englandfootball.com/england/womens-senior-team/UEFA-Womens-EURO-2025",
+      "questions": [
+        "q0011"
+      ],
+      "finding": "England's women defended their European Championship title in 2025. Bobby Moore remains the answer to the question about the men's 1966 World Cup captain."
+    }
+  ],
+  "source-issues": [
+    {
+      "questions": [
+        "q0049"
+      ],
+      "kind": "unsupported-generalisation",
+      "finding": "Removed the assertion that Communism necessarily contradicts British values. The handbook lists individual liberty and respect for opinions but does not justify that blanket statement.",
+      "sources": [
+        "https://lifeintheuktestweb.co.uk/the-values-and-principles-of-the-uk/"
+      ]
+    },
+    {
+      "questions": [
+        "q0236",
+        "q0349"
+      ],
+      "kind": "handbook-oversimplification",
+      "finding": "Replaced a Picts-only explanation of Hadrian's Wall with its verified frontier functions. Described Housesteads and Vindolanda as associated frontier forts rather than implying both were built into the wall.",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/hadrian/",
+        "https://www.english-heritage.org.uk/visit/places/hadrians-wall/hadrians-wall-history-and-stories/history/description/"
+      ]
+    },
+    {
+      "questions": [
+        "q0253",
+        "q0345",
+        "q0140",
+        "q0211"
+      ],
+      "kind": "handbook-overstatement",
+      "finding": "Domesday was not a list of every settlement and every inhabitant. Corrected the coverage and added the verified 1086 survey date without changing the answers.",
+      "sources": [
+        "https://www.nationalarchives.gov.uk/help-with-your-research/research-guides/domesday-book/"
+      ]
+    },
+    {
+      "questions": [
+        "q0293",
+        "q0035"
+      ],
+      "kind": "handbook-oversimplification",
+      "finding": "Alfred's victory preserved Wessex; he did not simply unite and liberate all Anglo-Saxon kingdoms. Both explanations now distinguish his victory from continuing Danish rule elsewhere.",
+      "sources": [
+        "https://www.royal.uk/alfred-great-r-871-899"
+      ]
+    },
+    {
+      "questions": [
+        "q0043",
+        "q0167"
+      ],
+      "kind": "historical-convention",
+      "finding": "Retained 1066 as the test answer but attributed last successful foreign invasion to the handbook. William of Orange's later foreign intervention makes the unqualified description historically debatable.",
+      "sources": [
+        "https://www.nam.ac.uk/explore/army-and-glorious-revolution"
+      ]
+    },
+    {
+      "questions": [
+        "q0361",
+        "q0173"
+      ],
+      "kind": "question-and-mirror-date-error",
+      "finding": "Both questions say 20 years. Mary was held in England from 1568 until execution in 1587, almost 19 years. Kept execution as the answer and corrected the context.",
+      "sources": [
+        "https://www.english-heritage.org.uk/visit/places/carlisle-castle/history/mary-queen-of-scots",
+        "https://www.royal.uk/mary-queen-scots-r1542-1567"
+      ]
+    },
+    {
+      "questions": [
+        "q0142"
+      ],
+      "kind": "handbook-overstatement",
+      "finding": "A religious compromise did not mean Elizabeth's reign lacked religious conflict or persecution. Explained the settlement without repeating the draft's absolute claim.",
+      "sources": [
+        "https://www.royal.uk/elizabeth-i",
+        "https://www.english-heritage.org.uk/learn/story-of-england/tudors/religion/"
+      ]
+    },
+    {
+      "questions": [
+        "q0113"
+      ],
+      "kind": "question-and-mirror-overstatement",
+      "finding": "The claim that no fighting occurred in England during the Glorious Revolution conflicts with the Reading Skirmish. Kept the named event as the answer and described the takeover as largely peaceful.",
+      "sources": [
+        "https://www.readingmuseum.org.uk/blog/short-history-reading-from-market-town-silicon-city",
+        "https://www.nam.ac.uk/explore/army-and-glorious-revolution"
+      ]
+    },
+    {
+      "questions": [
+        "q0151"
+      ],
+      "kind": "handbook-factual-error",
+      "finding": "The mirror says all the MacDonalds of Glencoe were killed. Survivors are documented. Corrected the explanation and added the verified 1692 date.",
+      "sources": [
+        "https://www.nts.org.uk/visit/places/glencoe/the-glencoe-massacre"
+      ]
+    },
+    {
+      "questions": [
+        "q0003",
+        "q0083",
+        "q0198"
+      ],
+      "kind": "handbook-chronology-error",
+      "finding": "The mirror and all three drafts put equal voting rights before Pankhurst's death. She died on 14 June 1928; the Act became law on 2 July 1928. Removed the reversed chronology from every repetition.",
+      "sources": [
+        "https://catalogue.royalalberthall.com/Record.aspx?id=DS%2FUK%2F3404&src=CalmView.Persons",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/unesco/equal-franchise-act-1928/"
+      ]
+    },
+    {
+      "questions": [
+        "q0221",
+        "q0029",
+        "q0183",
+        "q0003",
+        "q0083",
+        "q0198"
+      ],
+      "kind": "handbook-qualification-omission",
+      "finding": "The 1918 vote did not extend to every woman over 30. Added qualifying conditions wherever this comparison appears. Also separated the right to stand for Parliament, available from 21 under another 1918 Act, from the right to vote.",
+      "sources": [
+        "https://commonslibrary.parliament.uk/1918-centenary-votes-for-some-women-and-all-men/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/parliamentary-collections/nancy-astor/parliament-qualification-of-women-act/"
+      ]
+    },
+    {
+      "questions": [
+        "q0232",
+        "q0159"
+      ],
+      "kind": "draft-conflation",
+      "finding": "Removed the claim that both Pankhurst organisations used civil disobedience and avoided labelling every suffrage campaigner a suffragette. Attributed militant methods to the WSPU.",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/"
+      ]
+    },
+    {
+      "questions": [
+        "q0355",
+        "q0155"
+      ],
+      "kind": "law-versus-implementation",
+      "finding": "Preserved the handbook's 1833 answer as the Act's year, but distinguished commencement in 1834, territorial exclusions and apprenticeship ending in 1838. The question's throughout the Empire wording is not literally accurate.",
+      "sources": [
+        "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/pdfs/ukpga_18330073_en.pdf",
+        "https://heritagecollections.parliament.uk/stories/the-transatlantic-slave-trade/",
+        "https://www.parliament.uk/about/living-heritage/evolutionofparliament/legislativescrutiny/parliament-and-empire/parliament-and-the-american-colonies-before-1765/the-west-indian-colonies-and-emancipation/"
+      ]
+    },
+    {
+      "questions": [
+        "q0404"
+      ],
+      "kind": "statutory-scope",
+      "finding": "The ten-hour rule concerned women and young people aged 13 to 18 in textile factories. The mirror's women and children wording conceals that younger children already had shorter hours and the rule was not universal.",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/laterfactoryleg/",
+        "https://api.parliament.uk/historic-hansard/commons/1847/feb/17/factories-bill-adjourned-debate"
+      ]
+    },
+    {
+      "questions": [
+        "q0261"
+      ],
+      "kind": "participation-date",
+      "finding": "The wider Crimean War ran from 1853 to 1856, but Britain joined in 1854. Corrected the explanation's claim that Britain fought throughout that whole range.",
+      "sources": [
+        "https://www.nam.ac.uk/explore/crimean-war",
+        "https://www.nam.ac.uk/whats-on/art-crimean-war"
+      ]
+    },
+    {
+      "questions": [
+        "q0321"
+      ],
+      "kind": "geographic-precision",
+      "finding": "Specified Cook's survey of the east coast of Australia in 1770, not the whole coast.",
+      "sources": [
+        "https://www.rmg.co.uk/collections/objects/rmgc-object-543610",
+        "https://www.nma.gov.au/defining-moments/resources/cook-claims-australia"
+      ]
+    },
+    {
+      "questions": [
+        "q0378"
+      ],
+      "kind": "unsupported-superlative",
+      "finding": "Removed the mirror's claim that the Great Western Railway was Britain's first major railway. Kept Brunel's construction responsibility and wider engineering context.",
+      "sources": [
+        "https://www.scienceandindustrymuseum.org.uk/objects-and-stories/making-the-liverpool-and-manchester-railway"
+      ]
+    },
+    {
+      "questions": [
+        "q0073",
+        "q0193"
+      ],
+      "kind": "question-historical-overstatement",
+      "finding": "Both questions treat Waterloo as the final battle between Britain and France. Later fighting against Vichy French forces disproves that absolute wording. Kept the supplied answers unchanged and explained the limitation.",
+      "sources": [
+        "https://www.iwm.org.uk/history/second-world-war/north-africa-campaign/how-the-royal-navy-helped-win-a-war-in-the-desert",
+        "https://www.iwm.org.uk/collections/item/object/1060007655"
+      ]
+    },
+    {
+      "questions": [
+        "q0214"
+      ],
+      "kind": "handbook-material-error",
+      "finding": "Corrected the Crystal Palace from steel and glass to iron and glass.",
+      "sources": [
+        "https://col-albert-frontend.rct.uk/collections/photographs-collection/exhibitions-and-records-of-works-of-art/the-eastern-nave-of-the-crystal-palace"
+      ]
+    },
+    {
+      "questions": [
+        "q0346"
+      ],
+      "kind": "scientific-terminology",
+      "finding": "Explained Rutherford's artificial nuclear reaction without conflating it with nuclear fission or implying an immediate transition to the atomic bomb.",
+      "sources": [
+        "https://www.manchester.ac.uk/about/news/rutherfords-legacy--the-birth-of-nuclear-physics-in-manchester/"
+      ]
+    },
+    {
+      "questions": [
+        "q0332",
+        "q0058"
+      ],
+      "kind": "handbook-superlative-error",
+      "finding": "Removed the claim that Concorde was the world's only supersonic commercial airliner from both repetitions. The Tu-144 also operated passenger services. The question wording remains unchanged.",
+      "sources": [
+        "https://www.sfomuseum.org/exhibitions/supersonic-transport"
+      ]
+    },
+    {
+      "questions": [
+        "q0048"
+      ],
+      "kind": "handbook-date-error",
+      "finding": "Corrected Baird's London-to-Glasgow television transmission from 1932 to 1927, using the museum timeline and an archive photograph.",
+      "sources": [
+        "https://blog.scienceandmediamuseum.org.uk/history-of-british-television-timeline/",
+        "https://collection.sciencemuseumgroup.org.uk/objects/co8998281/photograph-entitled-1927-early-spot-light-transmitter"
+      ]
+    },
+    {
+      "questions": [
+        "q0135"
+      ],
+      "kind": "draft-factual-error",
+      "finding": "The 2010 coalition was the first Westminster coalition since the Second World War. February 1974 was the previous hung parliament, not the previous coalition. The mirror itself makes the hung-parliament distinction correctly.",
+      "sources": [
+        "https://publications.parliament.uk/pa/ld201314/ldselect/ldconst/130/13004.htm",
+        "https://commonslibrary.parliament.uk/research-briefings/sn04951/"
+      ]
+    },
+    {
+      "questions": [
+        "q0188"
+      ],
+      "kind": "handbook-chronology-compression",
+      "finding": "Removed the implication that the Equal Pay Act belonged to the 1960s. It passed in 1970 and took effect in 1975.",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/industrycommunity/collections/equal-pay/equal-pay-act-1970/"
+      ]
+    },
+    {
+      "questions": [
+        "q0127"
+      ],
+      "kind": "mislabelled-handbook-section",
+      "finding": "The question about Charles I's execution appears in a-global-power. Its useful context comes from the-tudors-and-stuarts mirror: execution in 1649, Commonwealth and Restoration in 1660.",
+      "sources": [
+        "https://lifeintheuktestweb.co.uk/a-long-and-illustrious-history/"
+      ]
+    },
+    {
+      "questions": [
+        "q0365"
+      ],
+      "kind": "ambiguous-question",
+      "finding": "The question's Netherlands-to-monarchy wording can suggest William of Orange, but its supplied answer is Charles II. Explained Charles's return from Dutch exile in 1660 without broadening the claim.",
+      "sources": [
+        "https://lifeintheuktestweb.co.uk/a-long-and-illustrious-history/"
+      ]
+    },
+    {
+      "questions": [
+        "q0148"
+      ],
+      "kind": "handbook-period-compression",
+      "finding": "The question assigns manufacturing's employment dominance to the 18th century, while the mirror describes the Industrial Revolution across the 18th and 19th centuries. Kept manufacturing as the answer without asserting a precise crossover date.",
+      "sources": [
+        "https://lifeintheuktestweb.co.uk/a-long-and-illustrious-history/"
+      ]
+    },
+    {
+      "questions": [
+        "q0194"
+      ],
+      "kind": "answer-conflict",
+      "finding": "The site marks the UK-wide £100 highest-note statement False. Its apparent £50 rationale only describes Bank of England notes: Scottish £100 notes exist. The explanation flags the faulty scope; the scraped answer remains unchanged.",
+      "sources": [
+        "https://www.bankofengland.co.uk/banknotes/uk-notes-and-coins"
+      ]
+    },
+    {
+      "questions": [
+        "q0097"
+      ],
+      "kind": "ambiguous-question",
+      "finding": "The site expects 25p as not a valid UK coin. That works only for the handbook's everyday circulating denominations, not for all legal UK coins: commemorative 25p crowns exist. The explanation states this distinction; the answer remains unchanged.",
+      "sources": [
+        "https://www.royalmint.com/aboutus/policies-and-guidelines/legal-tender-guidelines/"
+      ]
+    },
+    {
+      "questions": [
+        "q0369"
+      ],
+      "kind": "dated-statistic",
+      "finding": "The parent-or-grandparent-born-abroad estimate is attributed to the handbook passage. It is not presented as a verified 2026 demographic statistic.",
+      "sources": [
+        "https://lifeintheuktestweb.co.uk/a-modern-thriving-society/"
+      ]
+    },
+    {
+      "questions": [
+        "q0011"
+      ],
+      "kind": "source-correction",
+      "finding": "The sport mirror and previous output call 1966 England's only international tournament victory without restricting that statement to men's football. State Moore captained the men's 1966 World Cup-winning side. Keep Bobby Moore as the answer.",
+      "sources": [
+        "https://www.englandfootball.com/england/mens-senior-team/squad/Legends-profiles/Bobby-Moore",
+        "https://www.thefa.com/news/2014/jul/30/the-barber-fan-special-remembering-this-day-in-1966"
+      ]
+    },
+    {
+      "questions": [
+        "q0189"
+      ],
+      "kind": "source-correction",
+      "finding": "The mirror gives 1968, old nationality restrictions and the old Man Booker name. Explain the 1969 first award, 2014 nationality change and current Booker name. Literature remains the answer.",
+      "sources": [
+        "https://thebookerprizes.com/booker-prize",
+        "https://thebookerprizes.com/notes-to-editors",
+        "https://thebookerprizes.com/the-booker-library/features/booker-prizes-facts-and-figures"
+      ]
+    },
+    {
+      "questions": [
+        "q0191"
+      ],
+      "kind": "source-correction",
+      "finding": "The mirror says four works and always Tate Britain. Explain four artists and the alternating host venues. Contemporary art remains the answer.",
+      "sources": [
+        "https://www.tate.org.uk/art/turner-prize"
+      ]
+    },
+    {
+      "questions": [
+        "q0262"
+      ],
+      "kind": "source-correction",
+      "finding": "The meal exception in the mirror is too broad for a UK-wide statement. Keep the UK purchase age of 18. Scope the additional meal example to England and Wales and distinguish Northern Ireland.",
+      "sources": [
+        "https://www.gov.uk/alcohol-young-people-law",
+        "https://www.nidirect.gov.uk/articles/alcohol-and-law"
+      ]
+    },
+    {
+      "questions": [
+        "q0264"
+      ],
+      "kind": "source-correction",
+      "finding": "The scraped explanation describes the BBC as wholly state-funded and the largest broadcaster. Avoid both unsupported comparisons. Explain licence-fee funding and charter-based editorial independence. No remains the answer.",
+      "sources": [
+        "https://www.bbc.com/aboutthebbc",
+        "https://www.gov.uk/government/publications/bbc-charter-and-framework-agreement/bbc-charter"
+      ]
+    },
+    {
+      "questions": [
+        "q0314"
+      ],
+      "kind": "source-correction",
+      "finding": "The previous explanation infers Watson's non-winner status only from absence in a handbook list. Use the Academy's actual nomination and winner records instead. Emily Watson remains the answer.",
+      "sources": [
+        "https://www.bifa.film/news/emily-watson-to-receive-the-2025-richard-harris-award/",
+        "https://www.oscars.org/oscars/ceremonies/1997",
+        "https://www.oscars.org/oscars/ceremonies/1999",
+        "https://www.oscars.org/oscars/ceremonies/2008",
+        "https://www.oscars.org/oscars/ceremonies/2009"
+      ]
+    },
+    {
+      "questions": [
+        "q0338",
+        "q0363"
+      ],
+      "kind": "source-correction",
+      "finding": "The mirror's two-highest-grossing franchise claim is dated, and UK filming does not exclude distractors. Star Wars is independently documented at Elstree. Preserve Harry Potter and James Bond as scraped answers. Remove the current global-ranking claim and explicitly flag the James Bond question's ambiguity.",
+      "sources": [
+        "https://britishfilmcommission.org.uk/studios/warner-bros-studios-leavesden/",
+        "https://collections-search.bfi.org.uk/web/Details/ChoiceFilmWorks/157067216",
+        "https://pinewoodgroup.com/news/pinewood-studios-celebrates-60-years-since-dr-no-and-opens-the-sean-connery-stage/",
+        "https://www.bfi.org.uk/features/set-star-wars-episode-iv-new-hope",
+        "https://www.wbstudiotour.co.uk/the-experience/explore-the-tour/sets/"
+      ]
+    },
+    {
+      "questions": [
+        "q0028",
+        "q0178"
+      ],
+      "kind": "source-correction",
+      "finding": "The mirror simplifies the collar law to all dogs in all public places. Keep owner name and address as the answer, explain the Great Britain rule's applicable places and acknowledge exceptions.",
+      "sources": [
+        "https://www.legislation.gov.uk/uksi/1992/901/article/2/made",
+        "https://www.legislation.gov.uk/uksi/1992/901/introduction/made"
+      ]
+    },
+    {
+      "questions": [
+        "q0309"
+      ],
+      "kind": "source-correction",
+      "finding": "The previous explanation rejects other castles merely because the handbook does not list them. Describe Crathes using its custodian's actual location and historical details.",
+      "sources": [
+        "https://www.nts.org.uk/visit/places/crathes-castle/overview",
+        "https://www.nts.org.uk/visit/places/crathes-castle/planning-your-visit"
+      ]
+    },
+    {
+      "questions": [
+        "q0360"
+      ],
+      "kind": "source-context-correction",
+      "finding": "The location answer is correct. The site's additional approximately 50-million-year formation date conflicts with the custodian's just-under-60-million-year account. The explanation omits a date and explains the verified geological process.",
+      "sources": [
+        "https://www.nationaltrust.org.uk/visit/northern-ireland/giants-causeway/history-of-giants-causeway"
+      ]
+    },
+    {
+      "questions": [
+        "q0238"
+      ],
+      "kind": "ambiguous-wording",
+      "finding": "The expected 'No' means no single codified constitution, not that constitutional rules are unwritten. The explanation expressly distinguishes these meanings.",
+      "sources": [
+        "https://www.parliament.uk/about/how/role/sovereignty/"
+      ]
+    },
+    {
+      "questions": [
+        "q0383"
+      ],
+      "kind": "unsupported-list-exclusion",
+      "finding": "The armed forces are absent from the handbook's teaching list, but that absence cannot prove they are not a constitutional institution in every sense. The explanation labels the site's expected classification without endorsing a universal exclusion.",
+      "sources": [
+        "https://commonslibrary.parliament.uk/research-briefings/cbp-10065/"
+      ]
+    },
+    {
+      "questions": [
+        "q0392"
+      ],
+      "kind": "overlapping-options",
+      "finding": "The site selects advising the Prime Minister and appointing the government. Its rejected cabinet-appointment option is also formally true because the monarch approves ministers on the Prime Minister's advice. The explanation discloses the overlap.",
+      "sources": [
+        "https://commonslibrary.parliament.uk/how-is-a-government-formed/",
+        "https://www.royal.uk/the-sovereign-and-the-prime-minister"
+      ]
+    },
+    {
+      "questions": [
+        "q0076"
+      ],
+      "kind": "oversimplified-interval",
+      "finding": "Five years is not a mandatory exact gap between general elections. A Parliament has a maximum five-year duration from first meeting, and earlier elections are possible. The answer key remains unchanged.",
+      "sources": [
+        "https://www.parliament.uk/about/how/elections-and-voting/general/"
+      ]
+    },
+    {
+      "questions": [
+        "q0019",
+        "q0248"
+      ],
+      "kind": "incorrect-legal-generalisation",
+      "finding": "Broadcast impartiality does not require automatically equal airtime for every party or viewpoint. The television/radio pair is intended, but the boolean marked true is legally overstated. All three explanations state the due-impartiality and due-weight qualification.",
+      "sources": [
+        "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-six-elections-referendums",
+        "https://www.ofcom.org.uk/siteassets/resources/documents/tv-radio-and-on-demand/broadcast-codes/politicians-research/broadcast-code-guidance-section-5.pdf?v=380776"
+      ]
+    },
+    {
+      "questions": [
+        "q0224"
+      ],
+      "kind": "outdated-answer-and-institution-confusion",
+      "finding": "The site's 60 refers to the former Senedd, not the Welsh Government. The Senedd has 96 members from May 2026, a number absent from the options. The explanation states the historical expected answer and current discrepancy.",
+      "sources": [
+        "https://senedd.wales/how-we-work/our-role/senedd-election-and-member-changes/",
+        "https://senedd.wales/how-we-work/elections-and-voting/senedd-elections/"
+      ]
+    },
+    {
+      "questions": [
+        "q0187"
+      ],
+      "kind": "institution-confusion-and-time-sensitive-cycle",
+      "finding": "People elect Senedd members, not the Welsh Government directly. Four-year elections apply from 2026; the source's combined 60-members/four-years description mixes historical arrangements. The answer is currently compatible with the Senedd cycle, but the institutional wording remains wrong.",
+      "sources": [
+        "https://senedd.wales/how-we-work/our-role/senedd-election-and-member-changes/"
+      ]
+    },
+    {
+      "questions": [
+        "q0312"
+      ],
+      "kind": "overlapping-options-and-institution-name",
+      "finding": "The modern body is the Northern Ireland Assembly, not the former Parliament. STV is proportional representation and uses ranked preferences, so both option descriptions have a factual basis. The explanation identifies the expected answer without falsely ruling out ranked voting.",
+      "sources": [
+        "https://blog.niassembly.gov.uk/2022/04/a-guide-to-voting-in-assembly-election.html",
+        "https://www.gov.uk/elections-in-the-uk/northern-ireland-assembly"
+      ]
+    },
+    {
+      "questions": [
+        "q0331"
+      ],
+      "kind": "ambiguous-government-appointment",
+      "finding": "'No' is defensible only as shorthand for not normally being party-political appointments. Government departments do appoint civil servants. The explanation states that distinction instead of denying government recruitment.",
+      "sources": [
+        "https://civilservicecommission.independent.gov.uk/document/02a-recruitment-principles-april-2018-final/",
+        "https://www.gov.uk/government/publications/civil-service-code/the-civil-service-code"
+      ]
+    },
+    {
+      "questions": [
+        "q0405"
+      ],
+      "kind": "imprecise-group-description",
+      "finding": "The shadow cabinet is a selected senior opposition team, not every opposition MP. The explanation preserves the selected answer while making the scope clear.",
+      "sources": [
+        "https://www.parliament.uk/about/mps-and-lords/principal/government-opposition/"
+      ]
+    },
+    {
+      "questions": [
+        "q0131",
+        "q0202"
+      ],
+      "kind": "obsolete-registration-distinction",
+      "finding": "Northern Ireland uses individual registration, but England, Wales and Scotland introduced it in 2014 too. The false key on q0131 is outdated; the true key on q0202 remains valid but must not imply exclusivity. Both repetitions receive the current qualification.",
+      "sources": [
+        "https://www.gov.uk/government/publications/about-individual-electoral-registration-ier/about-individual-electoral-registration"
+      ]
+    },
+    {
+      "questions": [
+        "q0152"
+      ],
+      "kind": "additional-valid-option",
+      "finding": "Health and education are intended and common to all three settlements, but social security is also devolved in Northern Ireland and partly in Scotland. The question is not an unqualified two-answer distinction. The explanation does not repeat the mirror's blanket reservation claim.",
+      "sources": [
+        "https://www.niassembly.gov.uk/globalassets/documents/raise/publications/2022-2027/2025/ad-hoc/2925.pdf",
+        "https://www.deliveringforscotland.gov.uk/scotland-in-the-uk/devolution/"
+      ]
+    },
+    {
+      "questions": [
+        "q0013",
+        "q0255",
+        "q0107",
+        "q0170"
+      ],
+      "kind": "complaints-eligibility-jurisdiction-and-stale-names",
+      "finding": "The mirror's 'anyone' wording and single UK-wide procedure are too broad. Eligibility and jurisdiction matter, and a complaint about a chief constable personally has a different route. The old IPCC name is replaced with IOPC in the explanations; no claim excludes help through another representative.",
+      "sources": [
+        "https://www.policeconduct.gov.uk/complaints/submit-a-complaint",
+        "https://www.policeconduct.gov.uk/sites/default/files/documents/20220707_A_guide_to_complaint_system_2022.pdf"
+      ]
+    },
+    {
+      "questions": [
+        "q0018"
+      ],
+      "kind": "charging-simplification",
+      "finding": "The expected time-based answer describes hourly billing, but primary professional sources also recognise fixed fees and other arrangements. The explanation does not assert that nature, complexity or importance never affects legal fees, or claim verified statistics about the most common arrangement.",
+      "sources": [
+        "https://www.sra.org.uk/solicitors/standards-regulations/transparency-rules/",
+        "https://www.lawsociety.org.uk/public/for-public-visitors/using-a-solicitor/paying-for-a-solicitor"
+      ]
+    },
+    {
+      "questions": [
+        "q0225"
+      ],
+      "kind": "reporting-restrictions-not-absolute",
+      "finding": "The intended false answer describes the normal protection of youth defendants. Courts can lift restrictions in specified circumstances and restrictions generally end at 18, so an absolute publication prohibition would be inaccurate.",
+      "sources": [
+        "https://www.cps.gov.uk/prosecution-guidance/children-suspects-and-defendants"
+      ]
+    },
+    {
+      "questions": [
+        "q0343",
+        "q0364",
+        "q0400"
+      ],
+      "kind": "incorrect-northern-ireland-youth-panel",
+      "finding": "Northern Ireland normally uses a district judge AND two lay magistrates, not up to three magistrates OR a district judge. The multi-answer choices identify relevant roles but the shared jurisdictional explanation is wrong; the true boolean is misleading. All three explanations state the discrepancy.",
+      "sources": [
+        "https://www.nijac.gov.uk/youth-courts",
+        "https://www.judiciaryni.uk/lay-magistrates",
+        "https://www.gov.uk/courts/youth-courts"
+      ]
+    },
+    {
+      "questions": [
+        "q0372",
+        "q0213"
+      ],
+      "kind": "scottish-procedure-name",
+      "finding": "The £5,000 answer matches current qualifying Scottish Simple Procedure and Northern Irish small claims. Scotland's former procedure actually named small claims had a £3,000 limit and was replaced for new claims in 2016. Both relevant explanations avoid presenting the old procedure name as current Scottish law.",
+      "sources": [
+        "https://www.scotcourts.gov.uk/taking-action/simple-procedure/guide-to-simple-procedure/",
+        "https://www.scotcourts.gov.uk/taking-action/small-claims/",
+        "https://www.nidirect.gov.uk/articles/small-claims-process"
+      ]
+    },
+    {
+      "questions": [
+        "q0091",
+        "q0150"
+      ],
+      "kind": "smoking-scope-qualification",
+      "finding": "Smoking is criminal where smoke-free law prohibits it, not in all public places. The first question omits that qualification; the second includes it. Both explanations retain the distinction rather than repeating a universal public-smoking ban.",
+      "sources": [
+        "https://www.gov.uk/smoking-at-work-the-law"
+      ]
+    },
+    {
+      "questions": [
+        "q0165"
+      ],
+      "kind": "criminal-versus-civil-juries",
+      "finding": "Fifteen describes Scottish criminal juries, not all Scottish juries. Civil juries have 12 members. The explanation explicitly supplies the missing criminal context.",
+      "sources": [
+        "https://www.scotcourts.gov.uk/coming-to-court/jurors/about-jury-duty-in-scotland/"
+      ]
+    },
+    {
+      "questions": [
+        "q0015",
+        "q0014",
+        "q0280",
+        "q0101"
+      ],
+      "kind": "stale-upper-jury-age-in-source",
+      "finding": "The minimum age of 18 and random electoral-register selection remain correct. The repeated site explanation's blanket 18-to-70 range is not current UK-wide law: England and Wales use 18 to 75, and Scotland treats 71 as a right-to-excusal threshold. The rewrites do not reproduce the old upper age.",
+      "sources": [
+        "https://www.gov.uk/jury-service/who-can-be-on-jury",
+        "https://www.scotcourts.gov.uk/coming-to-court/jurors/excusal-from-jury-service/"
+      ]
+    },
+    {
+      "questions": [
+        "q0353"
+      ],
+      "kind": "motorcycle-category-qualification",
+      "finding": "Seventeen is the light-motorcycle minimum, not the minimum for every category or a general entitlement to all motorcycles. The explanation distinguishes light motorcycles, more powerful categories and mopeds.",
+      "sources": [
+        "https://www.gov.uk/ride-motorcycle-moped/bike-categories-ages-and-licence-requirements"
+      ]
+    },
+    {
+      "questions": [
+        "q0143"
+      ],
+      "kind": "documents-versus-eligibility",
+      "finding": "Identity and right to work are the intended evidential categories. Current applications use identity checks and a right-to-work eligibility condition, not a universal demand for two distinct paper documents. The explanation identifies the intended answers while qualifying their physical-document wording.",
+      "sources": [
+        "https://www.gov.uk/apply-national-insurance-number",
+        "https://www.gov.uk/apply-national-insurance-number/how-to-apply"
+      ]
+    },
+    {
+      "questions": [
+        "q0163"
+      ],
+      "kind": "outdated-application-workflow",
+      "finding": "DWP is the intended agency for Great Britain, but applications now normally start online. The mirror's telephone-and-interview instruction is not the universal current process, and Northern Ireland has a separate administrative arrangement.",
+      "sources": [
+        "https://www.gov.uk/apply-national-insurance-number/how-to-apply",
+        "https://commonslibrary.parliament.uk/research-briefings/sn04281/"
+      ]
+    },
+    {
+      "questions": [
+        "q0366",
+        "q0056"
+      ],
+      "kind": "closed-programme",
+      "finding": "NCS programme delivery ended on 31 March 2025. The historical main age group was 16 and 17 and participation was voluntary; neither explanation presents it as currently open for applications. The statutory age definition also permitted additional age groups, so the rewrite avoids 'only'.",
+      "sources": [
+        "https://www.gov.uk/government/organisations/national-citizen-service",
+        "https://www.gov.uk/government/news/major-expansion-of-national-citizen-service-for-16-year-olds",
+        "https://www.legislation.gov.uk/ukpga/2017/15/part/1"
+      ]
+    },
+    {
+      "questions": [
+        "q0244",
+        "q0114"
+      ],
+      "kind": "organisation-structure-qualification",
+      "finding": "The environmental classification is correct. Friends of the Earth includes a campaigning company and a separate charitable trust, so the explanations identify the trust rather than asserting that every part of the organisation is legally a charity.",
+      "sources": [
+        "https://friendsoftheearth.uk/about-us/friends-earth-charitable-trust"
+      ]
+    }
+  ],
+  "curriculum-source-ids": {
+    "chapters": {
+      "chapter-the-values-and-principles-of-the-uk": 75,
+      "chapter-what-is-the-uk": 69,
+      "chapter-a-long-and-illustrious-history": 72,
+      "chapter-a-modern-thriving-society": 82,
+      "chapter-the-uk-government-the-law-and-your-role": 90
+    },
+    "sections": {
+      "becoming-a-permanent-resident": 77,
+      "the-values-and-principles-of-the-uk": 76,
+      "what-is-the-uk": 70,
+      "early-britain": 74,
+      "the-middle-ages": 73,
+      "the-tudors-and-stuarts": 78,
+      "a-global-power": 79,
+      "the-20th-century": 80,
+      "britain-since-1945": 81,
+      "the-uk-today": 83,
+      "religion": 84,
+      "customs-and-traditions": 85,
+      "sport": 86,
+      "arts-and-culture": 87,
+      "leisure": 88,
+      "places-of-interest": 89,
+      "the-development-of-british-democracy": 91,
+      "the-british-constitution": 92,
+      "the-government": 93,
+      "the-uk-and-international-institutions": 95,
+      "respecting-the-law": 96,
+      "fundamental-principles": 98,
+      "your-role-in-the-community": 101
+    }
+  },
+  "reference-alignment": {
+    "scope": "These checks compare the practice answers with the reference, not a live test question bank. Page citations in explanations refer to this reference. Corrections provide context without replacing the reference-based practice key.",
+    "matches-reference": [
+      "q0003",
+      "q0011",
+      "q0013",
+      "q0014",
+      "q0015",
+      "q0018",
+      "q0019",
+      "q0028",
+      "q0029",
+      "q0035",
+      "q0043",
+      "q0048",
+      "q0049",
+      "q0056",
+      "q0058",
+      "q0073",
+      "q0076",
+      "q0083",
+      "q0091",
+      "q0097",
+      "q0101",
+      "q0107",
+      "q0113",
+      "q0114",
+      "q0127",
+      "q0131",
+      "q0135",
+      "q0140",
+      "q0142",
+      "q0143",
+      "q0148",
+      "q0150",
+      "q0151",
+      "q0152",
+      "q0155",
+      "q0159",
+      "q0163",
+      "q0165",
+      "q0167",
+      "q0170",
+      "q0173",
+      "q0178",
+      "q0183",
+      "q0187",
+      "q0188",
+      "q0189",
+      "q0191",
+      "q0193",
+      "q0194",
+      "q0198",
+      "q0202",
+      "q0211",
+      "q0213",
+      "q0214",
+      "q0221",
+      "q0224",
+      "q0225",
+      "q0232",
+      "q0236",
+      "q0238",
+      "q0244",
+      "q0248",
+      "q0253",
+      "q0255",
+      "q0261",
+      "q0262",
+      "q0264",
+      "q0280",
+      "q0293",
+      "q0309",
+      "q0312",
+      "q0314",
+      "q0321",
+      "q0332",
+      "q0338",
+      "q0343",
+      "q0345",
+      "q0346",
+      "q0349",
+      "q0353",
+      "q0355",
+      "q0360",
+      "q0361",
+      "q0363",
+      "q0364",
+      "q0366",
+      "q0369",
+      "q0372",
+      "q0378",
+      "q0392",
+      "q0400",
+      "q0404",
+      "q0405"
+    ],
+    "ambiguous-in-reference": [
+      "q0331",
+      "q0365"
+    ],
+    "not-established": [
+      "q0383"
+    ]
+  }
+}
