@@ -1,123 +1,123 @@
 {
   "chapters": [
     {
-      "id": "chapter-the-values-and-principles-of-the-uk",
+      "id": "ch1",
       "name": "Chapter 1: The Values and Principles of the UK",
       "sections": [
         {
-          "id": "becoming-a-permanent-resident",
+          "id": "ch1.1",
           "name": "1.1. Becoming a permanent resident"
         },
         {
-          "id": "the-values-and-principles-of-the-uk",
+          "id": "ch1.2",
           "name": "1.2. The values and principles of the UK"
         }
       ]
     },
     {
-      "id": "chapter-what-is-the-uk",
+      "id": "ch2",
       "name": "Chapter 2: What is the UK?",
       "sections": [
         {
-          "id": "what-is-the-uk",
+          "id": "ch2.1",
           "name": "2.1. What is the UK"
         }
       ]
     },
     {
-      "id": "chapter-a-long-and-illustrious-history",
+      "id": "ch3",
       "name": "Chapter 3: A Long and Illustrious History",
       "sections": [
         {
-          "id": "early-britain",
+          "id": "ch3.1",
           "name": "3.1. Early Britain"
         },
         {
-          "id": "the-middle-ages",
+          "id": "ch3.2",
           "name": "3.2. The Middle Ages"
         },
         {
-          "id": "the-tudors-and-stuarts",
+          "id": "ch3.3",
           "name": "3.3. The Tudors and Stuarts"
         },
         {
-          "id": "a-global-power",
+          "id": "ch3.4",
           "name": "3.4. A global power"
         },
         {
-          "id": "the-20th-century",
+          "id": "ch3.5",
           "name": "3.5. The 20th century"
         },
         {
-          "id": "britain-since-1945",
+          "id": "ch3.6",
           "name": "3.6. Britain since 1945"
         }
       ]
     },
     {
-      "id": "chapter-a-modern-thriving-society",
+      "id": "ch4",
       "name": "Chapter 4: A Modern, Thriving Society",
       "sections": [
         {
-          "id": "the-uk-today",
+          "id": "ch4.1",
           "name": "4.1. The UK today"
         },
         {
-          "id": "religion",
+          "id": "ch4.2",
           "name": "4.2. Religion"
         },
         {
-          "id": "customs-and-traditions",
+          "id": "ch4.3",
           "name": "4.3. Customs and traditions"
         },
         {
-          "id": "sport",
+          "id": "ch4.4",
           "name": "4.4. Sport"
         },
         {
-          "id": "arts-and-culture",
+          "id": "ch4.5",
           "name": "4.5. Arts and culture"
         },
         {
-          "id": "leisure",
+          "id": "ch4.6",
           "name": "4.6. Leisure"
         },
         {
-          "id": "places-of-interest",
+          "id": "ch4.7",
           "name": "4.7. Places of interest"
         }
       ]
     },
     {
-      "id": "chapter-the-uk-government-the-law-and-your-role",
+      "id": "ch5",
       "name": "Chapter 5: The UK Government, the Law and Your Role",
       "sections": [
         {
-          "id": "the-development-of-british-democracy",
+          "id": "ch5.1",
           "name": "5.1. The development of British democracy"
         },
         {
-          "id": "the-british-constitution",
+          "id": "ch5.2",
           "name": "5.2. The British constitution"
         },
         {
-          "id": "the-government",
+          "id": "ch5.3",
           "name": "5.3. The government"
         },
         {
-          "id": "the-uk-and-international-institutions",
+          "id": "ch5.4",
           "name": "5.4. The UK and international institutions"
         },
         {
-          "id": "respecting-the-law",
+          "id": "ch5.5",
           "name": "5.5. Respecting the law"
         },
         {
-          "id": "fundamental-principles",
+          "id": "ch5.6",
           "name": "5.6. Fundamental principles"
         },
         {
-          "id": "your-role-in-the-community",
+          "id": "ch5.7",
           "name": "5.7. Your Role in the Community"
         }
       ]

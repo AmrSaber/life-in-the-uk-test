@@ -1,7 +1,7 @@
 ---
 description: Product behaviour and high-level constraints for the Life in the UK practice app.
 created-at: 2026-10-29 22:13:50+00
-updated-at: 2026-10-30 00:20:06+00
+updated-at: 2026-10-30 11:08:56+00
 ---
 
 # Life in the UK practice exams system design
@@ -10,7 +10,8 @@ Help people practise for and pass the Life in the UK test through practice exams
 
 ## General requirements
 
-- Use the latest stable versions of Svelte and SvelteKit. Run the application entirely in the browser.
+- Use the latest stable versions of Svelte and SvelteKit with TypeScript. Run the application entirely in the browser.
+- Use npm and the current Node.js LTS release. Style components with plain scoped Svelte CSS; do not use Tailwind.
 - Configure its GitHub repository to build and publish the static site on GitHub Pages.
 - Support light, dark and automatic appearance. Automatic appearance follows the device preference.
 - Treat phones and desktop screens as equal design targets. Both must look polished and work well, with layouts and controls suited to each.
@@ -27,6 +28,11 @@ Help people practise for and pass the Life in the UK test through practice exams
 - Serve every JSON file in `data/` publicly at a directly accessible URL, not only bundled into the app. This app and other interested apps can fetch and use the same files.
 - Provide no versioning, stability or backward-compatibility guarantees for external consumers. Changes can break other apps; maintaining their compatibility is out of scope.
 
+### Tags
+
+- Treat all tags the same in filtering, including chapter, section and `outdated` tags.
+- Display each tag by its name from `data/tags.json`. If a tag has no entry there, display its slug as the name.
+
 ## Pages
 
 The following sections describe the main pages and their behaviour. Additional pages can support this functionality where needed.
@@ -41,10 +47,12 @@ The following sections describe the main pages and their behaviour. Additional p
 
 Provide learning-oriented practice using the real exam's question count and time limit, rather than a strict simulation. Present questions one at a time with immediate feedback.
 
-- Shuffle question order at the start of every attempt, including the original 17 exams, custom exams and saved exams. Keep the question set and order fixed for that attempt.
+- Shuffle question order at the start of every attempt, including the original 17 practice exams and saved custom exams. Keep the question set and order fixed for that attempt.
+- Keep answer options in their original order; do not shuffle them.
 - Provide a list of all questions, identify the current question and distinguish answered from unanswered questions.
 - Allow 45 minutes for a practice exam. The pass mark is 18 correct answers out of 24.
 - Keep the timer running while feedback and explanations are displayed. The time limit is a reminder of the actual exam's timing, not a strict simulation.
+- Show the remaining time unobtrusively. Do not add warnings, alerts or other pressure as time runs low.
 - Do not persist in-progress attempts. Refreshing the page restarts the exam.
 - Allow any question to be starred or unstarred manually, including after its answer is locked. Its starred status also applies in the question bank, where users can filter by starred questions alongside other filters.
 
@@ -69,6 +77,7 @@ Show a mnemonic alongside the explanation if one is available; creating mnemonic
 - Preserve unsubmitted selections while navigating within the current attempt. Refreshing still resets the attempt.
 - When revisiting an answered question, show its submitted answer and feedback. Keep the answer locked and do not score it again.
 - Ask for confirmation before in-app navigation or a restart discards an unfinished attempt. Explain that the attempt cannot be resumed; stars and saved custom exams remain intact.
+- Do not prompt when the browser reloads, closes the tab or leaves the site. Only in-app navigation asks for confirmation.
 
 #### Finishing and reviewing an exam
 
@@ -85,7 +94,7 @@ List all questions without repetition. Present each question similarly to the ex
 
 - Show the related chapter information and make the explanation available. Explanations can be hidden by default.
 - Support filtering by tags and starred status.
-- When several curriculum sections are selected, match questions in any selected section. Search, starred status and other active filters further narrow those results.
+- When several tags are selected, match questions that have any selected tag. Provide a "Match all" option, off by default; when enabled, match only questions that have every selected tag. Search, starred status and other active filters further narrow those results.
 - Use case-insensitive substring search across question text and answer options, not fuzzy search.
 - Provide an "Include explanations" search option, off by default. Enabling it adds explanation text to the search scope.
 - Allow questions to be starred or unstarred manually for later revision. Stars persist across attempts and the question bank; incorrect answers are not starred automatically.
@@ -96,11 +105,11 @@ Starred questions are a filtered view of the question bank, not a separate page.
 #### Selection and custom exams
 
 - Keep question-bank selections temporary and separate from stars. Selection identifies questions for bulk actions or custom exams; it does not star them.
-- Allow users to select some or all questions and create a custom exam from that selection.
+- Allow users to select some or all questions and save that selection as a custom exam. Custom exams exist only as saved exams; there are no unsaved, one-off custom exams.
 - Preserve selections when filters or search change, so users can combine questions from different sections.
 - Make "select all" add every question matching the current filters and search, including matches not currently displayed.
 - Show the total selected and how many selected questions are hidden by the current filters. Provide "Clear selection" to remove the complete selection.
-- Support starring the selected questions in bulk or using them to create a custom exam. Apply these actions to the complete selection, including hidden questions.
+- Support starring the selected questions in bulk or saving them as a custom exam. Apply these actions to the complete selection, including hidden questions.
 - Disable selection-based actions when no questions are selected.
 - Custom exams use the same question, immediate-feedback and answer-locking behaviour as the practice exams, but have no time limit.
 - Show a score for custom exams without a pass/fail result.

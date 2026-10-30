@@ -10,7 +10,7 @@
       "To promote work in your local community"
     ],
     "correct-answer": [0, 1],
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "Looking after yourself and your family, and caring for your local area and the environment, are responsibilities shared by citizens and residents. The handbook links these everyday responsibilities to wider principles, including treating others fairly and participating in community life."
   },
   {
@@ -24,7 +24,7 @@
       "The Houses of the Parliament"
     ],
     "correct-answer": 3,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "Big Ben is the Great Bell inside Elizabeth Tower at the Palace of Westminster, where the Houses of Parliament meet. The name is often used for the clock or tower, but it originally refers to the bell."
   },
   {
@@ -33,7 +33,7 @@
     "type": "single",
     "options": ["1918", "1903", "1928", "1923"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives 1928 for equal voting ages of 21, matching this practice answer. Correction: its claim that this preceded Pankhurst's death is inaccurate; she died on 14 June 1928 and the Act became law on 2 July 1928. Clarification: in 1918, only women aged 30 and over who met qualifying conditions received the parliamentary vote. A separate 1918 Act permitted women to stand for Parliament from 21."
   },
   {
@@ -47,7 +47,7 @@
       "South east of Europe"
     ],
     "correct-answer": 2,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The UK lies off the north-west coast of mainland Europe. The handbook illustrates its extent with the approximately 870 miles between John O'Groats in northern Scotland and Land's End in south-west England."
   },
   {
@@ -56,7 +56,7 @@
     "type": "single",
     "options": ["St David", "St Patrick", "St George", "St Andrew"],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St Andrew is Scotland's patron saint, celebrated on 30 November. The other options belong elsewhere: St George to England, St David to Wales and St Patrick to Northern Ireland."
   },
   {
@@ -70,7 +70,7 @@
       "The House of Newcastle"
     ],
     "correct-answer": [1, 2],
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Wars of the Roses were struggles for England's throne between the Houses of Lancaster and York, associated with red and white roses. After victory at Bosworth in 1485, Henry Tudor became Henry VII and married Elizabeth of York, uniting the rival families."
   },
   {
@@ -79,7 +79,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Bill of Rights of 1689 confirmed the rights of Parliament and limited the king's power; it did not give all adult men the vote. At that time only men who owned property of a certain value could vote."
   },
   {
@@ -93,7 +93,7 @@
       "A theatre"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "The Cenotaph in Whitehall, London, is a war memorial designed by Sir Edwin Lutyens after the First World War. It is the focus of the national Remembrance Sunday service, commemorating people who died in war."
   },
   {
@@ -107,7 +107,7 @@
       "Florence Nightingale"
     ],
     "correct-answer": 2,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Margaret Thatcher became the UK's first woman Prime Minister after the Conservatives won the 1979 election, serving until 1990. Her government privatised nationalised industries and introduced legal controls on trade union powers."
   },
   {
@@ -121,7 +121,7 @@
       "The archbishop of Canterbury"
     ],
     "correct-answer": 2,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The Speaker chairs House of Commons debates, calls MPs to speak and maintains order. Although elected as an MP, the Speaker sets aside party affiliation and acts impartially rather than leading the government's side of a debate."
   },
   {
@@ -135,7 +135,7 @@
       "Bobby Moore"
     ],
     "correct-answer": 3,
-    "tags": ["sport", "outdated"],
+    "tags": ["ch4", "ch4.4", "outdated"],
     "explanation": "The reference names Bobby Moore as the 1966 World Cup captain, matching this answer. Outdated reference context: its wider claim that this was England's only international tournament victory is outdated; England's women won the Euros in 2022 and 2025."
   },
   {
@@ -144,7 +144,7 @@
     "type": "single",
     "options": ["1466", "1066", "1254", "1588"],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1588 the English defeated the Spanish Armada, a large fleet sent by Spain to conquer England and restore Catholicism. Elizabeth I was queen, and the victory made her one of the most popular monarchs in English history."
   },
   {
@@ -153,7 +153,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference says anyone can complain by writing to the Chief Constable, supporting this practice set’s True answer. Clarification: eligibility and procedures depend on jurisdiction; in England and Wales, seeing an incident reported in the media might not qualify you to complain. A complaint about a chief constable personally follows a different route. Outdated reference context: the Independent Office for Police Conduct replaces the reference’s Independent Police Complaints Commission in England and Wales, and a representative can help you complain."
   },
   {
@@ -162,7 +162,7 @@
     "type": "single",
     "options": ["16", "18", "21", "25"],
     "correct-answer": 1,
-    "tags": ["your-role-in-the-community", "outdated"],
+    "tags": ["ch5", "ch5.7", "outdated"],
     "explanation": "The reference gives a minimum jury-service age of 18, matching this practice answer. Clarification: potential jurors come from the electoral register and must meet other eligibility rules. Outdated reference context: the reference’s 18–70 range is not a current UK-wide rule; England and Wales use 18–75, and Scotland permits excusal from 71."
   },
   {
@@ -176,7 +176,7 @@
       "From a postcode selection"
     ],
     "correct-answer": 1,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference says jurors are chosen randomly from the electoral register, matching this practice answer. Clarification: selection is subject to eligibility rules, including age and residence requirements, rather than volunteering or NHS registration. Outdated reference context: the reference’s 18–70 range on reference p. 93 is not universal today; England and Wales use 18–75, and Scotland permits excusal from 71."
   },
   {
@@ -190,7 +190,7 @@
       "A public holiday when banks and many other businesses are closed for the day"
     ],
     "correct-answer": 3,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Bank holidays are public holidays when banks and many businesses usually close, although closure is not compulsory. They are not just holidays for bank staff, and workers do not automatically have a legal entitlement to an extra paid day off."
   },
   {
@@ -204,7 +204,7 @@
       "A poll tax relief"
     ],
     "correct-answer": 1,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "A poll card tells a registered voter when the election takes place and where their polling station is. It is not the ballot paper: that is issued for casting the vote, and most voters do not need to bring their poll card."
   },
   {
@@ -216,7 +216,7 @@
       "Solicitors’ charges are usually based on the nature of a case and its importance"
     ],
     "correct-answer": 0,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference says solicitors’ charges usually depend on time spent, matching this practice answer. Clarification: this describes hourly billing; solicitors also offer fixed fees and other arrangements. It does not mean the nature or complexity of a case cannot affect fees, so agree on the charging basis and likely cost at the start."
   },
   {
@@ -225,7 +225,7 @@
     "type": "multi",
     "options": ["Television", "Internet", "Newspapers", "Radio"],
     "correct-answer": [0, 3],
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference names television and radio and says rival viewpoints must receive equal time, matching this practice answer. Correction: Ofcom requires due impartiality and appropriate weight for parties and viewpoints, not universally identical airtime. Television and radio remain the intended pair, but the question overstates the legal rule."
   },
   {
@@ -234,7 +234,7 @@
     "type": "single",
     "options": ["Northern Ireland", "Wales", "The Channel Islands", "Scotland"],
     "correct-answer": 2,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "The Channel Islands and the Isle of Man are Crown dependencies with their own governments, not parts of the UK. The UK itself consists of England, Scotland, Wales and Northern Ireland; British overseas territories form another distinct group."
   },
   {
@@ -243,7 +243,7 @@
     "type": "single",
     "options": ["Radar", "Hovercraft", "Jet engine", "Ballpoint pen"],
     "correct-answer": 2,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Sir Frank Whittle was a Royal Air Force engineer officer who developed the jet engine in Britain during the 1930s. The handbook places his work among major British technological achievements, alongside radar and later aircraft such as Concorde."
   },
   {
@@ -257,7 +257,7 @@
       "William Wordsworth"
     ],
     "correct-answer": 3,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "William Wordsworth wrote the poem commonly called The Daffodils, which opens 'I wandered lonely as a cloud'. It recalls the wild daffodils he saw beside Ullswater in the Lake District with his sister Dorothy in 1802, illustrating how nature inspired his poetry."
   },
   {
@@ -271,7 +271,7 @@
       "Oliver Cromwell"
     ],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Oliver Cromwell, the general who led the parliamentary army, was given the title Lord Protector and ruled until his death in 1658. His son Richard succeeded him but could not control the army or the government."
   },
   {
@@ -280,7 +280,7 @@
     "type": "single",
     "options": ["Diwali", "Lent", "Hannukah", "Vaisakhi"],
     "correct-answer": 1,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Lent prepares Christians for Easter through reflection, prayer and, traditionally, fasting or giving something up. It begins on Ash Wednesday, after Shrove Tuesday or Pancake Day. Its traditional 40-day count excludes Sundays."
   },
   {
@@ -289,7 +289,7 @@
     "type": "single",
     "options": ["Health", "Defence", "Education", "Policing"],
     "correct-answer": 3,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Policing falls within the Home Secretary's Home Office responsibilities, alongside crime and immigration. Policing arrangements differ across the UK because Scotland and Northern Ireland have devolved responsibility for their own policing systems."
   },
   {
@@ -298,7 +298,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "St Helena is a British overseas territory, linked to the UK but not part of it, as are the Falkland Islands. The UK is made up of England, Scotland, Wales and Northern Ireland only."
   },
   {
@@ -307,7 +307,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "Because the Church of England is the established Church, several of its bishops sit in the House of Lords. This follows from the constitutional link between Church and state in England."
   },
   {
@@ -321,7 +321,7 @@
       "That your dog does not bark"
     ],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference requires a collar showing the owner's name and address, matching this answer. Clarification: the Great Britain rule covers highways and places of public resort, with specific exceptions; the identifying details can appear on an attached plate or tag rather than directly on the collar."
   },
   {
@@ -335,7 +335,7 @@
       "The Civil War"
     ],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference links women's 1918 voting rights partly to their First World War contribution, matching this practice answer. Clarification: the parliamentary vote covered women aged 30 and over who met qualifying conditions, not every woman over 30. A separate 1918 Act permitted women to stand for Parliament from 21; equal voting terms with men followed in 1928."
   },
   {
@@ -344,7 +344,7 @@
     "type": "single",
     "options": ["1925", "1939", "1949", "1927"],
     "correct-answer": 2,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Ireland became a republic in 1949. Most of the island had formed the Irish Free State in 1922, while the six counties of Northern Ireland remained part of the United Kingdom."
   },
   {
@@ -358,7 +358,7 @@
       "North-west Asia"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The handbook traces the ancestors of Britain's first farmers to south-east Europe. Farming reached Britain about 6,000 years ago, and these communities built houses, tombs and monuments, changing a landscape previously used by hunter-gatherers."
   },
   {
@@ -367,7 +367,7 @@
     "type": "single",
     "options": ["David Hockney", "Lucian Freud", "John Petts", "Henry Moore"],
     "correct-answer": 0,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "David Hockney, born in 1937, was an important contributor to the pop art movement of the 1960s and remains influential. Lucian Freud painted portraits, Henry Moore made large bronze abstract sculptures and John Petts was known for engravings and stained glass."
   },
   {
@@ -381,7 +381,7 @@
       "Sir Robert Walpole"
     ],
     "correct-answer": 0,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Winston Churchill became Prime Minister in May 1940, at a time of national crisis after German forces advanced through France. He refused to surrender to the Nazis and was an inspirational leader to the British people."
   },
   {
@@ -395,7 +395,7 @@
       "William, the Duke of Normandy"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Julius Caesar led the Roman invasion of 55 BC, but it did not establish lasting Roman rule. The successful invasion under Emperor Claudius began in AD 43, nearly a century later."
   },
   {
@@ -409,7 +409,7 @@
       "Robert the Bruce"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference names Alfred the Great as the king who united the Anglo-Saxon kingdoms against the Vikings, matching this practice answer. Clarification: this simplifies his achievement as king of Wessex. His victory at Edington in 878 preserved Wessex, but Danish control continued across much of northern and eastern England in the Danelaw."
   },
   {
@@ -418,7 +418,7 @@
     "type": "single",
     "options": ["1514", "1215", "1415", "1314"],
     "correct-answer": 1,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "King John agreed to Magna Carta in 1215 after pressure from his noblemen. Its name means 'Great Charter', and it established the important principle that even the king was subject to the law."
   },
   {
@@ -427,7 +427,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Authorised banks in Northern Ireland issue genuine sterling banknotes that can be used elsewhere in the UK if the recipient accepts them. 'Valid' does not mean that shops must accept them: these notes are not legal tender anywhere in the UK."
   },
   {
@@ -441,7 +441,7 @@
       "Great Expectations"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "A Midsummer Night's Dream is one of William Shakespeare's best-known plays. His work also includes Hamlet, Macbeth and Romeo and Juliet, and the handbook highlights his lasting influence on English language and literature."
   },
   {
@@ -450,7 +450,7 @@
     "type": "single",
     "options": ["9", "12", "15", "20"],
     "correct-answer": 1,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "A criminal trial jury normally has 12 members in England, Wales and Northern Ireland. Jurors consider the evidence and decide the verdict; this differs from Scotland, where a criminal jury normally has 15 members."
   },
   {
@@ -459,7 +459,7 @@
     "type": "multi",
     "options": ["Buddhists", "Hindus", "Jews", "Sikhs"],
     "correct-answer": [1, 3],
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "The handbook names Hindus and Sikhs as the two communities for this question. It describes Diwali as the Festival of Lights, usually celebrated in October or November, with themes of good overcoming evil and knowledge overcoming ignorance."
   },
   {
@@ -473,7 +473,7 @@
       "The day when Jesus Christ became 30 years old"
     ],
     "correct-answer": 2,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Good Friday commemorates the crucifixion and death of Jesus Christ. Christians celebrate his resurrection on Easter Sunday, two days later; his birth is celebrated at Christmas, so these events belong to different parts of the Christian calendar."
   },
   {
@@ -482,7 +482,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St Patrick's Day, 17 March, is a bank holiday in Northern Ireland. Scotland similarly has a bank holiday for St Andrew's Day, but St George's Day in England and St David's Day in Wales are not bank holidays."
   },
   {
@@ -496,7 +496,7 @@
       "The Norman Conquest"
     ],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference calls the Norman Conquest of 1066 England's last successful foreign invasion, matching this practice answer. William of Normandy defeated Harold at Hastings and became William the Conqueror. Clarification: 'last successful foreign invasion' is a historical convention, not an uncontested description; William of Orange's later intervention in 1688 complicates that absolute wording."
   },
   {
@@ -510,7 +510,7 @@
       "At Windsor Castle"
     ],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The Crown Jewels are kept under armed guard in the Jewel House at the Tower of London. They include coronation regalia and remain a working collection used for important royal ceremonies."
   },
   {
@@ -519,7 +519,7 @@
     "type": "single",
     "options": ["Golf", "Tennis", "Football", "Rugby"],
     "correct-answer": 0,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The modern game of golf can be traced back to 15th-century Scotland. St Andrews is known as the home of golf, and The Open Championship is a major golf tournament played on a rotating group of courses."
   },
   {
@@ -533,7 +533,7 @@
       "William Caxton"
     ],
     "correct-answer": 3,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "William Caxton was the first person in England to print books using a printing press. His early publications included Chaucer's Canterbury Tales, an important work in English about pilgrims travelling to Canterbury."
   },
   {
@@ -547,7 +547,7 @@
       "Crown Court"
     ],
     "correct-answer": 2,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "Magistrates' courts handle minor criminal offences, such as many motoring offences and minor criminal damage. More serious cases can be sent to the Crown Court; Scotland instead uses Justice of the Peace Courts for many minor offences."
   },
   {
@@ -556,7 +556,7 @@
     "type": "single",
     "options": ["Television", "Radar", "Personal computer", "Radio"],
     "correct-answer": 0,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The reference credits John Logie Baird with developing television, matching this practice answer. Correction: its date of 1932 for his London-to-Glasgow television transmission is wrong; that experiment took place in 1927. Baird had publicly demonstrated television in 1926, so the transmission date does not change the invention identified here."
   },
   {
@@ -565,7 +565,7 @@
     "type": "single",
     "options": ["Communism", "Intolerance", "Individual liberty", "Inequity"],
     "correct-answer": 2,
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "The reference explicitly lists individual liberty, so this answer matches its fundamental principles. The question asks which principle appears in that list, not whether an unlisted political belief is illegal. Individual liberty accompanies freedoms such as speech and religion and respect for other people's rights."
   },
   {
@@ -574,7 +574,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "Wales has churches, but no established state Church. The Church in Wales was disestablished in 1920; this differs from England, where the Church of England retains a constitutional link with the state."
   },
   {
@@ -583,7 +583,7 @@
     "type": "single",
     "options": ["Vaisakhi", "Hannukah", "Diwali", "Hogmanay"],
     "correct-answer": 3,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "In Scotland, New Year's Eve, 31 December, is called Hogmanay, and 2 January is a public holiday too. Vaisakhi, Diwali and Hannukah are religious festivals, not Scottish names for the new year."
   },
   {
@@ -597,7 +597,7 @@
       "Because the Pope didn’t let him divorce his wife, Anne of Cleves"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Henry VIII needed the Pope's approval to divorce his first wife, Catherine of Aragon, because she had not given him a surviving son. When the Pope refused, Henry established the Church of England with the king, not the Pope, in charge."
   },
   {
@@ -611,7 +611,7 @@
       "The Boer War"
     ],
     "correct-answer": 2,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Hundred Years War was a prolonged conflict between English and French kings that lasted 116 years. One famous English victory was Agincourt in 1415, where Henry V's outnumbered army defeated the French."
   },
   {
@@ -625,7 +625,7 @@
       "Kenneth MacAlpin"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Charles Edward Stuart, known as Bonnie Prince Charlie and grandson of James II, landed in Scotland in 1745. Highland clansmen supported him and he raised an army, but he was defeated at Culloden in 1746."
   },
   {
@@ -639,7 +639,7 @@
       "Your family"
     ],
     "correct-answer": 1,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "Contact the police if you suspect someone is trying to recruit you into terrorism. They can assess the risk and take protective or investigative action; call 999 if someone is in immediate danger."
   },
   {
@@ -648,7 +648,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["your-role-in-the-community", "outdated"],
+    "tags": ["ch5", "ch5.7", "outdated"],
     "explanation": "The reference describes National Citizen Service as a volunteering opportunity for 16- and 17-year-olds, supporting this practice set’s False answer about compulsory participation. Outdated reference context: programme delivery ended on 31 March 2025, so it is no longer open to new applicants. The quoted ages describe its main group, not an exclusive statutory age range."
   },
   {
@@ -657,7 +657,7 @@
     "type": "single",
     "options": ["Knights", "Chartists", "Suffragettes", "Beefeaters"],
     "correct-answer": 3,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The Tower's guides are Yeoman Warders, commonly called Beefeaters. Their tours describe the building's history and its famous prisoners, and their work also includes ceremonial and security duties."
   },
   {
@@ -666,7 +666,7 @@
     "type": "multi",
     "options": ["Italy", "Britain", "Germany", "France"],
     "correct-answer": [1, 3],
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The reference names Britain and France as Concorde's developers, matching both selections in this practice answer. Concorde first flew in 1969, carried passengers from 1976 and retired in 2003. Correction: the reference and question incorrectly call it the world's only supersonic commercial airliner; the Soviet Tu-144 also operated passenger services."
   },
   {
@@ -675,7 +675,7 @@
     "type": "single",
     "options": ["Scotland", "Wales", "England", "Northern Ireland"],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "Snowdonia is in North Wales and is also known by its Welsh name, Eryri. This mountainous national park includes Yr Wyddfa, known in English as Snowdon, the highest mountain in Wales."
   },
   {
@@ -689,7 +689,7 @@
       "Sir Arthur Conan Doyle"
     ],
     "correct-answer": 3,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Sir Arthur Conan Doyle, a Scottish doctor and writer, created Sherlock Holmes. The other novelists wrote different works: Evelyn Waugh wrote Brideshead Revisited, Kingsley Amis wrote Lucky Jim and Graham Greene wrote Brighton Rock."
   },
   {
@@ -698,7 +698,7 @@
     "type": "single",
     "options": ["Austria", "Italy", "Russia", "Poland"],
     "correct-answer": 3,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "When Hitler invaded Poland in 1939, Britain and France declared war to stop his aggression. Hitler had already occupied Austria and invaded Czechoslovakia before turning on Poland."
   },
   {
@@ -707,7 +707,7 @@
     "type": "single",
     "options": ["St David", "St George", "St Patrick", "St Andrew"],
     "correct-answer": 0,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St David is the patron saint of Wales, celebrated on 1 March. St George, St Patrick and St Andrew are the patron saints of England, Northern Ireland and Scotland."
   },
   {
@@ -716,7 +716,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The statement is true: the Lake District covers about 2,362 square kilometres, making it England's largest national park. Its landscape includes England's highest mountain, Scafell Pike, and deepest lake, Wastwater."
   },
   {
@@ -725,7 +725,7 @@
     "type": "single",
     "options": ["Soho", "Theatreland", "Westminster", "Hyde Park"],
     "correct-answer": 1,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Theatreland refers to the concentration of theatres in London's West End. It is associated with plays and musicals, including Agatha Christie's The Mousetrap, which opened in the West End in 1952."
   },
   {
@@ -739,7 +739,7 @@
       "Giving awards to the best students of the school"
     ],
     "correct-answer": [1, 2],
-    "tags": ["your-role-in-the-community"],
+    "tags": ["ch5", "ch5.7"],
     "explanation": "Governors set the school's strategic direction and monitor and evaluate its performance. These are oversight responsibilities: governors hold school leaders to account, rather than taking over routine classroom management or the everyday running of the school."
   },
   {
@@ -753,7 +753,7 @@
       "There were not enough jobs for the local people"
     ],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The British government wanted to tax the colonies, which the colonists saw as an attack on their freedom. Their principle was no taxation without representation in the British Parliament."
   },
   {
@@ -767,7 +767,7 @@
       "The Iron Age"
     ],
     "correct-answer": 2,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Black Death reached Britain in 1348, during the Middle Ages. The handbook describes enormous loss of life followed by labour shortages, higher wage demands and changes in the balance between peasants and landowners."
   },
   {
@@ -781,7 +781,7 @@
       "Emmeline Pankhurst"
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Emmeline Pankhurst helped found the Women's Social and Political Union in 1903, the first group whose members were called suffragettes. The group used civil disobedience, including smashing windows and arson."
   },
   {
@@ -790,7 +790,7 @@
     "type": "single",
     "options": ["Scotland", "Northern Ireland", "Ireland", "Wales"],
     "correct-answer": 3,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Cardiff is the capital of Wales. Swansea and Newport are also Welsh cities, but they are not its capital; Edinburgh is Scotland's capital and Belfast is Northern Ireland's."
   },
   {
@@ -804,7 +804,7 @@
       "Aviation"
     ],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Shipbuilding was one of the traditional heavy industries badly affected by the Great Depression, which began in 1929. Its effects varied across Britain: some industrial areas suffered mass unemployment, while newer car and aircraft industries developed."
   },
   {
@@ -818,7 +818,7 @@
       "Mo Farah"
     ],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Roger Bannister ran the first mile in under four minutes, in 1954. Chris Hoy was a cyclist, David Weir a Paralympic wheelchair racer and Mo Farah a distance runner over 5,000 and 10,000 metres."
   },
   {
@@ -827,7 +827,7 @@
     "type": "single",
     "options": ["Hannukah", "Vaisakhi", "Eid ul Adha", "Eid al-Fitr"],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "Eid al-Fitr marks the completion of Ramadan, the Muslim month of fasting. Eid ul Adha is a separate Muslim festival; Hanukkah belongs to Judaism and Vaisakhi to Sikhism, so neither marks the end of Ramadan."
   },
   {
@@ -841,7 +841,7 @@
       "Battle of Agincourt"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference says the French Wars ended at Waterloo in 1815, supporting Waterloo as this practice answer. Wellington's victory marked Napoleon's final defeat. Clarification: the question's claim that this was the last battle between Britain and France goes beyond that passage; British forces later fought Vichy French forces during the Second World War."
   },
   {
@@ -850,7 +850,7 @@
     "type": "single",
     "options": ["Daffodil", "Rose", "Shamrock", "Thistle"],
     "correct-answer": 0,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The daffodil is associated with Wales and is sometimes worn on its national saint's day. The other symbols are the rose for England, the thistle for Scotland and the shamrock for Northern Ireland."
   },
   {
@@ -859,7 +859,7 @@
     "type": "single",
     "options": ["A war", "A flood", "A fire", "An earthquake"],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1666, the year after a major plague outbreak, a great fire destroyed much of London, including many churches and St Paul's Cathedral. Samuel Pepys wrote about both events in his diary."
   },
   {
@@ -873,7 +873,7 @@
       "Every 10 years"
     ],
     "correct-answer": 2,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The reference says general elections are held at least every five years, supporting this practice set’s five-year answer. Clarification: that does not require elections at exact five-year intervals. A Parliament can last up to five years from its first meeting, and an earlier election can be called."
   },
   {
@@ -882,7 +882,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Authorised Scottish banks issue genuine sterling banknotes that can be used throughout the UK by agreement. These notes are not legal tender, even in Scotland, and a shop can refuse them; their validity as currency does not guarantee acceptance."
   },
   {
@@ -891,7 +891,7 @@
     "type": "single",
     "options": ["Shelter", "Age UK", "Crisis", "The National Trust"],
     "correct-answer": 3,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The National Trust conserves historic buildings, countryside and coastline in England, Wales and Northern Ireland. The National Trust for Scotland is a separate charity with a similar conservation purpose in Scotland."
   },
   {
@@ -900,7 +900,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "Great Britain covers England, Scotland and Wales only. The full country is the United Kingdom of Great Britain and Northern Ireland, so Northern Ireland sits outside Great Britain."
   },
   {
@@ -909,7 +909,7 @@
     "type": "single",
     "options": ["Cleopatra", "Claudia", "Boudicca", "St Augustine"],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Boudicca was queen of the Iceni, in what is now eastern England, and led resistance against the Roman occupation. Her statue stands on Westminster Bridge in London, near the Houses of Parliament."
   },
   {
@@ -923,7 +923,7 @@
       "Mo Farat"
     ],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The public voted Winston Churchill the greatest Briton of all time in 2002. He was Britain's war leader from May 1940, lost the 1945 general election, and returned as Prime Minister in 1951."
   },
   {
@@ -937,7 +937,7 @@
       "House of Fraser"
     ],
     "correct-answer": [0, 2],
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The two parliamentary chambers are the House of Commons and the House of Lords. MPs sit in the elected Commons, while the unelected Lords examines legislation and government activity; the Crown is also a constitutional part of Parliament."
   },
   {
@@ -946,7 +946,7 @@
     "type": "single",
     "options": ["1918", "1928", "1938", "1948"],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives 1928 for women receiving the vote at 21 on the same terms as men, matching this practice answer. Correction: this followed Pankhurst's death on 14 June 1928; the Act became law on 2 July, contrary to the reference's reversed chronology. Clarification: the 1918 vote required women to be at least 30 and meet qualifying conditions. A separate 1918 Act permitted women to stand for Parliament from 21."
   },
   {
@@ -960,7 +960,7 @@
       "The monarch"
     ],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "The monarch's formal title in the Church of England is Supreme Governor. The handbook calls the monarch its head, distinguishing this constitutional role from the Archbishop of Canterbury's spiritual leadership. The Pope leads the Roman Catholic Church, not the Church of England."
   },
   {
@@ -969,7 +969,7 @@
     "type": "single",
     "options": ["Rugby", "Golf", "Horse Racing", "Tennis"],
     "correct-answer": 2,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The Grand National is a horse race held at Aintree near Liverpool, one of Britain's most famous horse-racing events alongside Royal Ascot and the Scottish Grand National at Ayr."
   },
   {
@@ -978,7 +978,7 @@
     "type": "single",
     "options": ["Poems", "Novels", "Jokes", "Fables"],
     "correct-answer": 0,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The handbook describes The Canterbury Tales as a collection of poems by Geoffrey Chaucer. Pilgrims tell stories during their journey to Canterbury, and the collection was among the first books printed in England by William Caxton."
   },
   {
@@ -992,7 +992,7 @@
       "27th of December"
     ],
     "correct-answer": 1,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ and is a public holiday. Many Christians attend church on Christmas Eve, 24 December, or on the day itself."
   },
   {
@@ -1001,7 +1001,7 @@
     "type": "single",
     "options": ["Roundheads", "Suffragettes", "Quakers", "Cavaliers"],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Cavaliers supported King Charles I in the Civil War that began in 1642; Roundheads supported Parliament. The king's army was defeated at Marston Moor and Naseby, and Charles was executed in 1649."
   },
   {
@@ -1015,7 +1015,7 @@
       "The Battle of Britain"
     ],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The Bayeux Tapestry is a long embroidered cloth depicting the Norman Conquest, including the Battle of Hastings in 1066. William of Normandy defeated Harold there and became king of England."
   },
   {
@@ -1029,7 +1029,7 @@
       "Whitehall"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Anne Boleyn, Henry VIII's second wife and Elizabeth I's mother, was executed at the Tower of London. Henry subsequently married Jane Seymour, who gave birth to his son and successor, Edward VI."
   },
   {
@@ -1038,7 +1038,7 @@
     "type": "single",
     "options": ["Civil offences", "Criminal offences"],
     "correct-answer": 1,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference lists racial crime and prohibited smoking among criminal offences, matching this practice answer. Clarification: smoking is not banned in every public place; the reference describes nearly every enclosed public place. The criminal classification concerns racially aggravated conduct and smoking where smoke-free law prohibits it, rather than ordinary civil disputes."
   },
   {
@@ -1047,7 +1047,7 @@
     "type": "single",
     "options": ["A superhero", "A tramp", "A scientific genius", "A bandit"],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The Tramp was Charlie Chaplin's famous silent-film character, rather than a superhero or scientific genius. Chaplin was British but built a career in Hollywood, linking the early British and American film industries."
   },
   {
@@ -1056,7 +1056,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The minimum age to stand as an MP is 18, not 21. Candidates must also satisfy nationality requirements and avoid legal disqualifications; standing as an independent is possible without joining a political party."
   },
   {
@@ -1070,7 +1070,7 @@
       "Sir Robert Watson-Watt"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Sir Robert Watson-Watt developed radar in Britain, proposing that radio waves could detect enemy aircraft. The handbook dates a successful test to 1935, placing this work before the Second World War."
   },
   {
@@ -1084,7 +1084,7 @@
       "10 Downing Street"
     ],
     "correct-answer": 3,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Number 10 Downing Street in London is the Prime Minister's official residence and office. It serves the head of government, whereas Buckingham Palace and Windsor Castle are associated with the monarch."
   },
   {
@@ -1098,7 +1098,7 @@
       "May or June"
     ],
     "correct-answer": 2,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Easter falls in March or April in the calendar used for this test. Good Friday commemorates Jesus Christ's death and Easter Sunday celebrates his resurrection; unlike Christmas on 25 December, Easter does not have a fixed calendar date."
   },
   {
@@ -1107,7 +1107,7 @@
     "type": "single",
     "options": ["1p", "5p", "25p", "£1"],
     "correct-answer": 2,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The reference's coin list contains no 25p denomination, supporting the expected answer within that list. Clarification: commemorative 25p crowns exist and remain legal tender, although they are not everyday circulating coins. The question's phrase 'not a valid UK coin' is therefore broader than the reference's teaching scope."
   },
   {
@@ -1116,7 +1116,7 @@
     "type": "single",
     "options": ["Dorset", "Cornwall", "Devon", "Somerset"],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The Eden Project is at Bodelva in Cornwall, in south-west England. Its large enclosed biomes contain plants from different climates, including a tropical rainforest and a Mediterranean garden."
   },
   {
@@ -1125,7 +1125,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "St Helena and the Falkland Islands are British overseas territories, linked to the UK but not part of it. Great Britain means England, Scotland and Wales only."
   },
   {
@@ -1139,7 +1139,7 @@
       "Join a political party"
     ],
     "correct-answer": [1, 2],
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "Democracy and the rule of law are two of the five fundamental principles, which also include individual liberty, tolerance of different faiths and beliefs, and participation in community life. The monarchy is not on that list, and joining a political party is a personal choice."
   },
   {
@@ -1153,7 +1153,7 @@
       "The British Embassy"
     ],
     "correct-answer": 0,
-    "tags": ["your-role-in-the-community", "outdated"],
+    "tags": ["ch5", "ch5.7", "outdated"],
     "explanation": "The reference identifies the electoral register as the source for random jury selection, matching this practice answer. Clarification: you do not volunteer for a particular jury, and registration alone does not guarantee selection or eligibility. Outdated reference context: its 18–70 range is not universal today; England and Wales use 18–75, and Scotland permits excusal from 71."
   },
   {
@@ -1162,7 +1162,7 @@
     "type": "single",
     "options": ["Catholic", "Baptist", "Presbyterian", "Methodist"],
     "correct-answer": 2,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "The Church of Scotland is Presbyterian: it is governed through ministers, elders and church assemblies rather than bishops. It is Scotland's national Church and is independent of the state in spiritual matters; the monarch is not its head."
   },
   {
@@ -1171,7 +1171,7 @@
     "type": "single",
     "options": ["Wales", "Australia", "Ireland", "Scotland"],
     "correct-answer": 3,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The modern game of golf developed in Scotland and can be traced back to the 15th century. St Andrews is known as the home of golf; the sport is now played socially and professionally across the UK."
   },
   {
@@ -1185,7 +1185,7 @@
       "April Fool’s Day"
     ],
     "correct-answer": 3,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "On April Fool's Day, 1 April, television and newspapers often carry joke stories, and people play jokes on each other until midday. Valentine's Day, Halloween and Boxing Day are separate celebrations."
   },
   {
@@ -1194,7 +1194,7 @@
     "type": "single",
     "options": ["Richard III", "Charles II", "James I", "Henry IV"],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "After his father's execution, Charles II was crowned king in Scotland and later led an army into England. Cromwell defeated him at Worcester; during his escape, Charles famously hid in an oak tree before fleeing to Europe."
   },
   {
@@ -1203,7 +1203,7 @@
     "type": "single",
     "options": ["Edward I", "Henry V", "Henry VII", "Henry VIII"],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Elizabeth I was the daughter of Henry VIII and Anne Boleyn. She succeeded her half-sister Mary I and restored a Protestant Church of England, continuing the religious changes begun during her father's reign."
   },
   {
@@ -1212,7 +1212,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference lists police stations, Chief Constables and independent bodies as complaint routes, supporting this practice set’s False answer. Clarification: eligibility and procedures depend on jurisdiction, and complaints about a chief constable personally follow a different route. Outdated reference context: in England and Wales, you can complain to the force in person, by telephone or in writing, or through the Independent Office for Police Conduct, which replaces the reference’s Independent Police Complaints Commission. A representative can also help; there is no sole compulsory written route."
   },
   {
@@ -1221,7 +1221,7 @@
     "type": "single",
     "options": ["St George", "St Patrick", "St Andrew", "St David"],
     "correct-answer": 1,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St Patrick is the patron saint of Northern Ireland, celebrated on 17 March. St George, St Andrew and St David are the patron saints of England, Scotland and Wales."
   },
   {
@@ -1235,7 +1235,7 @@
       "The Reformation"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Enlightenment brought new ideas about politics, philosophy and science during the 18th century. Scottish thinkers included Adam Smith and David Hume, and a central principle was people's right to hold their own political and religious beliefs."
   },
   {
@@ -1247,7 +1247,7 @@
       "Mary Stuart (‘Mary, Queen of Scots’) was a Catholic"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Mary Stuart was a Catholic, while her son James VI of Scotland was Protestant. Her religion, and her claim to the English throne, made Elizabeth I suspect her and keep her prisoner."
   },
   {
@@ -1261,7 +1261,7 @@
       "To carry a weapon of any kind, even if it is for self-defence"
     ],
     "correct-answer": 2,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "Workplace discrimination is an employment-law matter that can lead to a civil claim, often before an employment tribunal. The claim concerns enforcing employment rights and obtaining remedies, rather than prosecuting an ordinary criminal charge."
   },
   {
@@ -1275,7 +1275,7 @@
       "The Battle of Bannockburn"
     ],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Nelson commanded the British fleet at Trafalgar in 1805 and was killed in the battle. Nelson's Column in Trafalgar Square and HMS Victory in Portsmouth commemorate him."
   },
   {
@@ -1289,7 +1289,7 @@
       "The ‘Blitz’"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The reference identifies William and Mary's takeover as the Glorious Revolution, matching this practice answer. The 1688 settlement displaced James II and strengthened Parliament. Correction: the reference's claim of no fighting in England is inaccurate; the Reading Skirmish involved deadly fighting, so 'largely peaceful' is more accurate than 'without resistance'."
   },
   {
@@ -1303,7 +1303,7 @@
       "A charity working with older people"
     ],
     "correct-answer": 0,
-    "tags": ["your-role-in-the-community"],
+    "tags": ["ch5", "ch5.7"],
     "explanation": "The reference includes Friends of the Earth among environmental charities, matching this practice answer. Clarification: the organisation includes a campaigning company and a separate charitable trust, so not every part has charitable status. The trust supports environmental conservation, sustainable use of natural resources and environmental education."
   },
   {
@@ -1312,7 +1312,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "Marriage does not create permanent consent to sex. A husband who rapes his wife can be prosecuted, because consent must be freely given for the sexual activity concerned and can be withdrawn."
   },
   {
@@ -1321,7 +1321,7 @@
     "type": "single",
     "options": ["Netherlands", "Falkland Islands", "Gibraltar", "South Africa"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Boer War of 1899 to 1902 took place in South Africa, where Britain fought the Boers, a settler population of Dutch origin. The conflict's deaths and costs intensified debate in Britain about the future of the Empire."
   },
   {
@@ -1335,7 +1335,7 @@
       "Persuading people to vote for a political party"
     ],
     "correct-answer": 3,
-    "tags": ["your-role-in-the-community"],
+    "tags": ["ch5", "ch5.7"],
     "explanation": "Canvassing means approaching voters to seek support for a candidate or political party, often by knocking on doors or speaking in the street. It is part of election campaigning, and voters remain free to keep their intentions private."
   },
   {
@@ -1349,7 +1349,7 @@
       "The Lord of the Rings"
     ],
     "correct-answer": 3,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "In 2003, The Lord of the Rings by JRR Tolkien was voted the country's best-loved novel. Oliver Twist is by Charles Dickens and Pride and Prejudice by Jane Austen, while James Bond is Ian Fleming's character, not a Tolkien novel."
   },
   {
@@ -1358,7 +1358,7 @@
     "type": "single",
     "options": ["1942", "1941", "1940", "1939"],
     "correct-answer": 3,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Germany invaded Poland in 1939, prompting Britain and France to declare war. The invasion followed earlier German expansion into Austria and Czechoslovakia and marked the beginning of the Second World War in Europe."
   },
   {
@@ -1372,7 +1372,7 @@
       "To look after yourself and your family"
     ],
     "correct-answer": [0, 3],
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "Obeying the law and looking after yourself and your family are responsibilities shared by residents and citizens. They sit alongside respecting other people's rights, treating others fairly and caring for your local area and the environment."
   },
   {
@@ -1386,7 +1386,7 @@
       "The Romans"
     ],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The people of the Iron Age made the first coins minted in Britain, some inscribed with the names of Iron Age kings. The handbook marks this as the beginning of British history."
   },
   {
@@ -1400,7 +1400,7 @@
       "Oliver Cromwell"
     ],
     "correct-answer": 0,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "William the Conqueror founded the Tower of London after the Norman Conquest. He commissioned its great stone keep, the White Tower, to defend London and demonstrate his authority over the city."
   },
   {
@@ -1414,7 +1414,7 @@
       "Medieval buildings"
     ],
     "correct-answer": 2,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "National parks are protected landscapes valued for their countryside, wildlife and cultural heritage. They are also living and working places: designation does not mean that all the land belongs to the park authority."
   },
   {
@@ -1423,7 +1423,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "Northern Ireland has no established state Church, although many Christian churches operate there. The Church of Ireland was disestablished in 1871, before Ireland was partitioned; an established Church means an official constitutional relationship with the state, not simply a large religious community."
   },
   {
@@ -1432,7 +1432,7 @@
     "type": "multi",
     "options": ["Wales", "Northern Ireland", "England", "Scotland"],
     "correct-answer": [0, 2, 3],
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "Great Britain means England, Scotland and Wales. Northern Ireland completes the United Kingdom but is not part of Great Britain, which is why the country's full name lists it separately."
   },
   {
@@ -1441,7 +1441,7 @@
     "type": "single",
     "options": ["Every day", "Every week", "Every two weeks", "Once a month"],
     "correct-answer": 1,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Prime Minister's Questions normally takes place weekly when the House of Commons is sitting. MPs question the Prime Minister about government policy and decisions, making it a regular opportunity to hold the government to account."
   },
   {
@@ -1450,7 +1450,7 @@
     "type": "single",
     "options": ["James I", "Charles II", "James VII", "Charles I"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference identifies Charles I as the king executed in 1649, matching this practice answer. His execution followed the Civil War between the monarchy and Parliament. England then became a republic called the Commonwealth; Charles II's Restoration brought back the monarchy in 1660."
   },
   {
@@ -1459,7 +1459,7 @@
     "type": "single",
     "options": ["Manchester", "Oldham", "Stratford-upon-Avon", "Lincolnshire"],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Shakespeare was born in Stratford-upon-Avon in 1564. He worked as a playwright and actor in London, and the Globe Theatre there is a modern copy of the playhouses where his plays were first performed."
   },
   {
@@ -1473,7 +1473,7 @@
       "Ellie Simmonds"
     ],
     "correct-answer": [1, 3],
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Grey-Thompson won 16 Paralympic medals, 11 of them gold, in wheelchair races over five Games, and Simmonds won Paralympic swimming gold in 2008, 2012 and 2016. Kelly Holmes and Jayne Torvill competed at the Olympic Games, not the Paralympics."
   },
   {
@@ -1482,7 +1482,7 @@
     "type": "single",
     "options": ["Queen Victoria", "Henry VIII", "Elizabeth I", "Charles II"],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "English settlers first began to colonise the eastern coast of America during the reign of Elizabeth I. The colonisation grew in the next century, largely through people who rejected the religious views of the following kings."
   },
   {
@@ -1491,7 +1491,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-government", "outdated"],
+    "tags": ["ch5", "ch5.3", "outdated"],
     "explanation": "The reference contrasts household registration in Great Britain with individual registration in Northern Ireland, supporting this practice set’s False answer. Outdated reference context: England, Wales and Scotland introduced individual electoral registration in 2014. Scotland and Wales therefore now use individual registration too; the practice key follows the reference’s older distinction, not the current position."
   },
   {
@@ -1500,7 +1500,7 @@
     "type": "single",
     "options": ["Father’s Day", "Christmas Day", "New Year", "Boxing Day"],
     "correct-answer": 1,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ and is a public holiday. Father's Day falls in June, New Year is 1 January and Boxing Day follows Christmas."
   },
   {
@@ -1514,7 +1514,7 @@
       "A battle without rifles"
     ],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Germany needed control of the air before invading Britain, but the Royal Air Force resisted with fighter planes and won this crucial aerial battle in summer 1940. The Spitfire and Hurricane were its most important aircraft."
   },
   {
@@ -1523,7 +1523,7 @@
     "type": "single",
     "options": ["England", "Northern Ireland", "Scotland", "Wales"],
     "correct-answer": 3,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Swansea is a Welsh city, as are Cardiff and Newport. Cardiff, rather than Swansea, is the capital of Wales; the question asks which country contains the city, not whether it is a capital."
   },
   {
@@ -1537,7 +1537,7 @@
       "The Liberal Democrats Party"
     ],
     "correct-answer": [0, 3],
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The reference names the Conservatives and Liberal Democrats as the 2010 coalition partners, matching both selections in this practice answer. David Cameron became Prime Minister. The reference correctly associates February 1974 with the previous election without an overall majority, not a previous coalition; the 2010 government was the first Westminster coalition since the Second World War."
   },
   {
@@ -1551,7 +1551,7 @@
       "William of Orange"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "When the Pope refused to approve Henry VIII's divorce from Catherine of Aragon, Henry broke away from Rome and established the Church of England, with the king, not the Pope, appointing bishops."
   },
   {
@@ -1560,7 +1560,7 @@
     "type": "single",
     "options": ["Measles", "Leprosy", "Smallpox", "The Black Death"],
     "correct-answer": 3,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Black Death reached Britain in 1348. The handbook gives losses of one third of England's population and a similar proportion in Scotland and Wales, with subsequent labour shortages helping peasants demand better wages."
   },
   {
@@ -1569,7 +1569,7 @@
     "type": "single",
     "options": ["Wales", "England", "Northern Ireland", "Scotland"],
     "correct-answer": 3,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Haggis is associated with Scotland and is traditionally made from offal, suet, onions and oatmeal cooked in a casing. Welsh cakes are associated with Wales, and the Ulster fry with Northern Ireland."
   },
   {
@@ -1583,7 +1583,7 @@
       "The Justice of the Peace Court"
     ],
     "correct-answer": 3,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "Justice of the Peace Courts deal with less serious summary offences in Scotland, including many minor road-traffic cases. Lay justices receive training and legal advice; sheriff courts and the High Court handle other levels of criminal business."
   },
   {
@@ -1597,7 +1597,7 @@
       "The Canterbury Tales"
     ],
     "correct-answer": [1, 2],
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference describes the Bayeux Tapestry and Domesday Book, supporting both selections in this practice answer. The tapestry depicts Hastings, while William's 1086 survey records landholdings, resources and values. Clarification: the reference overstates Domesday's coverage; it was not a complete population census or a record of every settlement and inhabitant."
   },
   {
@@ -1611,7 +1611,7 @@
       "Due to the outbreak of the Black Death"
     ],
     "correct-answer": 0,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The First World War broke out before Home Rule could be introduced, so the British government postponed any changes in Ireland. Irish Nationalists then rose in the 1916 Easter Rising, and a peace treaty followed in 1921."
   },
   {
@@ -1623,7 +1623,7 @@
       "Elizabeth I was a Catholic and she succeeded in finding a balance between the views of the Catholics and the more extreme Protestants."
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The reference describes Elizabeth I as Protestant and balancing Catholic and more extreme Protestant views, matching this practice answer. Her settlement restored the Church of England and required public conformity. Clarification: compromise did not mean an absence of religious conflict, as the reference suggests; Catholics still faced restrictions and persecution."
   },
   {
@@ -1637,7 +1637,7 @@
       "Documents that prove your identity"
     ],
     "correct-answer": [1, 3],
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "The reference says applicants usually need evidence of identity and permission to work, matching this practice answer. Clarification: these are evidential categories, not a universal requirement for exactly two separate paper documents. Current applications require identity checks, and the right to work is an eligibility condition; the evidence depends on your circumstances."
   },
   {
@@ -1651,7 +1651,7 @@
       "Look after the area in which you live and the environment"
     ],
     "correct-answer": [0, 3],
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "Respecting and obeying the law, and looking after the area where you live and its environment, are listed responsibilities. Voting is one of the rights the UK offers rather than a duty, and taking part in religious activities is a matter of personal belief."
   },
   {
@@ -1665,7 +1665,7 @@
       "1st of April"
     ],
     "correct-answer": 2,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Halloween is 31 October, an ancient festival rooted in the pagan marking of winter's start. Young people dress in frightening costumes for 'trick or treat' and carve lanterns from pumpkins. Bonfire Night is 5 November and Remembrance Day 11 November."
   },
   {
@@ -1674,7 +1674,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Bill of Rights of 1689 strengthened Parliament and limited royal power; it did not grant women the vote. Parliamentary voting remained restricted to a small male electorate, and the first major extension to women came in 1918."
   },
   {
@@ -1688,7 +1688,7 @@
       "The Australian Open"
     ],
     "correct-answer": 0,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The Ashes is a series of Test cricket matches played between England and Australia. The Six Nations Championship is rugby union and the Grand National is a horse race."
   },
   {
@@ -1697,7 +1697,7 @@
     "type": "single",
     "options": ["Fishing", "Teaching", "Aircraft industry", "Manufacturing"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference says manufacturing became Britain's main source of employment, supporting this practice answer. Clarification: it describes the Industrial Revolution across the 18th and 19th centuries (reference p. 17), not a precise employment crossover in the 18th century. The question compresses that longer period; the passage does not establish its exact-century wording."
   },
   {
@@ -1706,7 +1706,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "Robert the Bruce's victory at Bannockburn in 1314 helped preserve Scotland's independence from English rule. The handbook contrasts this with Wales, which Edward I had annexed to the English Crown in 1284."
   },
   {
@@ -1720,7 +1720,7 @@
       "A dispute between the landlord and the tenants who have not paid the rent"
     ],
     "correct-answer": 0,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference classifies prohibited smoking as a criminal offence and the listed consumer, employment and housing disputes as civil matters, matching this practice answer. Clarification: smoking is criminal where smoke-free law prohibits it, not in every public place. The reference principally concerns enclosed public premises; separate criminal conduct can sometimes accompany a civil dispute."
   },
   {
@@ -1734,7 +1734,7 @@
       "The MacDonalds of Glencoe"
     ],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The reference identifies the MacDonalds of Glencoe as the clan punished for taking the oath late, matching this practice answer. Correction: its claim that they were all killed is inaccurate. Government troops massacred clan members in 1692, but survivors escaped; the clan's chief had missed the deadline rather than never taking the oath."
   },
   {
@@ -1743,7 +1743,7 @@
     "type": "multi",
     "options": ["Defence", "Social security", "Health", "Education"],
     "correct-answer": [2, 3],
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference lists health and education as devolved and describes social security as centrally controlled, matching this practice answer. Correction: social security is also devolved in Northern Ireland and partly devolved in Scotland, so it is not wholly reserved to the UK Government. Health and education remain the intended common pair, but the question oversimplifies the available powers."
   },
   {
@@ -1757,7 +1757,7 @@
       "The Second World War"
     ],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "Archduke Franz Ferdinand of Austria was assassinated on 28 June 1914, which set off a chain of events leading to the First World War of 1914 to 1918. Nationalism, militarism and imperialism had already made war likely."
   },
   {
@@ -1766,7 +1766,7 @@
     "type": "single",
     "options": ["Glasgow", "St Andrews", "Edinburgh", "Aberdeen"],
     "correct-answer": 2,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Edinburgh is Scotland's capital. The handbook also lists Glasgow, Dundee and Aberdeen as Scottish cities, so recognising a city as Scottish is not enough: the distinction here is its status as the capital."
   },
   {
@@ -1775,7 +1775,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference says the 1833 Emancipation Act abolished slavery throughout the British Empire, matching the practice answer 'True'. Correction: 1833 was the Act's year; its main provisions took effect on 1 August 1834, and some territories initially remained excluded. Compulsory apprenticeship replaced slavery in many colonies and continued until 1838, so abolition 'throughout' the Empire in 1833 is not literally accurate."
   },
   {
@@ -1789,7 +1789,7 @@
       "The Enlightenment"
     ],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Landlords cleared small farms called crofts to make room for large flocks of sheep and cattle. Evictions became common in the early 19th century and many Scottish people left for North America."
   },
   {
@@ -1798,7 +1798,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "The Falkland Islands are a British overseas territory, linked to the UK but not part of it, like St Helena. The UK is England, Scotland, Wales and Northern Ireland."
   },
   {
@@ -1812,7 +1812,7 @@
       "The Battle of Agincourt"
     ],
     "correct-answer": [1, 2],
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Marston Moor and Naseby were major victories for Parliament's side in the Civil War against Charles I. The war began in 1642, and by 1646 the king's forces had been defeated."
   },
   {
@@ -1821,7 +1821,7 @@
     "type": "single",
     "options": ["Chartists", "Beefeaters", "Suffragettes", "Quakers"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference calls members of the Women's Social and Political Union suffragettes, matching this practice answer. Emmeline Pankhurst helped found the organisation in 1903. Its militant campaign included civil disobedience and hunger strikes; these methods do not describe every women's suffrage campaigner or automatically apply to the earlier Women's Franchise League."
   },
   {
@@ -1830,7 +1830,7 @@
     "type": "single",
     "options": ["The Big Ben", "Lake District", "Snowdonia", "The London Eye"],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The winning view was specifically Wastwater in the Lake District, rather than the entire national park. Television viewers chose the view from the south-western end of the lake as Britain's favourite in 2007."
   },
   {
@@ -1839,7 +1839,7 @@
     "type": "single",
     "options": ["Farmers", "Peasants", "Hunter-gatherers", "Pirates"],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The first people to live in Britain were hunter-gatherers of the Stone Age, following herds of deer and horses. Farmers arrived much later, about 6,000 years ago."
   },
   {
@@ -1853,7 +1853,7 @@
       "The Renaissance"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Reformation was the movement against the Pope's authority and Catholic beliefs and practices, spreading across Europe in Henry VIII's reign. Protestants formed their own churches and read the Bible in their own languages."
   },
   {
@@ -1867,7 +1867,7 @@
       "Ask you employer to get it for you"
     ],
     "correct-answer": 1,
-    "tags": ["fundamental-principles", "outdated"],
+    "tags": ["ch5", "ch5.6", "outdated"],
     "explanation": "The reference says to contact the Department for Work and Pensions (DWP), matching this practice answer. Outdated reference context: applications in Great Britain now normally start online through GOV.UK, rather than universally requiring the reference’s telephone contact or an interview. DWP remains the intended agency for Great Britain; Northern Ireland has a separate administrative arrangement."
   },
   {
@@ -1881,7 +1881,7 @@
       "The Six Nations Championship"
     ],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Royal Ascot is a five-day race meeting in Berkshire attended by members of the Royal Family. The Open Championship is golf, Wimbledon is tennis and the Six Nations Championship is rugby union."
   },
   {
@@ -1890,7 +1890,7 @@
     "type": "single",
     "options": ["12", "14", "15", "20"],
     "correct-answer": 2,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference gives Scotland a jury of 15 in its discussion of serious criminal cases, matching this practice answer. Clarification: 15 describes Scottish criminal juries, not every Scottish jury. Scottish civil juries have 12 members, so the criminal context matters."
   },
   {
@@ -1904,7 +1904,7 @@
       "The 40 days after Christmas"
     ],
     "correct-answer": 2,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Lent is the Christian season of preparation before Easter, not before Christmas or after Easter. It begins on Ash Wednesday and traditionally involves prayer, reflection and fasting; its 40-day count excludes Sundays."
   },
   {
@@ -1913,7 +1913,7 @@
     "type": "single",
     "options": ["1415", "1314", "1066", "1200"],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference dates the Norman Conquest to 1066 and calls it England's last successful foreign invasion, matching this practice answer. William of Normandy defeated Harold at Hastings and became king. Clarification: 'last successful foreign invasion' is a historical convention; William of Orange's intervention in 1688 makes the unqualified description debatable."
   },
   {
@@ -1922,7 +1922,7 @@
     "type": "single",
     "options": ["France", "Russia", "Poland", "Austria"],
     "correct-answer": 2,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The Second World War began when Hitler invaded Poland in 1939, and Britain and France declared war to stop his aggression. Hitler had already occupied Austria and invaded Czechoslovakia."
   },
   {
@@ -1931,7 +1931,7 @@
     "type": "single",
     "options": ["The Shamrock", "The Rose", "The Daffodil", "The Thistle"],
     "correct-answer": 3,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The thistle is associated with Scotland. The other national plant symbols are the shamrock for Northern Ireland, the rose for England and the daffodil for Wales; people sometimes wear them on national saints' days."
   },
   {
@@ -1940,7 +1940,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference also permits complaints at a police station or to an independent body, supporting this practice set’s False answer. Clarification: eligibility and procedures vary by jurisdiction, and complaints about a chief constable personally follow a different route. Outdated reference context: in England and Wales, complaints can reach the force in person, by telephone or in writing, or the Independent Office for Police Conduct, which replaces the reference’s Independent Police Complaints Commission. A representative can help; writing to the Chief Constable is not the sole route."
   },
   {
@@ -1949,7 +1949,7 @@
     "type": "single",
     "options": ["Economy", "Crime", "Education", "Defence"],
     "correct-answer": 1,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Crime is part of the Home Secretary's responsibilities through the Home Office, alongside policing and immigration. Other ministers lead departments dealing with the economy, education and defence, although government policies can involve several departments."
   },
   {
@@ -1958,7 +1958,7 @@
     "type": "single",
     "options": ["1st March", "17th March", "23rd April", "17th April"],
     "correct-answer": 0,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St David's Day is 1 March and celebrates the patron saint of Wales. The other two patron saints' dates among these choices are St Patrick's Day on 17 March and St George's Day on 23 April."
   },
   {
@@ -1972,7 +1972,7 @@
       "She was executed"
     ],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The reference says Mary, Queen of Scots, was executed after imprisonment, matching this practice answer. She was accused of plotting against Elizabeth I. Correction: the reference and question give 20 years of captivity, but she was held in England from 1568 until her execution in 1587, almost 19 years."
   },
   {
@@ -1986,7 +1986,7 @@
       "The structure of the DNA molecule"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Francis Crick helped discover DNA's structure in 1953 and shared a Nobel Prize for the work. The handbook connects this research, carried out in London and Cambridge, with later advances in medicine and crime investigation."
   },
   {
@@ -1995,7 +1995,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Authorised banks in Scotland and Northern Ireland issue sterling notes, which can be used across the UK if accepted. They are not separate currencies, and 'valid' does not mean legal tender or compulsory acceptance by a shop."
   },
   {
@@ -2004,7 +2004,7 @@
     "type": "single",
     "options": ["25", "15", "18", "42"],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "There are 15 national parks across these three countries: ten in England, three in Wales and two in Scotland. They protect distinctive landscapes while supporting public enjoyment and the communities living within them."
   },
   {
@@ -2013,7 +2013,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 1,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "Great Britain covers England, Scotland and Wales only. Northern Ireland is part of the United Kingdom, which is why the official name is the United Kingdom of Great Britain and Northern Ireland."
   },
   {
@@ -2027,7 +2027,7 @@
       "The dog’s name"
     ],
     "correct-answer": [0, 1],
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference names the owner's name and address, matching both selected answers. Clarification: the Great Britain collar rule covers specified public places and has exceptions; the details can be on an attached plate or tag. The dog's own name and breed do not replace the owner's identifying details."
   },
   {
@@ -2041,7 +2041,7 @@
       "Ash Wednesday"
     ],
     "correct-answer": 0,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Good Friday commemorates Jesus Christ's crucifixion and death. Easter Sunday celebrates his resurrection, while Ash Wednesday begins Lent, the period of preparation before Easter. These names refer to different events rather than interchangeable names for Easter."
   },
   {
@@ -2050,7 +2050,7 @@
     "type": "single",
     "options": ["County", "Estate", "District", "Constituency"],
     "correct-answer": 3,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "A constituency is the electoral area represented by an MP in the House of Commons. MPs represent all its residents, not just people who supported their party or voted for them."
   },
   {
@@ -2064,7 +2064,7 @@
       "It increased women’s power"
     ],
     "correct-answer": 0,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Magna Carta of 1215 established that even the king was subject to the law. It protected the rights of the nobility and limited the king's power to collect taxes or change laws without his noblemen."
   },
   {
@@ -2073,7 +2073,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "Female genital mutilation is illegal in the UK, and arranging for it to happen abroad can also be a criminal offence. Taking someone overseas does not provide a lawful way around the UK ban."
   },
   {
@@ -2082,7 +2082,7 @@
     "type": "single",
     "options": ["1918", "1925", "1949", "1914"],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives 1918 for women's first parliamentary voting rights, matching this practice answer. Clarification: this covered women aged 30 and over who met qualifying conditions, not all women. A separate 1918 Act permitted women to stand for Parliament from 21. Equal voting rights with men at 21 followed in 1928."
   },
   {
@@ -2096,7 +2096,7 @@
       "The Falkland Islands"
     ],
     "correct-answer": [0, 3],
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "St Helena and the Falkland Islands are British overseas territories, linked to the UK but not part of it. Neither the Solomon Islands nor Mauritius is a British overseas territory."
   },
   {
@@ -2110,7 +2110,7 @@
       "The Saxons"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1588 the English defeated the Spanish Armada, the large fleet Spain sent to conquer England and restore Catholicism. Sir Francis Drake was one of the commanders, and the victory made Elizabeth I more popular."
   },
   {
@@ -2124,7 +2124,7 @@
       "Isambard Kingdom Brunel"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Sir Edwin Lutyens designed the Cenotaph in Whitehall and many other war memorials after the First World War. His work also included New Delhi; Lancelot 'Capability' Brown, by contrast, is associated with landscape gardens."
   },
   {
@@ -2138,7 +2138,7 @@
       "Every 3 years"
     ],
     "correct-answer": 2,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference gives four years for National Assembly for Wales elections, matching this practice answer. Updated information: Senedd elections follow a four-year cycle from 2026, so the interval itself still fits. Clarification: voters elect Members of the Senedd, the legislature, not members of the Welsh Government directly."
   },
   {
@@ -2147,7 +2147,7 @@
     "type": "single",
     "options": ["1960s", "1970s", "1980s", "1950s"],
     "correct-answer": 0,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The reference links the Beatles and liberalised social laws to the 1960s, matching this practice answer. The Swinging Sixties brought changes concerning divorce and abortion in England, Wales and Scotland. Correction: its surrounding discussion compresses the equal-pay chronology; the Equal Pay Act passed in 1970 and took effect in 1975, not during the 1960s."
   },
   {
@@ -2156,7 +2156,7 @@
     "type": "single",
     "options": ["Films", "Sport", "Literature", "Music"],
     "correct-answer": 2,
-    "tags": ["arts-and-culture", "outdated"],
+    "tags": ["ch4", "ch4.5", "outdated"],
     "explanation": "The reference describes a fiction prize, so literature matches its answer. Outdated reference context: the award is now called the Booker Prize and has admitted writers of any nationality since 2014. Correction: it was first awarded in 1969, not 1968 as this reference states."
   },
   {
@@ -2170,7 +2170,7 @@
       "By-election"
     ],
     "correct-answer": 3,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "A by-election fills a House of Commons seat that becomes vacant between general elections, including after an MP dies or leaves office. Voters in that constituency choose a replacement, rather than the whole country electing a new Parliament."
   },
   {
@@ -2184,7 +2184,7 @@
       "A theatre award"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture", "outdated"],
+    "tags": ["ch4", "ch4.5", "outdated"],
     "explanation": "The reference calls the Turner Prize a contemporary art award, matching this answer. Clarification: its shortlist normally contains four artists, not four individual artworks. Outdated reference context: the exhibition alternates between Tate Britain and other UK venues, rather than always taking place at Tate Britain."
   },
   {
@@ -2193,7 +2193,7 @@
     "type": "single",
     "options": ["The daffodil", "The thistle", "The shamrock", "The rose"],
     "correct-answer": 2,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The shamrock is associated with Northern Ireland. The other national plant symbols are the daffodil for Wales, the thistle for Scotland and the rose for England; these symbols are sometimes worn on national saints' days."
   },
   {
@@ -2202,7 +2202,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference says Waterloo ended the French Wars in 1815, supporting the practice answer 'True' in that context. It does not explicitly say Britain and France never fought again. Clarification: the question's absolute wording is historically inaccurate because British forces later fought Vichy French forces during the Second World War."
   },
   {
@@ -2211,7 +2211,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The reference's list of notes ends at £50, supporting False within its teaching scope. Clarification: £50 is the highest Bank of England denomination, but Scottish banks issue £100 notes. The question's UK-wide wording is misleading; matching the reference does not mean that £100 notes do not exist."
   },
   {
@@ -2220,7 +2220,7 @@
     "type": "single",
     "options": ["Scotland", "Wales", "England", "Northern Ireland"],
     "correct-answer": 2,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The Lake District National Park is in north-west England. It is England's largest national park and contains Scafell Pike, England's highest mountain, as well as famous lakes including Windermere and Wastwater."
   },
   {
@@ -2234,7 +2234,7 @@
       "To respect the rights of others, including their right to their own opinions"
     ],
     "correct-answer": [2, 3],
-    "tags": ["the-values-and-principles-of-the-uk"],
+    "tags": ["ch1", "ch1.2"],
     "explanation": "Looking after yourself and your family, and respecting the rights of others including their right to their own opinions, are both listed responsibilities. Buying food locally and volunteering every year are not requirements, though participation in community life is a principle."
   },
   {
@@ -2248,7 +2248,7 @@
       "Thomas Hardy"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "William Shakespeare was born in Stratford-upon-Avon in 1564. He wrote plays and poems, including Hamlet and Macbeth, and is widely regarded as the greatest writer in the English language."
   },
   {
@@ -2262,7 +2262,7 @@
       "Women were given the right to vote at the age of 21, the same as men."
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives 1928 for women receiving the vote at 21, the same age as men, matching this practice answer. Correction: Pankhurst died on 14 June 1928, before the Act became law on 2 July, not afterwards as the reference implies. Clarification: the 1918 vote covered only women aged 30 and over who met qualifying conditions. A separate 1918 Act permitted women to stand for Parliament from 21."
   },
   {
@@ -2276,7 +2276,7 @@
       "New Year’s Eve in Wales"
     ],
     "correct-answer": 1,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "In Scotland, 31 December, New Year's Eve, is called Hogmanay, and 2 January is also a public holiday. For some Scottish people it is a bigger holiday than Christmas."
   },
   {
@@ -2285,7 +2285,7 @@
     "type": "single",
     "options": ["Cork", "Edinburgh", "Belfast", "Dublin"],
     "correct-answer": 2,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "Belfast is Northern Ireland's capital, while Edinburgh is Scotland's. Northern Ireland is part of the UK; the Republic of Ireland is a separate country, so the two must not be confused when identifying their capitals."
   },
   {
@@ -2299,7 +2299,7 @@
       "The Crimean War"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Boer War ran from 1899 to 1902 in South Africa, fought against the Boers, settlers from the Netherlands. It made debate about the future of the Empire more urgent."
   },
   {
@@ -2308,7 +2308,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-government", "outdated"],
+    "tags": ["ch5", "ch5.3", "outdated"],
     "explanation": "The reference explicitly describes Northern Ireland’s individual registration, matching this practice set’s True answer. Outdated reference context: England, Wales and Scotland introduced individual electoral registration in 2014 too. Northern Ireland still uses individual registration, but the reference’s contrast with household registration elsewhere is outdated; the system is not exclusive to Northern Ireland."
   },
   {
@@ -2317,7 +2317,7 @@
     "type": "multi",
     "options": ["Health", "Education", "Defence", "Immigration"],
     "correct-answer": [2, 3],
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Defence and immigration remain responsibilities of the UK authorities rather than the devolved administrations. Health and education are devolved, so Scotland, Wales and Northern Ireland can develop different policies and legislation in those fields."
   },
   {
@@ -2326,7 +2326,7 @@
     "type": "single",
     "options": ["18", "21", "16", "25"],
     "correct-answer": 0,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Eighteen is the minimum age intended here, including for standing as an MP. British and Irish citizens and eligible Commonwealth citizens must also meet the rules for the particular office; some occupations and legal disqualifications prevent candidacy."
   },
   {
@@ -2340,7 +2340,7 @@
       "Preventing the importation of cheap grain"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Free trade meant abolishing taxes on imported goods. Repealing the Corn Laws in 1846 allowed cheap grain in, and cheaper raw materials helped British industry grow."
   },
   {
@@ -2354,7 +2354,7 @@
       "A British officer in charge of the British fleet at the Battle of Trafalgar against the Spanish fleet"
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Nelson commanded the British fleet at Trafalgar in 1805 against the combined French and Spanish fleets and was killed there. His ship, HMS Victory, can be visited in Portsmouth."
   },
   {
@@ -2368,7 +2368,7 @@
       "A group of skilled people from Holland who came to England during the Middle Ages"
     ],
     "correct-answer": 0,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "Under feudalism, serfs grew food on a small area of their lord's land in return for working for him. They could not freely move away, unlike peasants who owned their own land."
   },
   {
@@ -2382,7 +2382,7 @@
       "The Turing Machine"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Industrial Revolution of the 18th and 19th centuries came from new machinery and the use of steam power. Britain was the first country to industrialise on a large scale."
   },
   {
@@ -2391,7 +2391,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "Post is one way to contact an MP, but constituents can also telephone or email. Many MPs offer advice surgeries in their constituencies, providing another way to raise local or personal concerns."
   },
   {
@@ -2405,7 +2405,7 @@
       "The Enlightenment"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Reformation challenged the authority of the Pope and the ideas and practices of the Roman Catholic Church. It spread across Europe in the 16th century, and Protestants formed their own churches."
   },
   {
@@ -2419,7 +2419,7 @@
       "Harold, the Saxon king of England"
     ],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference identifies William the Conqueror as the king behind Domesday Book, matching this practice answer. He ordered the survey, carried out in 1086, to record landholdings and resources. Clarification: the reference's description of every town, village and inhabitant overstates its coverage; Domesday was not a complete population census."
   },
   {
@@ -2433,7 +2433,7 @@
       "Free secondary education in England and Wales"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The Education Act 1944, known as the Butler Act, introduced free secondary education in England and Wales. Richard Austen Butler oversaw the reform, which also reinforced the division between primary and secondary schooling."
   },
   {
@@ -2445,7 +2445,7 @@
       "A procedure that helps people to make small home insurance claims in certain circumstances"
     ],
     "correct-answer": 0,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference describes an informal court procedure for resolving minor disputes without costly legal representation, matching this practice answer. Outdated reference context: Scotland replaced its former small claims process, which had a £3,000 limit, with Simple Procedure for new qualifying claims in 2016. Northern Ireland still uses small claims; rules and limits depend on jurisdiction, and this is not a home-insurance scheme."
   },
   {
@@ -2459,7 +2459,7 @@
       "Apsley House"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference names the Crystal Palace as the Great Exhibition's Hyde Park building in 1851, matching this practice answer. Correction: it describes the building as steel and glass, but its structure used iron and glass. The exhibition displayed machines, manufactured goods and crafts from Britain and other countries."
   },
   {
@@ -2468,7 +2468,7 @@
     "type": "single",
     "options": ["An economist", "A painter", "A nurse", "A poet"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Florence Nightingale trained as a nurse and treated soldiers in the Crimean War. In 1860 she founded the Nightingale Training School at St Thomas' Hospital, and she is often regarded as the founder of modern nursing."
   },
   {
@@ -2477,7 +2477,7 @@
     "type": "single",
     "options": ["St George", "St Patrick", "St David", "St Andrew"],
     "correct-answer": 0,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St George is England's patron saint, with his day on 23 April. St David, St Patrick and St Andrew are the patron saints of Wales, Northern Ireland and Scotland."
   },
   {
@@ -2486,7 +2486,7 @@
     "type": "single",
     "options": ["England", "Wales", "Scotland", "Northern Ireland"],
     "correct-answer": 2,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "Loch Lomond and The Trossachs National Park is in Scotland. Its landscape includes lochs, mountains, forests and glens, with lowland countryside in the south and higher mountains further north."
   },
   {
@@ -2500,7 +2500,7 @@
       "The London Tales"
     ],
     "correct-answer": 2,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "Geoffrey Chaucer's Canterbury Tales follows pilgrims who tell stories as they travel to Canterbury. Written in English before 1400, the collection reflects the growing importance of English as a literary language and was later printed by William Caxton."
   },
   {
@@ -2514,7 +2514,7 @@
       "01st January"
     ],
     "correct-answer": 1,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Boxing Day falls on 26 December, the day after Christmas Day, and is a public holiday. The other dates belong to different events: Christmas Eve is 24 December, New Year's Day is 1 January and Halloween is 31 October."
   },
   {
@@ -2528,7 +2528,7 @@
       "Business Holidays"
     ],
     "correct-answer": 2,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "A bank holiday is a public holiday when banks and many businesses usually close. The calendar differs between England and Wales, Scotland, and Northern Ireland; the name does not mean that only bank employees receive time off."
   },
   {
@@ -2542,7 +2542,7 @@
       "In recognition of the contribution women made to the war effort during the Civil War"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference links women's voting rights partly to their First World War contribution, matching this practice answer. Decades of campaigning also preceded the reform. Clarification: the 1918 parliamentary vote covered only women aged 30 and over who met qualifying conditions; a separate Act permitted women to stand for Parliament from 21, and equal voting terms followed in 1928."
   },
   {
@@ -2556,7 +2556,7 @@
       "An ‘R’ plate"
     ],
     "correct-answer": 2,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "You need a valid driving licence covering the category of vehicle you drive. Learner or restricted-driver plates serve a different purpose and do not replace the licence; insurance and other legal requirements must also be met."
   },
   {
@@ -2565,7 +2565,7 @@
     "type": "single",
     "options": ["Fraserburgh", "Edinburgh", "Inverness", "St Andrews"],
     "correct-answer": 1,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "The Edinburgh Festival takes place in Edinburgh every summer and is a series of arts and cultural festivals. The biggest and best known is the Edinburgh Festival Fringe, which showcases mainly theatre and comedy, often experimental work."
   },
   {
@@ -2574,7 +2574,7 @@
     "type": "single",
     "options": ["150", "120", "90", "60"],
     "correct-answer": 3,
-    "tags": ["the-government", "outdated"],
+    "tags": ["ch5", "ch5.3", "outdated"],
     "explanation": "The reference gives 60 Assembly members, matching this practice answer. Outdated reference context: the Senedd expanded to 96 members at the May 2026 election, so none of these options gives its current membership. Clarification: the number describes the legislature, formerly the National Assembly for Wales, not the Welsh Government."
   },
   {
@@ -2583,7 +2583,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference says the accused young person’s name or photographs cannot be published, supporting this practice set’s False answer. Clarification: this describes normal Youth Court reporting protection, not an absolute ban for every young person convicted anywhere. Courts can lift restrictions in specified circumstances, and Youth Court restrictions generally expire at 18."
   },
   {
@@ -2597,7 +2597,7 @@
       "He was an actor"
     ],
     "correct-answer": 0,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Sir Edward Elgar was a composer, so musician is the correct category. His best-known works include the Pomp and Circumstance Marches, associated with the Last Night of the Proms at London's Royal Albert Hall."
   },
   {
@@ -2606,7 +2606,7 @@
     "type": "single",
     "options": ["£50", "£25", "£20", "£5"],
     "correct-answer": 1,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The Bank of England issues £5, £10, £20 and £50 notes, not £25 notes. Those are the four denominations listed in the handbook; Scottish banks also issue other denominations, including £100."
   },
   {
@@ -2615,7 +2615,7 @@
     "type": "single",
     "options": ["Fife", "Edinburgh", "Ayr", "St Andrews"],
     "correct-answer": 2,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The Scottish Grand National is run at Ayr, while the better-known Grand National takes place at Aintree near Liverpool. St Andrews is known as the home of golf, not as a racecourse."
   },
   {
@@ -2624,7 +2624,7 @@
     "type": "single",
     "options": ["Constitutional monarchy", "Constitutional republic"],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The laws following the Glorious Revolution established constitutional monarchy: the monarch could no longer govern simply as he or she wished. The Bill of Rights of 1689 confirmed Parliament's rights and placed limits on royal power."
   },
   {
@@ -2633,7 +2633,7 @@
     "type": "single",
     "options": ["France", "Portugal", "Spain", "Italy"],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The fleet was the Spanish Armada, sent by Spain in 1588 to conquer England and restore Catholicism. The English defeated it, which helped make Elizabeth I one of the most popular monarchs in English history."
   },
   {
@@ -2647,7 +2647,7 @@
       "Measures to improve the conditions of workers"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Habeas Corpus Act of 1679 strengthened protection against unlawful imprisonment. The principle requires a detained person to be brought before a court so that the legality of their detention can be examined."
   },
   {
@@ -2661,7 +2661,7 @@
       "The right to a fair trial"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference describes Emmeline Pankhurst's campaign for women's voting rights, matching this practice answer. She helped found the Women's Social and Political Union in 1903. Its members used militant protest, civil disobedience and hunger strikes; these methods belong to that organisation's campaign, not automatically to her earlier Women's Franchise League or every suffrage campaigner."
   },
   {
@@ -2675,7 +2675,7 @@
       "Light-hearted plays with music and comedy"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "The Proms is an eight-week summer season of orchestral classical music at various venues, including the Royal Albert Hall in London, and the BBC has organised it since 1927. The other options describe the Brit Awards, the National Eisteddfod of Wales and pantomime."
   },
   {
@@ -2689,7 +2689,7 @@
       "The discovery of steam power"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Isaac Newton explained how gravity operates throughout the universe in his Principia. He also studied light, showing that white light contains the colours of the rainbow; his work remains fundamental to modern science."
   },
   {
@@ -2698,7 +2698,7 @@
     "type": "single",
     "options": ["In 1922", "In 1918", "In 1945", "In 1943"],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The armistice took effect at 11.00 am on 11 November 1918, ending fighting on the Western Front. This is the date used for the end of the First World War, although formal peace treaties followed in 1919."
   },
   {
@@ -2712,7 +2712,7 @@
       "Julius Caesar"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference names Emperor Hadrian as the wall's builder, matching this practice answer. Hadrian ordered its construction after visiting Britain in AD 122. Clarification: the reference's Picts-only explanation oversimplifies its purpose; the wall marked a Roman frontier, helped control movement and deterred raids rather than serving only to exclude one people."
   },
   {
@@ -2726,7 +2726,7 @@
       "The University of Warwick"
     ],
     "correct-answer": [0, 1],
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Oxford and Cambridge compete in the annual university rowing race on the River Thames. This is a contest between university crews, rather than national teams; Manchester and Warwick are not the two universities in this race."
   },
   {
@@ -2735,7 +2735,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 1,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The reference calls Britain’s constitution unwritten because it is not contained in a single document, matching this practice set’s No answer. Clarification: this means no single codified constitution, not an absence of written constitutional rules. Statutes and judgments provide written sources alongside conventions."
   },
   {
@@ -2744,7 +2744,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 1,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "St Helena is a British overseas territory, linked to the UK but not part of it, as are the Falkland Islands. The UK is England, Scotland, Wales and Northern Ireland."
   },
   {
@@ -2758,7 +2758,7 @@
       "London’s South End"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Theatreland is the name associated with London's West End and its concentration of theatres. It is known for plays and musicals; Agatha Christie's murder mystery The Mousetrap opened in the West End in 1952."
   },
   {
@@ -2767,7 +2767,7 @@
     "type": "single",
     "options": ["Euro", "Pound Sterling", "Peso", "Dollar"],
     "correct-answer": 1,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The UK currency is the pound sterling, written with the £ symbol and divided into 100 pence. The euro is used in many European countries, but not in the UK."
   },
   {
@@ -2781,7 +2781,7 @@
       "Easter Monday"
     ],
     "correct-answer": 0,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "Diwali is often called the Festival of Lights. It normally falls in October or November, lasts five days, and celebrates the victory of good over evil and the gaining of knowledge, with a famous celebration in Leicester."
   },
   {
@@ -2795,7 +2795,7 @@
       "A period of economic recovery after the Second World War"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "During the 18th century new ideas about politics, philosophy and science were developed, often called the Enlightenment. Many of its great thinkers were Scottish, including Adam Smith and David Hume."
   },
   {
@@ -2804,7 +2804,7 @@
     "type": "single",
     "options": ["NSPCC", "Shelter", "Friends of the Earth", "Crisis"],
     "correct-answer": 2,
-    "tags": ["your-role-in-the-community"],
+    "tags": ["ch5", "ch5.7"],
     "explanation": "The reference identifies Friends of the Earth as an environmental charity, matching this practice answer. Clarification: Friends of the Earth includes a campaigning company and a separate charitable trust, rather than every part having charitable status. The trust supports environmental conservation and education, explaining the environmental classification."
   },
   {
@@ -2818,7 +2818,7 @@
       "The Battle of Marston Moor"
     ],
     "correct-answer": 0,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The Battle of Britain was the crucial aerial battle of summer 1940, when Royal Air Force fighter planes resisted the German air force. The Spitfire and Hurricane, both designed and built in Britain, were the RAF's most important aircraft."
   },
   {
@@ -2832,7 +2832,7 @@
       "She was the founder of modern nursing"
     ],
     "correct-answer": 1,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Margaret Thatcher became the first woman Prime Minister of the UK after the Conservative victory in the 1979 general election, serving until 1990. She trained as a chemist and lawyer and was elected a Conservative MP in 1959."
   },
   {
@@ -2841,7 +2841,7 @@
     "type": "multi",
     "options": ["Latin", "Anglo-Saxon", "Proto-Celtic", "Norman French"],
     "correct-answer": [1, 3],
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "After the Norman Conquest, the ruling class spoke Norman French while ordinary people continued speaking Anglo-Saxon. French strongly influenced the developing English language: the handbook gives 'demand' and 'ask' as words of French and Anglo-Saxon origin with similar meanings."
   },
   {
@@ -2850,7 +2850,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference explicitly says balanced political coverage requires equal time for rival viewpoints, supporting this practice set’s True answer. Correction: Ofcom requires due impartiality and due weight, not universally identical airtime for every party or viewpoint. Retain True for this reference-based practice question, but do not treat its wording as a precise statement of broadcast law."
   },
   {
@@ -2859,7 +2859,7 @@
     "type": "single",
     "options": ["France", "Spain", "Italy", "South America"],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Armada was a large fleet of ships sent by Spain in 1588 to conquer England and restore Catholicism. The English defeated it, and the victory boosted Elizabeth I's popularity."
   },
   {
@@ -2868,7 +2868,7 @@
     "type": "single",
     "options": ["Dumfries", "Cenotaph", "Royal Crescent", "The White Tower"],
     "correct-answer": 1,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "The Cenotaph stands in Whitehall, London, and serves as the national focus for remembering the war dead. Sir Edwin Lutyens designed it, and the national Remembrance Sunday service takes place there each year."
   },
   {
@@ -2877,7 +2877,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The Assembly has been formally suspended, including from October 2002 until May 2007. During that suspension, powers returned to the UK authorities; this differs from later periods when devolved institutions stopped functioning without a formal suspension."
   },
   {
@@ -2886,7 +2886,7 @@
     "type": "single",
     "options": ["A Catholic church", "A Protestant church"],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1560 the Scottish Parliament abolished the Pope's authority and prohibited Roman Catholic services. A Protestant Church of Scotland developed with elected leadership, contrasting with the Church of England's structure under the monarch."
   },
   {
@@ -2900,7 +2900,7 @@
       "After the Anglo-Saxon invasion"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference places Domesday Book after the Norman Conquest, matching this practice answer. William ordered the survey in 1085, and it was carried out in 1086. Clarification: the reference overstates its completeness; it recorded landholdings, resources and values across much of England, not every settlement or inhabitant in a full population census."
   },
   {
@@ -2909,7 +2909,7 @@
     "type": "multi",
     "options": ["Immigration", "Education", "Agriculture", "Defence"],
     "correct-answer": [0, 3],
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Immigration and defence are excepted matters that remain the responsibility of the UK authorities. Education and agriculture are transferred matters, so the Northern Ireland Assembly can legislate on them within its devolved powers."
   },
   {
@@ -2923,7 +2923,7 @@
       "Write to your MP"
     ],
     "correct-answer": [1, 2],
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference gives visiting a police station and writing to the Chief Constable, matching this practice answer. Clarification: complaint eligibility and procedures vary by jurisdiction, and complaints about a chief constable personally follow a different route. Outdated reference context: the Independent Office for Police Conduct replaces the reference’s Independent Police Complaints Commission in England and Wales and provides another complaints channel. A representative, including an MP, can help, so the selected direct routes are not exhaustive."
   },
   {
@@ -2932,7 +2932,7 @@
     "type": "single",
     "options": ["Rose", "Daffodil", "Thistle", "Shamrock"],
     "correct-answer": 1,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Wordsworth wrote about daffodils in the poem commonly called The Daffodils, beginning 'I wandered lonely as a cloud'. Its description of 'a host of golden daffodils' illustrates his interest in nature."
   },
   {
@@ -2941,7 +2941,7 @@
     "type": "single",
     "options": ["17th April", "31st December", "1st March", "30th November"],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St Andrew is Scotland's patron saint, and his day is 30 November. It is a Scottish bank holiday, unlike St David's Day on 1 March in Wales; 31 December is Hogmanay, Scotland's New Year's Eve."
   },
   {
@@ -2955,7 +2955,7 @@
       "Dame Zaha Hadid"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Great Fire of 1666 destroyed much of London, including many churches and St Paul's Cathedral. London was rebuilt with a new St Paul's, designed by the famous architect Sir Christopher Wren."
   },
   {
@@ -2969,7 +2969,7 @@
       "The Middle Ages"
     ],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The first coins minted in Britain date from the Iron Age, when people had a sophisticated culture and economy. Some coins carried the names of local kings; people also farmed, made tools and weapons, and lived in settlements that sometimes included hill forts."
   },
   {
@@ -2978,7 +2978,7 @@
     "type": "single",
     "options": ["A suffragette", "A nurse", "A doctor", "A scientist"],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Born in Manchester in 1858, Pankhurst founded the Women's Social and Political Union in 1903, whose members were the first called suffragettes. She campaigned for the vote for women."
   },
   {
@@ -2987,7 +2987,7 @@
     "type": "single",
     "options": ["Turkey", "Russia", "France", "Germany"],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference says Britain fought Russia alongside Turkey and France in the Crimean War, matching this practice answer. Correction: its wording suggests British participation throughout 1853–1856, but Britain joined in 1854. The wider conflict began in 1853, so that date range describes the war rather than Britain's entire involvement."
   },
   {
@@ -2996,7 +2996,7 @@
     "type": "single",
     "options": ["17", "18", "19", "20"],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference gives 18 as the buying age, matching this answer. Clarification: in England and Wales, accompanied 16- and 17-year-olds can drink, but not buy, beer, wine or cider with a meal. Northern Ireland does not have the same exception, so the reference's meal example is not a universal UK rule."
   },
   {
@@ -3005,7 +3005,7 @@
     "type": "single",
     "options": ["Shetland", "Isle of Wight", "Isle of Man", "Anglesey"],
     "correct-answer": 2,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "The Isle of Man, like the Channel Islands, has its own government and is a Crown dependency: closely linked to the UK but not part of it."
   },
   {
@@ -3014,7 +3014,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference describes the BBC as independent of government, supporting No. Clarification: the BBC is funded principally by the TV licence fee, and its Royal Charter protects editorial independence; calling it wholly state-funded is misleading. The answer concerns government control, not the reference's unverified claim about being the world's largest broadcaster."
   },
   {
@@ -3023,7 +3023,7 @@
     "type": "single",
     "options": ["12", "60", "90", "108"],
     "correct-answer": 2,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The Northern Ireland Assembly has 90 Members of the Legislative Assembly, known as MLAs. Each of its 18 constituencies elects five members, using the Single Transferable Vote form of proportional representation."
   },
   {
@@ -3037,7 +3037,7 @@
       "Admiral Nelson"
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Admiral Nelson commanded the British fleet at Trafalgar in 1805, against the combined French and Spanish fleets, and was killed there. Nelson's Column in Trafalgar Square commemorates him."
   },
   {
@@ -3051,7 +3051,7 @@
       "The names of animals"
     ],
     "correct-answer": 0,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Some of the first coins minted in Britain carried the names of Iron Age kings. These inscriptions provide written evidence about rulers, which is why the handbook associates them with the beginnings of British history."
   },
   {
@@ -3060,7 +3060,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Local councils are led by councillors elected by their communities, rather than simply by officials appointed by central government. Paid council officers support them and deliver services, but their role differs from that of elected representatives."
   },
   {
@@ -3069,7 +3069,7 @@
     "type": "single",
     "options": ["Glasgow", "Cardiff", "London", "Belfast"],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Tate Britain and Tate Modern are both in London, which is the intended answer. Tate is not a single gallery: its wider group also includes galleries in Liverpool and St Ives."
   },
   {
@@ -3083,7 +3083,7 @@
       "Unique version"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "James I's reign produced a new English translation of the Bible, known as the King James Version or the Authorised Version. It was not the first English Bible but is still used in many Protestant churches today."
   },
   {
@@ -3097,7 +3097,7 @@
       "A blockage of social laws"
     ],
     "correct-answer": 1,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The Swinging Sixties brought growth in British fashion, cinema and pop music, including The Beatles and The Rolling Stones. Greater prosperity increased spending on cars and consumer goods, alongside changes to social attitudes and laws."
   },
   {
@@ -3106,7 +3106,7 @@
     "type": "single",
     "options": ["Pakistan", "Germany", "India", "France"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Huguenots were Protestants from France who were persecuted for their religion, and many came to Britain between 1680 and 1720. Many were skilled, working as scientists, bankers or weavers."
   },
   {
@@ -3120,7 +3120,7 @@
       "The Aegon Championships"
     ],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Wimbledon is played each year at the All England Lawn Tennis and Croquet Club. It is the oldest tennis tournament in the world and the only Grand Slam event played on grass."
   },
   {
@@ -3129,7 +3129,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "MPs can be contacted through their local constituency offices as well as their parliamentary offices. You can write, telephone or email them, and many hold advice surgeries where constituents discuss concerns directly."
   },
   {
@@ -3143,7 +3143,7 @@
       "Valentine‘s Day"
     ],
     "correct-answer": 0,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "April Fool's Day, 1 April, is when people play jokes on each other until midday, and television and newspapers often run April Fool stories. Valentine's Day is 14 February, Halloween 31 October and Boxing Day 26 December."
   },
   {
@@ -3157,7 +3157,7 @@
       "Robert the Bruce"
     ],
     "correct-answer": 3,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "Robert the Bruce led the Scots to victory over the English at Bannockburn in 1314. The handbook contrasts Scotland's continued independence with Wales, where Edward I had established English rule and built castles to maintain it."
   },
   {
@@ -3171,7 +3171,7 @@
       "Sir Robert Edwards"
     ],
     "correct-answer": 0,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "British scientist Sir Tim Berners-Lee invented the World Wide Web at CERN in 1989 to help scientists share information. By the end of 1990, he had developed the first web browser and server."
   },
   {
@@ -3185,7 +3185,7 @@
       "They are chosen on merit and are politically neutral"
     ],
     "correct-answer": 3,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Permanent civil servants are normally recruited on merit through fair and open competition. They must act with political impartiality and serve the government of the day professionally, rather than perform their duties on behalf of a political party."
   },
   {
@@ -3199,7 +3199,7 @@
       "The period when many refugees called Huguenots came from France"
     ],
     "correct-answer": 1,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "As France fell, the British evacuated British and French soldiers in a huge naval operation, and civilian volunteers in small pleasure and fishing boats helped rescue more than 300,000 men from the beaches around Dunkirk. The phrase honours that shared effort."
   },
   {
@@ -3208,7 +3208,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["your-role-in-the-community", "outdated"],
+    "tags": ["ch5", "ch5.7", "outdated"],
     "explanation": "The reference starts jury-service eligibility at 18, supporting this practice set’s False answer to a minimum of 21. Clarification: potential jurors come from the electoral register and must meet other eligibility rules. Outdated reference context: its 18–70 range is not universal today; England and Wales use 18–75, and Scotland permits excusal from 71."
   },
   {
@@ -3222,7 +3222,7 @@
       "Marry a British citizen"
     ],
     "correct-answer": [0, 2],
-    "tags": ["becoming-a-permanent-resident"],
+    "tags": ["ch1", "ch1.1"],
     "explanation": "Permanent residents and citizens are expected to respect others' right to their own opinions and to look after themselves and their families, alongside obeying the law and treating others fairly. Buying a house or marrying a British citizen are not requirements."
   },
   {
@@ -3236,7 +3236,7 @@
       "The Eurocup Basketball"
     ],
     "correct-answer": 2,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The UK has hosted the Olympic Games three times: 1908, 1948 and 2012. The 2012 Games were centred on Stratford in East London, where the British team finished third in the medal table."
   },
   {
@@ -3250,7 +3250,7 @@
       "To restore Catholicism in Britain"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Charles I believed the king was directly appointed by God, so he should act without seeking Parliament's approval. When Parliament resisted his religious and foreign policies, he tried to rule without it for 11 years."
   },
   {
@@ -3264,7 +3264,7 @@
       "A trade union to protect workers rights"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Union Flag is the official flag of the United Kingdom and is often called the Union Jack. It combines the crosses of St George, St Andrew and St Patrick."
   },
   {
@@ -3278,7 +3278,7 @@
       "Clement Attlee"
     ],
     "correct-answer": 2,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "In 2002 the public voted Winston Churchill the greatest Briton of all time. He became Prime Minister in May 1940, refused to surrender to the Nazis, and was given a state funeral after his death in 1965."
   },
   {
@@ -3290,7 +3290,7 @@
       "Women in Britain today make up about one quarter of the workforce."
     ],
     "correct-answer": 0,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The handbook describes women as making up roughly half of Britain's workforce, rather than a quarter. This appears in its discussion of an equal society, including equal rights to work and the expansion of opportunities for women."
   },
   {
@@ -3299,7 +3299,7 @@
     "type": "single",
     "options": ["17th March", "30th November", "1st March", "23rd April"],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St George's Day falls on 23 April. St Andrew's Day is 30 November, St David's Day 1 March and St Patrick's Day 17 March."
   },
   {
@@ -3313,7 +3313,7 @@
       "The Lake District"
     ],
     "correct-answer": 3,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The Lake District is England's largest national park, covering about 2,362 square kilometres. The qualification 'in England' matters: Snowdonia is in Wales, and Loch Lomond and The Trossachs is in Scotland."
   },
   {
@@ -3327,7 +3327,7 @@
       "The Romans"
     ],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Boudicca was queen of the Iceni, in what is now eastern England, and led resistance to the Roman occupation that began under Claudius in AD 43. Her statue stands on Westminster Bridge in London."
   },
   {
@@ -3341,7 +3341,7 @@
       "Great Expectations"
     ],
     "correct-answer": 0,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Canterbury Tales follows a group of pilgrims travelling to Canterbury who entertain one another by telling stories. Chaucer describes both the travellers and their tales, providing a picture of different people in medieval society."
   },
   {
@@ -3355,7 +3355,7 @@
       "Summer Holidays"
     ],
     "correct-answer": 0,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "The everyday term is 'bank holidays', meaning public holidays when banks and many businesses usually close. Some occur in summer, but others include Christmas and Easter-related holidays; they are not restricted to a season or profession."
   },
   {
@@ -3369,7 +3369,7 @@
       "Swimming"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "After defeat by Cromwell at Worcester, Charles II hid in an oak tree during his escape and eventually reached Europe. He later returned from exile in 1660, when Parliament restored the monarchy."
   },
   {
@@ -3383,7 +3383,7 @@
       "King Alfred the Great"
     ],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference credits Alfred the Great with defeating the Vikings, matching this practice answer. Clarification: this does not mean he conquered all Viking-held England or united and liberated every Anglo-Saxon kingdom. His victory at Edington in 878 preserved Wessex, while Danish control continued in northern and eastern England in the Danelaw."
   },
   {
@@ -3397,7 +3397,7 @@
       "The inventor of the television"
     ],
     "correct-answer": 1,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "William Caxton introduced printing with a printing press to England. Chaucer's Canterbury Tales was among his early publications, connecting the development of printed books with the growing use of English in literature."
   },
   {
@@ -3411,7 +3411,7 @@
       "The Big Ben"
     ],
     "correct-answer": 1,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "Beefeaters are the Yeoman Warders at the Tower of London. They give tours explaining its history as a fortress, royal palace and prison, alongside their ceremonial and security duties."
   },
   {
@@ -3420,7 +3420,7 @@
     "type": "single",
     "options": ["Glasgow", "Galloway", "The Highlands", "Edinburgh"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Bonnie Prince Charlie landed in Scotland in 1745 and was supported by clansmen from the Scottish Highlands. He was defeated at the Battle of Culloden in 1746 and escaped to Europe."
   },
   {
@@ -3429,7 +3429,7 @@
     "type": "single",
     "options": ["She was a Protestant", "She was a Catholic"],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Elizabeth I, daughter of Henry VIII and Anne Boleyn, was a Protestant. She re-established the Church of England as the official Church and balanced Catholic and more extreme Protestant views."
   },
   {
@@ -3443,7 +3443,7 @@
       "Charlie Chaplin"
     ],
     "correct-answer": 3,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Charlie Chaplin became famous in silent films for his Tramp character. He was a British performer who built a career in Hollywood, illustrating the early links between British actors and the American film industry."
   },
   {
@@ -3457,7 +3457,7 @@
       "The Royal Air Force"
     ],
     "correct-answer": 3,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The Battle of Britain was fought in the air in summer 1940 by the Royal Air Force, using Spitfire and Hurricane fighter planes against the German air force. It was the air campaign Hitler needed to win before invading Britain."
   },
   {
@@ -3466,7 +3466,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The minimum voting age for a UK general election is 18, not 21. Age alone is insufficient: voters must also be registered and meet the nationality and other eligibility rules."
   },
   {
@@ -3480,7 +3480,7 @@
       "William Wordsworth"
     ],
     "correct-answer": 3,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "William Wordsworth drew inspiration from nature, as his poem The Daffodils illustrates. By contrast, Wilfred Owen and Siegfried Sassoon are particularly associated with poetry about their experiences in the First World War."
   },
   {
@@ -3489,7 +3489,7 @@
     "type": "single",
     "options": ["Germany", "Italy", "France", "Spain"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Britain fought Napoleon's French army at Waterloo in 1815. The Duke of Wellington's victory ended the French Wars described in the handbook; Wellington was known as the Iron Duke and later became Prime Minister."
   },
   {
@@ -3498,7 +3498,7 @@
     "type": "single",
     "options": ["A poet", "A sportsman", "A politician", "A musician"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Wilberforce was an evangelical Christian and a member of Parliament. With other abolitionists he turned public opinion against the slave trade, which became illegal in 1807."
   },
   {
@@ -3512,7 +3512,7 @@
       "The Archbishop of Manchester"
     ],
     "correct-answer": 0,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "The Archbishop of Canterbury provides spiritual leadership in the Church of England. This is distinct from the monarch's constitutional position as Supreme Governor, which explains why questions about the Church's 'spiritual leader' and its 'head' have different answers."
   },
   {
@@ -3521,7 +3521,7 @@
     "type": "single",
     "options": ["Wales", "Ireland", "France", "Scotland"],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Elizabeth I died childless in 1603, and her heir was James VI of Scotland, who became King James I of England, Wales and Ireland. Scotland remained a separate country."
   },
   {
@@ -3533,7 +3533,7 @@
       "All shops in the UK close on Sundays and bank holidays."
     ],
     "correct-answer": 0,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Most UK shops trade seven days a week, though Sunday and public holiday hours are usually shorter. They do not all shut on Sundays and bank holidays, so the second statement is wrong."
   },
   {
@@ -3542,7 +3542,7 @@
     "type": "single",
     "options": ["France", "Germany", "Spain", "Italy"],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1588 Spain sent the Armada, a large fleet of ships, to conquer England and restore Catholicism. The English defeated it, making Elizabeth I one of the most popular monarchs in English history."
   },
   {
@@ -3556,7 +3556,7 @@
       "Aintree near Liverpool"
     ],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The National Horseracing Museum is in Newmarket, Suffolk. Aintree near Liverpool is the home of the Grand National, and St Andrews in Scotland is known as the home of golf."
   },
   {
@@ -3570,7 +3570,7 @@
       "Powis Castle"
     ],
     "correct-answer": 0,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference explicitly places Crathes Castle in Scotland, matching this answer. It is near Banchory in Aberdeenshire: a 16th-century tower house known for its painted ceilings and walled garden. Its location is established directly, not simply inferred from other castles being absent from a list."
   },
   {
@@ -3584,7 +3584,7 @@
       "Mary Quant"
     ],
     "correct-answer": 2,
-    "tags": ["arts-and-culture"],
+    "tags": ["ch4", "ch4.5"],
     "explanation": "Clarice Cliff was a ceramic designer associated with Art Deco. The other options worked in different fields: Thomas Chippendale designed furniture, while Mary Quant and Alexander McQueen were fashion designers."
   },
   {
@@ -3593,7 +3593,7 @@
     "type": "single",
     "options": ["23rd April", "30th November", "1st April", "17th March"],
     "correct-answer": 3,
-    "tags": ["religion"],
+    "tags": ["ch4", "ch4.2"],
     "explanation": "St Patrick, the patron saint of Northern Ireland, is celebrated on 17 March. The other dates given are St George's Day (23 April) and St Andrew's Day (30 November)."
   },
   {
@@ -3607,7 +3607,7 @@
       "Using a runoff system"
     ],
     "correct-answer": 0,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference describes proportional representation for the Northern Ireland Assembly, matching this practice answer. Correction: the institution is the Assembly, not the former Northern Ireland Parliament. Clarification: it uses the Single Transferable Vote system, which is proportional representation and asks voters to rank candidates. The ranked-voting option therefore overlaps, but this practice set accepts proportional representation."
   },
   {
@@ -3621,7 +3621,7 @@
       "Sir Robert Walpole"
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Sir Robert Walpole was the first man to be called Prime Minister, serving from 1721 to 1742. The title came from the most important minister in Parliament."
   },
   {
@@ -3635,7 +3635,7 @@
       "Kate Winslet"
     ],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The reference identifies Dench, Winslet and Swinton as Oscar winners, supporting Emily Watson by elimination among these choices; it does not discuss Watson directly. Clarification: Watson received nominations for Breaking the Waves in 1997 and Hilary and Jackie in 1999 without winning either. A nomination is not itself a win."
   },
   {
@@ -3644,7 +3644,7 @@
     "type": "single",
     "options": ["Physics", "Economics", "Science", "Engineering"],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Adam Smith was a Scottish Enlightenment thinker who developed ideas about economics that are still referred to today. David Hume, by contrast, wrote about human nature."
   },
   {
@@ -3653,7 +3653,7 @@
     "type": "single",
     "options": ["Admiral Nelson", "Henry VIII", "Oliver Cromwell", "Napoleon"],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Admiral Nelson was killed at Trafalgar in 1805 while commanding the British fleet against the French and Spanish. His ship, HMS Victory, can be visited in Portsmouth."
   },
   {
@@ -3667,7 +3667,7 @@
       "31st of December"
     ],
     "correct-answer": 3,
-    "tags": ["customs-and-traditions"],
+    "tags": ["ch4", "ch4.3"],
     "explanation": "In Scotland, 31 December, which is New Year's Eve, is called Hogmanay, and 2 January is also a public holiday there. For some Scottish people Hogmanay is a bigger holiday than Christmas."
   },
   {
@@ -3676,7 +3676,7 @@
     "type": "single",
     "options": ["Canvassing", "Hansard", "Cabinets", "Domesday Book"],
     "correct-answer": 1,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Hansard is Parliament's official written record of debates, also recording votes and written ministerial statements. It is an edited verbatim report: repetitions and obvious mistakes can be removed without changing what a speaker means."
   },
   {
@@ -3690,7 +3690,7 @@
       "The Six Nations Championship"
     ],
     "correct-answer": 3,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The Six Nations Championship is a rugby union competition involving England, Ireland, Scotland, Wales, France and Italy. The other options belong to different sports: the Scottish Grand National is horse racing, Wimbledon is tennis and the Ashes is cricket."
   },
   {
@@ -3704,7 +3704,7 @@
       "The monarch"
     ],
     "correct-answer": 3,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The monarch formally appoints life peers on the Prime Minister's advice. Nominations can originate with political parties or the independent House of Lords Appointments Commission; the Prime Minister submits them for royal approval."
   },
   {
@@ -3718,7 +3718,7 @@
       "Sake Dean Mahomet"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference credits Captain James Cook with mapping Australia's coast, matching this practice answer. Clarification: Cook charted the east coast during his 1770 voyage in Endeavour, not the entire Australian coastline. His surveys formed part of wider Pacific exploration; British colonisation of Australia followed later."
   },
   {
@@ -3732,7 +3732,7 @@
       "The Crimean War"
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Crimean War of 1853 to 1856 received extensive coverage through newspaper reports and photographs. The handbook also links it with Florence Nightingale's hospital reforms and the introduction of the Victoria Cross for military bravery."
   },
   {
@@ -3746,7 +3746,7 @@
       "Stonehenge"
     ],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Stonehenge stands in Wiltshire and belongs to Britain's prehistoric past. The handbook describes it as probably a gathering place for seasonal ceremonies, linking it with the monuments built after farming communities became established in Britain."
   },
   {
@@ -3755,7 +3755,7 @@
     "type": "single",
     "options": ["St Patrick", "St Augustine", "St Andrew", "St Columba"],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "St Augustine led missionaries from Rome who spread Christianity in southern England and became the first Archbishop of Canterbury. Christianity also spread through a separate missionary tradition from Ireland, including St Columba's monastery on Iona."
   },
   {
@@ -3764,7 +3764,7 @@
     "type": "single",
     "options": ["18", "20", "16", "21"],
     "correct-answer": 0,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The minimum age is 18 for entering betting shops or gambling clubs. This is an entry restriction, not merely a rule about placing bets; accompanying an adult does not lower the age for a customer."
   },
   {
@@ -3773,7 +3773,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-development-of-british-democracy"],
+    "tags": ["ch5", "ch5.1"],
     "explanation": "The UK is a parliamentary democracy because voters elect MPs to represent them in the House of Commons. Parliament makes laws and scrutinises the government, while the monarch serves as head of state within a constitutional monarchy."
   },
   {
@@ -3782,7 +3782,7 @@
     "type": "single",
     "options": ["Haggis", "Pancakes", "Paella", "Ulster Fry"],
     "correct-answer": 3,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The Ulster fry is Northern Ireland's traditional fried meal, made with bacon, eggs, sausage, black pudding, tomatoes, mushrooms, soda bread and potato bread. Haggis belongs to Scotland."
   },
   {
@@ -3796,7 +3796,7 @@
       "Harold Macmillan"
     ],
     "correct-answer": 0,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Clement Attlee became Prime Minister after Labour won the 1945 election, serving until 1951. His government created the National Health Service, expanded social security and brought major industries into public ownership as part of its welfare-state programme."
   },
   {
@@ -3805,7 +3805,7 @@
     "type": "single",
     "options": ["5", "3", "4", "8"],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "The UK hosted the Olympic Games in 1908, 1948 and 2012, so three occasions. The main site for the 2012 Games was Stratford in East London."
   },
   {
@@ -3819,7 +3819,7 @@
       "To increase the amount of water in towns and cities"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Canals linked factories to towns, cities and ports, particularly in the new industrial areas of the middle and north of England, so raw materials and manufactured goods could be moved."
   },
   {
@@ -3828,7 +3828,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 1,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "This practice set accepts No, but the reference only establishes that civil servants are chosen on merit and are not party-political appointees. Clarification: government departments do appoint staff, normally through fair, open, merit-based recruitment. Civil servants serve governments impartially, so the reference does not fully resolve the question’s literal wording."
   },
   {
@@ -3837,7 +3837,7 @@
     "type": "single",
     "options": ["Germany", "Norway", "Italy", "France"],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The reference names France as Britain's partner in developing Concorde, matching this practice answer. Concorde first flew in 1969 and carried passengers from 1976 until 2003. Correction: the reference's claim that it was the world's only supersonic passenger aircraft is inaccurate; the Soviet Tu-144 also operated passenger services."
   },
   {
@@ -3851,7 +3851,7 @@
       "Hovercraft"
     ],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Steam power helped drive the Industrial Revolution by powering machinery and increasing production. Factories needed coal and other raw materials, and many people moved from rural areas into mining and manufacturing work."
   },
   {
@@ -3860,7 +3860,7 @@
     "type": "single",
     "options": ["Columba", "Claudius", "Hadrian", "Boudicca"],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Boudicca was queen of the Iceni, a tribe in what is now eastern England. She led resistance against Roman rule, which followed the successful invasion begun under Emperor Claudius in AD 43."
   },
   {
@@ -3869,7 +3869,7 @@
     "type": "multi",
     "options": ["Welsh", "Gaelic", "Norman French", "Anglo-Saxon"],
     "correct-answer": [2, 3],
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "After the Norman Conquest, Norman French was the language of the king and nobles, while ordinary people continued speaking Anglo-Saxon. French influenced the developing English language; by about 1400, English had become preferred at court and in Parliament."
   },
   {
@@ -3878,7 +3878,7 @@
     "type": "single",
     "options": ["North African", "Asian", "North American", "South African"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "In 1776 thirteen North American colonies declared independence, saying people had a right to establish their own governments. They objected to British taxes with the cry of no taxation without representation."
   },
   {
@@ -3892,7 +3892,7 @@
       "When kind Harold died after the Battle of Hastings"
     ],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "After Charles I was executed in 1649, England declared itself a republic called the Commonwealth and no longer had a monarch. It lasted 11 years, until Charles II was invited back in 1660."
   },
   {
@@ -3906,7 +3906,7 @@
       "Indiana Jones"
     ],
     "correct-answer": 0,
-    "tags": ["leisure", "outdated"],
+    "tags": ["ch4", "ch4.6", "outdated"],
     "explanation": "The reference names Harry Potter and James Bond as the two highest-grossing film franchises, supporting Harry Potter here. Outdated reference context: that ranking is dated and must not be treated as a current worldwide ranking. Harry Potter used Leavesden Studios in Hertfordshire, but filming in Britain is not unique to this franchise."
   },
   {
@@ -3920,7 +3920,7 @@
       "2,000 years ago"
     ],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The first farmers arrived in Britain about 6,000 years ago, and the handbook traces their ancestors to south-east Europe. Farming communities built houses, tombs and monuments, including Stonehenge, changing the landscape previously used by hunter-gatherers."
   },
   {
@@ -3934,7 +3934,7 @@
       "At 11.00 am on 11th November 1918"
     ],
     "correct-answer": 3,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The armistice stopped fighting on the Western Front at 11.00 am on 11 November 1918. An armistice is an agreement to stop fighting; the peace treaties that formally settled the war followed in 1919."
   },
   {
@@ -3943,7 +3943,7 @@
     "type": "single",
     "options": ["Yes", "No"],
     "correct-answer": 0,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "Courts can issue Forced Marriage Protection Orders to protect someone at risk of a forced marriage or already in one. The protection addresses coercion and lack of free consent, which distinguish forced marriage from a freely agreed arranged marriage."
   },
   {
@@ -3952,7 +3952,7 @@
     "type": "single",
     "options": ["She did not win any medals", "Silver", "Gold", "Bronze"],
     "correct-answer": 2,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Mary Peters, born in Manchester and raised in Northern Ireland, won an Olympic gold medal in the pentathlon in 1972. She later raised money for local athletics and was made a Dame in 2000."
   },
   {
@@ -3966,7 +3966,7 @@
       "Up to 5 specially trained magistrates"
     ],
     "correct-answer": [0, 1],
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference says up to three specially trained magistrates or a District Judge, matching this practice answer. Correction: Northern Ireland normally uses a district judge together with two lay magistrates, not the alternative panels described in the reference. The magistrates-or-district-judge arrangement describes England and Wales, so the question incorrectly combines the jurisdictions."
   },
   {
@@ -3980,7 +3980,7 @@
       "The ball pen"
     ],
     "correct-answer": 2,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Alan Turing devised the Turing machine in the 1930s as a theoretical mathematical model, not a physical machine. Its ideas became influential in the development of computer science and modern computers."
   },
   {
@@ -3994,7 +3994,7 @@
       "The Carta Magna"
     ],
     "correct-answer": 0,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference says Domesday Book shows society just after the Norman Conquest, matching this practice answer. William the Conqueror's survey was carried out in 1086. Clarification: the reference overstates its coverage; the book records landholdings, resources and values across much of England, not every settlement and inhabitant in a complete population census."
   },
   {
@@ -4008,7 +4008,7 @@
       "Sir Peter Mansfield"
     ],
     "correct-answer": 2,
-    "tags": ["the-20th-century"],
+    "tags": ["ch3", "ch3.5"],
     "explanation": "The reference credits scientists led by Ernest Rutherford with first 'splitting the atom', matching this practice answer. His work at Manchester produced the first artificial nuclear reaction. Clarification: that achievement was not the later discovery of nuclear fission, and the reference's compressed account must not imply an immediate transition from Rutherford's experiments to the atomic bomb."
   },
   {
@@ -4022,7 +4022,7 @@
       "White Christmas"
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Robert Burns wrote Auld Lang Syne, which people in the UK and other countries sing at New Year, known in Scotland as Hogmanay. Burns is remembered in Scotland as The Bard."
   },
   {
@@ -4036,7 +4036,7 @@
       "The House of Fraser and the House of Stuart"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Civil War began in 1642 between Charles I and Parliament after disputes over royal power and religion. The king's supporters were called Cavaliers, while Parliament's supporters were known as Roundheads."
   },
   {
@@ -4045,7 +4045,7 @@
     "type": "multi",
     "options": ["Vindolanda", "Maiden Castle", "Housesteads", "Grimsby"],
     "correct-answer": [0, 2],
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The reference names Housesteads and Vindolanda as forts associated with Hadrian's Wall, matching both selections in this practice answer. Clarification: its wording implies both formed part of the wall itself; it is more accurate to describe them as frontier forts. The frontier included roads, towers and settlements, and controlled movement as well as deterring raids, rather than simply keeping out the Picts."
   },
   {
@@ -4054,7 +4054,7 @@
     "type": "single",
     "options": ["Hindu", "Catholic", "Sikh", "Protestant"],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Puritans were a group of Protestants who advocated strict and simple religious doctrine and worship. Many in Parliament in 1640 were Puritans and disliked Charles I's reforms of the Church of England."
   },
   {
@@ -4063,7 +4063,7 @@
     "type": "single",
     "options": ["Fenians", "Quakers", "Highlanders", "Suffragettes"],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Fenians were Irish nationalists who favoured complete independence from the UK. Others, such as Charles Stuart Parnell, wanted Home Rule, with Ireland keeping its own parliament inside the UK."
   },
   {
@@ -4072,7 +4072,7 @@
     "type": "multi",
     "options": ["The Rolling Stones", "The Beatles", "ABBA", "Radiohead"],
     "correct-answer": [0, 1],
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The 1960s, known as the Swinging Sixties, brought growth in British fashion, cinema and popular music. The Beatles and The Rolling Stones were two well-known pop music groups in Britain at that time."
   },
   {
@@ -4081,7 +4081,7 @@
     "type": "single",
     "options": ["16 years old", "17 years old", "18 years old", "21 years old"],
     "correct-answer": 1,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "The reference gives 17 as the minimum age for a motor cycle, matching this practice answer. Clarification: 17 is the minimum for a light motorcycle, subject to licence and training requirements. More powerful motorcycle categories have higher age requirements, and mopeds can be ridden from 16; 17 does not give access to every motorcycle."
   },
   {
@@ -4090,7 +4090,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": false,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The statement is false because the House of Lords is not elected by the public. Its members scrutinise legislation and government policy, whereas MPs in the House of Commons receive their seats through constituency elections."
   },
   {
@@ -4099,7 +4099,7 @@
     "type": "single",
     "options": ["1835", "1823", "1807", "1833"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives 1833 for the Emancipation Act, matching this practice answer. Correction: this is the Act's year, not its main implementation date of 1 August 1834; some territories initially remained excluded. Compulsory apprenticeship continued in many colonies until 1838, so 'throughout the British Empire' in 1833 overstates the result; the slave trade had separately been abolished in 1807."
   },
   {
@@ -4113,7 +4113,7 @@
       "The Home Secretary"
     ],
     "correct-answer": 3,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The Home Secretary leads the Home Office, whose responsibilities include crime, policing and immigration. This does not make the Home Secretary responsible for every local policing decision, and policing is devolved in Scotland and Northern Ireland."
   },
   {
@@ -4127,7 +4127,7 @@
       "An action film"
     ],
     "correct-answer": 2,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Wallace and Gromit belong to Nick Park's animation work at Aardman. His Oscar-winning films featuring the pair include The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit, rather than live-action productions."
   },
   {
@@ -4136,7 +4136,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["fundamental-principles"],
+    "tags": ["ch5", "ch5.6"],
     "explanation": "Violence against a partner can be prosecuted whether the couple is married or living together, and regardless of either person's sex. A domestic relationship does not excuse assault or remove the victim's legal protection."
   },
   {
@@ -4150,7 +4150,7 @@
       "Before the Second World War."
     ],
     "correct-answer": 1,
-    "tags": ["the-uk-and-international-institutions"],
+    "tags": ["ch5", "ch5.4"],
     "explanation": "The United Nations officially came into existence on 24 October 1945, after the Second World War ended. Its founders sought to prevent another devastating war through international cooperation and the maintenance of peace and security."
   },
   {
@@ -4159,7 +4159,7 @@
     "type": "single",
     "options": ["Scotland", "England", "Wales", "Northern Ireland"],
     "correct-answer": 3,
-    "tags": ["places-of-interest"],
+    "tags": ["ch4", "ch4.7"],
     "explanation": "The reference locates the Giant's Causeway in Northern Ireland, matching this answer. Correction: its separate formation date of about 50 million years differs from the National Trust's account of just under 60 million years. The basalt columns formed when volcanic lava cooled and cracked; the question asks about location, not age."
   },
   {
@@ -4173,7 +4173,7 @@
       "She was sent to Scotland."
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The reference says Mary, Queen of Scots, was executed after imprisonment by Elizabeth I, matching this practice answer. Mary was accused of plotting against Elizabeth. Correction: the question and reference give 20 years in captivity, but she was held in England from 1568 until execution in 1587, almost 19 years."
   },
   {
@@ -4182,7 +4182,7 @@
     "type": "single",
     "options": ["The Gepids", "The Jutes", "The Frisians", "The Burgundians"],
     "correct-answer": 1,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "After the Roman army left in AD 410, tribes from northern Europe invaded: the Jutes, the Angles and the Saxons. The languages they spoke are the basis of modern-day English."
   },
   {
@@ -4191,7 +4191,7 @@
     "type": "single",
     "options": ["James Bond", "Star Wars", "The Lord of the Rings", "Superman"],
     "correct-answer": 0,
-    "tags": ["leisure", "outdated"],
+    "tags": ["ch4", "ch4.6", "outdated"],
     "explanation": "The reference explicitly includes James Bond in its highest-grossing franchise claim, supporting this practice answer. Outdated reference context: its two-highest ranking is dated. Star Wars also filmed in Britain, including at Elstree, so UK production alone does not make James Bond uniquely correct; the selection follows the reference's examples."
   },
   {
@@ -4205,7 +4205,7 @@
       "Members of the public."
     ],
     "correct-answer": [0, 2],
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference names specially trained magistrates or a District Judge, matching this practice answer’s two roles. Correction: Northern Ireland normally combines a district judge with two lay magistrates, rather than using either role alone. England and Wales use the alternative panels described in the reference; social workers and the general public are not the intended answers."
   },
   {
@@ -4214,7 +4214,7 @@
     "type": "single",
     "options": ["William II", "Charles II", "Edward II", "George II"],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "This practice question's key is Charles II, and the reference describes his return from exile in the Netherlands in 1660. However, it also describes William of Orange coming from the Netherlands in 1688 and becoming William III in England and William II in Scotland. Clarification: the broad wording can therefore fit William too, overlapping the offered 'William II' choice; the question remains ambiguous rather than fully confirmed."
   },
   {
@@ -4228,7 +4228,7 @@
       "17- and 18-year-olds"
     ],
     "correct-answer": 2,
-    "tags": ["your-role-in-the-community", "outdated"],
+    "tags": ["ch5", "ch5.7", "outdated"],
     "explanation": "The reference describes National Citizen Service for 16- and 17-year-olds, matching this practice answer. It presents voluntary activities that develop skills and support a community project. Outdated reference context: programme delivery ended on 31 March 2025, so new applicants cannot join; the reference describes its main age group, not an exclusive statutory age range."
   },
   {
@@ -4242,7 +4242,7 @@
       "Women in Love"
     ],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Three of Nick Park's four Oscar wins were for Wallace and Gromit films: The Wrong Trousers, A Close Shave and The Curse of the Were-Rabbit. His other winning animation was Creature Comforts."
   },
   {
@@ -4256,7 +4256,7 @@
       "Francis Crick"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Francis Crick helped discover the structure of the DNA molecule in 1953 through research in Cambridge and London. He shared a Nobel Prize for this work, which supported later advances in medicine and the investigation of crime."
   },
   {
@@ -4265,7 +4265,7 @@
     "type": "single",
     "options": ["Around 5%", "Around 10%", "Around 15%", "Around 20%"],
     "correct-answer": 1,
-    "tags": ["the-uk-today"],
+    "tags": ["ch4", "ch4.1"],
     "explanation": "The reference states nearly 10%, matching this answer. This is a reference-era statistic, not a verified current population estimate. It illustrates post-war migration and the UK's diversity, but no current replacement has been established for this particular parent-or-grandparent measure."
   },
   {
@@ -4274,7 +4274,7 @@
     "type": "single",
     "options": ["15 years old", "16 years old", "17 years old", "18 years old"],
     "correct-answer": 1,
-    "tags": ["the-development-of-british-democracy"],
+    "tags": ["ch5", "ch5.1"],
     "explanation": "Sixteen is the minimum age for riding a moped, subject to the relevant licence and training requirements. This differs from a light motorcycle, for which the minimum age is 17; more powerful motorcycles have higher age requirements."
   },
   {
@@ -4288,7 +4288,7 @@
       "Tony Blair"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "The Labour Party led by Tony Blair won the 1997 election, and his government introduced a Scottish Parliament and a Welsh Assembly, now called the Senedd. Gordon Brown took over as Prime Minister in 2007."
   },
   {
@@ -4297,7 +4297,7 @@
     "type": "single",
     "options": ["£3,000", "£5,000", "£8,000", "£10,000"],
     "correct-answer": 1,
-    "tags": ["respecting-the-law", "outdated"],
+    "tags": ["ch5", "ch5.5", "outdated"],
     "explanation": "The reference gives £5,000 for Scotland and Northern Ireland, matching this practice answer and the current limit for qualifying claims. Outdated reference context: Scotland now uses Simple Procedure, introduced for new claims in 2016; its former procedure actually called small claims had a £3,000 limit. Northern Ireland still uses small claims, and not every dispute qualifies."
   },
   {
@@ -4311,7 +4311,7 @@
       "The White Tower"
     ],
     "correct-answer": 3,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "The White Tower in the Tower of London is a Norman castle keep built on the orders of William the Conqueror, who became king after his victory in 1066."
   },
   {
@@ -4320,7 +4320,7 @@
     "type": "single",
     "options": ["James Callaghan", "John Major", "Tony Blair", "Harold Wilson"],
     "correct-answer": 1,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "John Major followed Margaret Thatcher as Prime Minister and helped establish the Northern Ireland peace process, which the Blair government built on with the Good Friday Agreement in 1998."
   },
   {
@@ -4334,7 +4334,7 @@
       "The Prime Minister."
     ],
     "correct-answer": 2,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The police are an appropriate contact for suspected terrorist activity because they can assess threats and investigate offences. Use an official police reporting channel, and call 999 if a crime is happening or someone is in immediate danger."
   },
   {
@@ -4348,7 +4348,7 @@
       "David Weir"
     ],
     "correct-answer": 1,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Simmonds won swimming gold at the 2008, 2012 and 2016 Paralympic Games and was the youngest member of the British team in 2008. Grey-Thompson and Weir are wheelchair racers, not swimmers."
   },
   {
@@ -4357,7 +4357,7 @@
     "type": "single",
     "options": ["Wales", "Northern Ireland", "Scotland", "England"],
     "correct-answer": 3,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "The rose is associated with England. The other national plant symbols are the thistle for Scotland, the daffodil for Wales and the shamrock for Northern Ireland; people sometimes wear these symbols on national saints' days."
   },
   {
@@ -4371,7 +4371,7 @@
       "The discovery of insulin."
     ],
     "correct-answer": 0,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference credits Brunel with constructing the Great Western Railway, matching this practice answer. His engineering work also included tunnels, bridges and ships. Correction: the reference's claim that this was Britain's first major railway is misleading; the Liverpool and Manchester Railway had already opened in 1830."
   },
   {
@@ -4385,7 +4385,7 @@
       "An international organization that aims to prevent war and promote international peace and security."
     ],
     "correct-answer": 2,
-    "tags": ["the-uk-and-international-institutions"],
+    "tags": ["ch5", "ch5.4"],
     "explanation": "The Commonwealth is a voluntary association of independent, equal countries cooperating on shared goals such as democracy and development. Members remain responsible for their own policies; it is not a single government or a collective defence alliance."
   },
   {
@@ -4399,7 +4399,7 @@
       "The Enlightenment"
     ],
     "correct-answer": 2,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "The Reformation was the movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church. It was spreading across Europe when Henry VIII broke away from the Church of Rome."
   },
   {
@@ -4408,7 +4408,7 @@
     "type": "single",
     "options": ["Gravity", "Penicillin", "Insulin", "Lightbulb"],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Newton's Principia showed how gravity applied to the whole universe, and he also discovered that white light is made up of the colours of the rainbow. He was born in Lincolnshire and studied at Cambridge."
   },
   {
@@ -4422,7 +4422,7 @@
       "Horror movies"
     ],
     "correct-answer": 1,
-    "tags": ["leisure"],
+    "tags": ["ch4", "ch4.6"],
     "explanation": "Nick Park specialises in animation, including Wallace and Gromit and Creature Comforts. His four Oscar wins include three Wallace and Gromit films; animation describes how a film is made, rather than a story genre such as horror or a thriller."
   },
   {
@@ -4436,7 +4436,7 @@
       "The police"
     ],
     "correct-answer": 2,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "This practice set accepts the armed forces because the reference’s list of main constitutional institutions includes the other three options but omits them. Clarification: the list is not exhaustive, so omission does not prove the armed forces are not constitutional institutions. They remain subject to constitutional law and Parliament’s control; the listed practice answer follows the reference’s teaching list, not a proven universal exclusion."
   },
   {
@@ -4445,7 +4445,7 @@
     "type": "single",
     "options": ["Corn", "Potato", "Wheat", "Oats"],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "Many Irish people depended on potatoes, so when the crop failed in the middle of the 19th century, famine followed. A million died from disease and starvation and another million and a half left Ireland."
   },
   {
@@ -4459,7 +4459,7 @@
       "Support peers"
     ],
     "correct-answer": 0,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The shadow cabinet is the senior team chosen by the Leader of the Opposition to scrutinise government departments and develop alternative policies. Shadow ministers challenge ministers, but do not run those departments."
   },
   {
@@ -4473,7 +4473,7 @@
       "Scrutinise and comment on what the monarch is doing"
     ],
     "correct-answer": [1, 2],
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "MPs represent everyone in their constituency and help make laws by debating, examining and voting on legislation. They also scrutinise the government, rather than the monarch's personal conduct; protecting life and property is a core police duty."
   },
   {
@@ -4487,7 +4487,7 @@
       "Margaret Thatcher"
     ],
     "correct-answer": 3,
-    "tags": ["britain-since-1945"],
+    "tags": ["ch3", "ch3.6"],
     "explanation": "Margaret Thatcher, Britain's first woman Prime Minister, led the Conservative government from 1979 to 1990 and was the longest-serving Prime Minister of the 20th century. She trained as a chemist and lawyer before entering Parliament."
   },
   {
@@ -4501,7 +4501,7 @@
       "British Colonies"
     ],
     "correct-answer": 0,
-    "tags": ["what-is-the-uk"],
+    "tags": ["ch2", "ch2.1"],
     "explanation": "The Channel Islands and the Isle of Man are closely linked to the UK but have their own governments, so they are not part of it; these are the Crown dependencies. British overseas territories, such as St Helena, are a separate group."
   },
   {
@@ -4510,7 +4510,7 @@
     "type": "single",
     "options": ["Architecture", "Poetry", "Cinema", "Philosophy"],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "David Hume was a Scottish Enlightenment philosopher whose ideas about human nature still influence philosophers. Adam Smith, another Scot of the same period, wrote about economics."
   },
   {
@@ -4524,7 +4524,7 @@
       "One quarter of the population"
     ],
     "correct-answer": 1,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The handbook gives the death toll as one third of England's population, with similar losses in Scotland and Wales. The resulting shortage of workers helped peasants demand higher wages and contributed to changes in medieval society."
   },
   {
@@ -4538,7 +4538,7 @@
       "He was executed"
     ],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Charles I was executed in 1649 after Parliament's victory in the Civil War and his continued conflict with its leaders. England then became a republic, the Commonwealth, and remained without a monarch until the Restoration in 1660."
   },
   {
@@ -4552,7 +4552,7 @@
       "To appoint the government"
     ],
     "correct-answer": [1, 3],
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The reference assigns appointing the government and advising, warning and encouraging the Prime Minister to the monarch, matching this practice answer. Clarification: the Prime Minister selects cabinet ministers, but the monarch formally approves ministerial appointments on the Prime Minister’s advice. The cabinet-appointment option therefore overlaps with the accepted pair; policy decisions rest with ministers."
   },
   {
@@ -4561,7 +4561,7 @@
     "type": "single",
     "options": ["A plague", "An earthquake", "A famine", "A civil war"],
     "correct-answer": 0,
-    "tags": ["the-middle-ages"],
+    "tags": ["ch3", "ch3.2"],
     "explanation": "The Black Death was a devastating outbreak of plague that reached Britain in 1348. The handbook estimates that one third of England's population died; labour shortages afterwards helped peasants demand higher wages."
   },
   {
@@ -4570,7 +4570,7 @@
     "type": "single",
     "options": ["Andorra", "Germany", "France", "Luxembourg"],
     "correct-answer": 2,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "France competed with Britain for overseas trade and territory during the 18th century. Both countries expanded into many of the same regions, so commercial and colonial rivalry repeatedly contributed to armed conflict."
   },
   {
@@ -4579,7 +4579,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["the-british-constitution"],
+    "tags": ["ch5", "ch5.2"],
     "explanation": "The Speaker remains an elected MP with a constituency and continues helping constituents. Political impartiality in the Commons does not remove that local representative role, although the Speaker no longer acts as a party representative."
   },
   {
@@ -4588,7 +4588,7 @@
     "type": "single",
     "options": ["Scotland", "Wales", "England", "Northern Ireland"],
     "correct-answer": 0,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "Skara Brae, on Orkney off the north coast of Scotland, is the best preserved prehistoric village in northern Europe. It has helped archaeologists understand how people lived near the end of the Stone Age."
   },
   {
@@ -4602,7 +4602,7 @@
       "The Mikado"
     ],
     "correct-answer": 0,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "Macbeth is one of William Shakespeare's best-known plays. Born in Stratford-upon-Avon, Shakespeare worked as both a playwright and actor; his plays and poems remain widely performed and studied in Britain and other countries."
   },
   {
@@ -4611,7 +4611,7 @@
     "type": "single",
     "options": ["Italy", "Portugal", "France", "Ireland"],
     "correct-answer": 2,
-    "tags": ["early-britain"],
+    "tags": ["ch3", "ch3.1"],
     "explanation": "William was Duke of Normandy, in what is now northern France. He defeated Harold, the Saxon king of England, at the Battle of Hastings in 1066 and became known as William the Conqueror."
   },
   {
@@ -4620,7 +4620,7 @@
     "type": "single",
     "options": ["Blacksmiths", "Boers", "Conquistadors", "Beefeaters"],
     "correct-answer": 1,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The Boers were settlers from the Netherlands in South Africa. The Boer War lasted from 1899 to 1902, with many deaths from the fighting and from disease."
   },
   {
@@ -4629,7 +4629,7 @@
     "type": "boolean",
     "options": ["True", "False"],
     "correct-answer": true,
-    "tags": ["respecting-the-law"],
+    "tags": ["ch5", "ch5.5"],
     "explanation": "The reference includes Northern Ireland in its magistrates-or-District-Judge description, supporting this practice set’s True answer. Correction: Northern Ireland normally uses a district judge with two lay magistrates, not up to three magistrates or a judge alone. The alternative-panel description applies to England and Wales; retain True as the reference-based practice key, not as the precise Northern Irish rule."
   },
   {
@@ -4643,7 +4643,7 @@
       "He was the first British to climb Mount Everest."
     ],
     "correct-answer": 0,
-    "tags": ["sport"],
+    "tags": ["ch4", "ch4.4"],
     "explanation": "Roger Bannister became the first man to run a mile in under four minutes in 1954. The other achievements refer to different sportspeople: Jayne Torvill and Christopher Dean won Olympic ice-dancing gold in 1984, and Steve Redgrave won rowing gold at five consecutive Olympics."
   },
   {
@@ -4657,7 +4657,7 @@
       "William of Orange"
     ],
     "correct-answer": 3,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "In 1688 important Protestants in England asked William of Orange, the Protestant ruler of the Netherlands, to invade and proclaim himself king. James II fled to France, and the event became known as the Glorious Revolution."
   },
   {
@@ -4666,7 +4666,7 @@
     "type": "single",
     "options": ["James I", "James II", "Richard I", "Richard II"],
     "correct-answer": 1,
-    "tags": ["the-tudors-and-stuarts"],
+    "tags": ["ch3", "ch3.3"],
     "explanation": "William of Orange defeated James II at the Battle of the Boyne in Ireland in 1690. James had fled to France after the Glorious Revolution and returned with a French army to try to regain the throne."
   },
   {
@@ -4680,7 +4680,7 @@
       "It limited the number of hours that women and children could work to 10 hours per day."
     ],
     "correct-answer": 3,
-    "tags": ["a-global-power"],
+    "tags": ["ch3", "ch3.4"],
     "explanation": "The reference gives a ten-hour daily limit for women and children in 1847, matching this practice answer. Clarification: the Act applied to women and young people aged 13 to 18 in textile factories, not every worker. Younger children already had shorter statutory hours, so the reference's general wording hides important limits on the law's scope."
   },
   {
@@ -4689,7 +4689,7 @@
     "type": "single",
     "options": ["Roundheads", "Cavaliers", "Shadow Cabinet", "Quakers"],
     "correct-answer": 2,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "The reference says senior opposition MPs appointed as shadow ministers form the shadow cabinet, matching this practice answer. Clarification: this is a selected senior team, not every opposition MP. Its members challenge the government’s work and put forward alternative policies."
   },
   {
@@ -4698,7 +4698,7 @@
     "type": "single",
     "options": ["Education", "Immigration", "Security", "Defence"],
     "correct-answer": 0,
-    "tags": ["the-government"],
+    "tags": ["ch5", "ch5.3"],
     "explanation": "Education is devolved, so the Scottish Parliament can pass laws governing Scottish education. Immigration, defence and national security remain reserved to the UK authorities, rather than forming part of the Parliament's ordinary devolved responsibilities."
   }
 ]

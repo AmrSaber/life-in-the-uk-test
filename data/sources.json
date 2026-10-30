@@ -6,49 +6,49 @@
     {
       "url": "https://lifeintheuktestweb.co.uk/the-values-and-principles-of-the-uk/",
       "sections": [
-        "becoming-a-permanent-resident",
-        "the-values-and-principles-of-the-uk"
+        "ch1.1",
+        "ch1.2"
       ]
     },
     {
       "url": "https://lifeintheuktestweb.co.uk/what-is-the-uk/",
       "sections": [
-        "what-is-the-uk"
+        "ch2.1"
       ]
     },
     {
       "url": "https://lifeintheuktestweb.co.uk/a-long-and-illustrious-history/",
       "sections": [
-        "early-britain",
-        "the-middle-ages",
-        "the-tudors-and-stuarts",
-        "a-global-power",
-        "the-20th-century",
-        "britain-since-1945"
+        "ch3.1",
+        "ch3.2",
+        "ch3.3",
+        "ch3.4",
+        "ch3.5",
+        "ch3.6"
       ]
     },
     {
       "url": "https://lifeintheuktestweb.co.uk/a-modern-thriving-society/",
       "sections": [
-        "the-uk-today",
-        "religion",
-        "customs-and-traditions",
-        "sport",
-        "arts-and-culture",
-        "leisure",
-        "places-of-interest"
+        "ch4.1",
+        "ch4.2",
+        "ch4.3",
+        "ch4.4",
+        "ch4.5",
+        "ch4.6",
+        "ch4.7"
       ]
     },
     {
       "url": "https://lifeintheuktestweb.co.uk/the-uk-government-the-law-and-your-role/",
       "sections": [
-        "the-development-of-british-democracy",
-        "the-british-constitution",
-        "the-government",
-        "the-uk-and-international-institutions",
-        "respecting-the-law",
-        "fundamental-principles",
-        "your-role-in-the-community"
+        "ch5.1",
+        "ch5.2",
+        "ch5.3",
+        "ch5.4",
+        "ch5.5",
+        "ch5.6",
+        "ch5.7"
       ]
     }
   ],
@@ -2176,36 +2176,36 @@
   ],
   "curriculum-source-ids": {
     "chapters": {
-      "chapter-the-values-and-principles-of-the-uk": 75,
-      "chapter-what-is-the-uk": 69,
-      "chapter-a-long-and-illustrious-history": 72,
-      "chapter-a-modern-thriving-society": 82,
-      "chapter-the-uk-government-the-law-and-your-role": 90
+      "ch1": 75,
+      "ch2": 69,
+      "ch3": 72,
+      "ch4": 82,
+      "ch5": 90
     },
     "sections": {
-      "becoming-a-permanent-resident": 77,
-      "the-values-and-principles-of-the-uk": 76,
-      "what-is-the-uk": 70,
-      "early-britain": 74,
-      "the-middle-ages": 73,
-      "the-tudors-and-stuarts": 78,
-      "a-global-power": 79,
-      "the-20th-century": 80,
-      "britain-since-1945": 81,
-      "the-uk-today": 83,
-      "religion": 84,
-      "customs-and-traditions": 85,
-      "sport": 86,
-      "arts-and-culture": 87,
-      "leisure": 88,
-      "places-of-interest": 89,
-      "the-development-of-british-democracy": 91,
-      "the-british-constitution": 92,
-      "the-government": 93,
-      "the-uk-and-international-institutions": 95,
-      "respecting-the-law": 96,
-      "fundamental-principles": 98,
-      "your-role-in-the-community": 101
+      "ch1.1": 77,
+      "ch1.2": 76,
+      "ch2.1": 70,
+      "ch3.1": 74,
+      "ch3.2": 73,
+      "ch3.3": 78,
+      "ch3.4": 79,
+      "ch3.5": 80,
+      "ch3.6": 81,
+      "ch4.1": 83,
+      "ch4.2": 84,
+      "ch4.3": 85,
+      "ch4.4": 86,
+      "ch4.5": 87,
+      "ch4.6": 88,
+      "ch4.7": 89,
+      "ch5.1": 91,
+      "ch5.2": 92,
+      "ch5.3": 93,
+      "ch5.4": 95,
+      "ch5.5": 96,
+      "ch5.6": 98,
+      "ch5.7": 101
     }
   },
   "reference-alignment": {
