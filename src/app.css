@@ -1,0 +1,198 @@
+:root {
+	color-scheme: light;
+	--bg: #f7f7f5;
+	--surface: #ffffff;
+	--surface-2: #eef0f3;
+	--text: #1b1f24;
+	--muted: #5a6370;
+	--border: #c9ced6;
+	--accent: #1d4ed8;
+	--accent-text: #ffffff;
+	--focus: #1d4ed8;
+	--correct: #166534;
+	--correct-bg: #e7f6ec;
+	--wrong: #b42318;
+	--wrong-bg: #fdecea;
+	--star: #a15c00;
+	--radius: 10px;
+	--shadow: 0 1px 2px rgb(0 0 0 / 6%), 0 2px 8px rgb(0 0 0 / 4%);
+}
+
+:root[data-theme='dark'] {
+	color-scheme: dark;
+	--bg: #111418;
+	--surface: #1a1f25;
+	--surface-2: #242b33;
+	--text: #e8eaed;
+	--muted: #a3abb6;
+	--border: #3a434e;
+	--accent: #7aa7ff;
+	--accent-text: #0b1220;
+	--focus: #9cbcff;
+	--correct: #6fd08c;
+	--correct-bg: #15301f;
+	--wrong: #ff8a80;
+	--wrong-bg: #3a1a18;
+	--star: #ffc24d;
+	--shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root[data-theme='auto'] {
+		color-scheme: dark;
+		--bg: #111418;
+		--surface: #1a1f25;
+		--surface-2: #242b33;
+		--text: #e8eaed;
+		--muted: #a3abb6;
+		--border: #3a434e;
+		--accent: #7aa7ff;
+		--accent-text: #0b1220;
+		--focus: #9cbcff;
+		--correct: #6fd08c;
+		--correct-bg: #15301f;
+		--wrong: #ff8a80;
+		--wrong-bg: #3a1a18;
+		--star: #ffc24d;
+		--shadow: none;
+	}
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--text);
+	font-family:
+		system-ui,
+		-apple-system,
+		'Segoe UI',
+		Roboto,
+		sans-serif;
+	font-size: 1.0625rem;
+	line-height: 1.55;
+}
+
+h1,
+h2,
+h3 {
+	line-height: 1.25;
+}
+
+a {
+	color: var(--accent);
+}
+
+:focus-visible {
+	outline: 3px solid var(--focus);
+	outline-offset: 2px;
+}
+
+button,
+input,
+select {
+	font: inherit;
+	color: inherit;
+}
+
+button,
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.4em;
+	min-height: 44px;
+	padding: 0.45em 1em;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	background: var(--surface);
+	color: var(--text);
+	font-weight: 600;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button:hover:not(:disabled),
+.button:hover {
+	background: var(--surface-2);
+}
+
+button.primary,
+.button.primary {
+	background: var(--accent);
+	border-color: var(--accent);
+	color: var(--accent-text);
+}
+
+button.primary:hover:not(:disabled),
+.button.primary:hover {
+	background: var(--accent);
+	filter: brightness(1.08);
+}
+
+button.danger {
+	color: var(--wrong);
+	border-color: var(--wrong);
+}
+
+button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+input[type='text'],
+input[type='search'],
+select {
+	min-height: 44px;
+	padding: 0.4em 0.7em;
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	background: var(--surface);
+}
+
+input[type='checkbox'],
+input[type='radio'] {
+	width: 1.2em;
+	height: 1.2em;
+	margin: 0;
+	accent-color: var(--accent);
+	flex: none;
+}
+
+.check {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5em;
+	min-height: 44px;
+	cursor: pointer;
+}
+
+.muted {
+	color: var(--muted);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	clip-path: inset(50%);
+	white-space: nowrap;
+}
+
+.card {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+	padding: 1rem;
+}
