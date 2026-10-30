@@ -6,8 +6,9 @@
 	let { children } = $props();
 
 	const links = [
+		{ href: '/', label: 'Home' },
 		{ href: '/bank', label: 'Question bank' },
-		{ href: '/bank?starred=1', label: 'Starred questions' },
+		{ href: '/bank?starred=1', label: 'Starred' },
 		{ href: '/cheat-sheet', label: 'Cheat sheet' }
 	];
 	const themes: { value: Theme; label: string }[] = [

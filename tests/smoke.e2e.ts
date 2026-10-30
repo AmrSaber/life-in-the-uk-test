@@ -50,6 +50,6 @@ test('stars persist and drive the starred view', async ({ page }) => {
 	await page.goto('/bank');
 	await page.getByRole('button', { name: 'Star', exact: true }).first().click();
 	await page.reload();
-	await page.getByRole('link', { name: 'Starred questions' }).click();
+	await page.getByRole('link', { name: 'Starred', exact: true }).click();
 	await expect(page.getByText('Showing 1 of 406 questions')).toBeVisible();
 });
