@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { untrack } from 'svelte';
+	import { tick, untrack } from 'svelte';
 	import { beforeNavigate, goto } from '$app/navigation';
 	import {
 		EXAM_MINUTES,
@@ -61,8 +61,11 @@
 
 	// ---- Answering
 
-	function check() {
+	async function check() {
 		a.submitted = true;
+		// The Check button disappears, so move focus to the feedback instead of losing it.
+		await tick();
+		document.querySelector<HTMLElement>('.question .result')?.focus();
 		const correct = correctIndexes(q).map((i) => q.options[i]);
 		announcement = isCorrect(q, a.selected)
 			? 'Correct.'
@@ -150,27 +153,6 @@
 	</div>
 
 	<div class="layout">
-		<nav class="navigator" aria-label="Questions">
-			<ol>
-				{#each order as x, i (x.id)}
-					{@const s = status(x)}
-					<li>
-						<button
-							type="button"
-							class:current={i === index}
-							class:done={!!s.mark}
-							aria-current={i === index ? 'step' : undefined}
-							aria-label="Question {i + 1}, {s.text}"
-							onclick={() => go(i)}
-						>
-							{i + 1}{#if s.mark}<span aria-hidden="true" class="mark">{s.mark}</span>{/if}
-						</button>
-					</li>
-				{/each}
-			</ol>
-			<p class="muted legend">{submittedCount} of {order.length} answered</p>
-		</nav>
-
 		<div class="question">
 			{#key q.id}
 				<QuestionCard
@@ -207,6 +189,27 @@
 				</button>
 			</div>
 		</div>
+
+		<nav class="navigator" aria-label="Questions">
+			<ol>
+				{#each order as x, i (x.id)}
+					{@const s = status(x)}
+					<li>
+						<button
+							type="button"
+							class:current={i === index}
+							class:done={!!s.mark}
+							aria-current={i === index ? 'step' : undefined}
+							aria-label="Question {i + 1}, {s.text}"
+							onclick={() => go(i)}
+						>
+							{i + 1}{#if s.mark}<span aria-hidden="true" class="mark">{s.mark}</span>{/if}
+						</button>
+					</li>
+				{/each}
+			</ol>
+			<p class="muted legend">{submittedCount} of {order.length} answered</p>
+		</nav>
 	</div>
 {:else}
 	<h1>{name}: results</h1>
@@ -372,11 +375,17 @@
 		gap: 1rem;
 	}
 	@media (min-width: 56rem) {
+		/* The question comes first in tab order; the navigator sits beside it. */
 		.layout {
 			grid-template-columns: 15rem 1fr;
+			grid-template-areas: 'nav question';
 			align-items: start;
 		}
+		.question {
+			grid-area: question;
+		}
 		.navigator {
+			grid-area: nav;
 			position: sticky;
 			top: 1rem;
 		}
@@ -397,10 +406,6 @@
 		.controls button {
 			padding: 0.45em 0.7em;
 			white-space: nowrap;
-		}
-		/* Question first on phones; the navigator follows it. */
-		.navigator {
-			order: 2;
 		}
 	}
 </style>

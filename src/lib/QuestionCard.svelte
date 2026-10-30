@@ -87,7 +87,7 @@
 	</fieldset>
 
 	{#if result}
-		<p class="result result-{result}">
+		<p class="result result-{result}" tabindex="-1">
 			{#if result === 'correct'}✓ Correct{:else if result === 'wrong'}✗ Incorrect{:else}Not answered{/if}
 		</p>
 		<p class="explanation">{q.explanation}</p>
