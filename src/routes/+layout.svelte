@@ -152,11 +152,21 @@
 	}
 	@media (max-width: 40rem) {
 		.inner {
-			padding: 0.5rem 0.75rem;
+			padding: 0.25rem 0.75rem;
+			gap: 0 0.5rem;
+		}
+		.title {
+			font-size: 1rem;
+		}
+		.theme label {
+			padding: 0.3em 0.5em;
+			font-size: 0.85rem;
 		}
 		nav {
 			order: 3;
 			width: 100%;
+			gap: 0 0.9rem;
+			font-size: 0.95rem;
 		}
 		main {
 			padding: 0.75rem 0.75rem 6rem;
