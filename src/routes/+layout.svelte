@@ -16,11 +16,19 @@
 		{ value: 'auto', label: 'Auto' }
 	];
 
+	// Close open pop-up menus on outside clicks, like native menus.
+	function closeMenus(e: MouseEvent) {
+		for (const menu of document.querySelectorAll<HTMLDetailsElement>('details.menu[open]'))
+			if (!menu.contains(e.target as Node)) menu.open = false;
+	}
+
 	const isCurrent = (href: string) => {
 		const [path, query] = href.split('?');
 		return page.url.pathname === path && page.url.search === (query ? `?${query}` : '');
 	};
 </script>
+
+<svelte:document onclick={closeMenus} />
 
 <a class="skip" href="#main">Skip to content</a>
 

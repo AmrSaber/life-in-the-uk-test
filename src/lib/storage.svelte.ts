@@ -81,6 +81,13 @@ export function updateSavedExam(id: string, name: string, ids: Iterable<string>)
 	saveExams();
 }
 
+export function addToSavedExam(id: string, ids: Iterable<string>) {
+	const exam = getSavedExam(id);
+	if (!exam) return;
+	exam.questions = [...new Set([...exam.questions, ...ids])];
+	saveExams();
+}
+
 export function deleteSavedExam(id: string) {
 	const i = savedExams.findIndex((e) => e.id === id);
 	if (i >= 0) savedExams.splice(i, 1);

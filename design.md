@@ -1,7 +1,7 @@
 ---
 description: Product behaviour and high-level constraints for the Life in the UK practice app.
 created-at: 2026-10-29 22:13:50+00
-updated-at: 2026-10-30 11:08:56+00
+updated-at: 2026-10-30 14:40:42+00
 ---
 
 # Life in the UK practice exams system design
@@ -105,11 +105,12 @@ Starred questions are a filtered view of the question bank, not a separate page.
 #### Selection and custom exams
 
 - Keep question-bank selections temporary and separate from stars. Selection identifies questions for bulk actions or custom exams; it does not star them.
-- Allow users to select some or all questions and save that selection as a custom exam. Custom exams exist only as saved exams; there are no unsaved, one-off custom exams.
+- Allow users to select some or all questions and save that selection to custom exams. Custom exams exist only as saved exams; there are no unsaved, one-off custom exams.
 - Preserve selections when filters or search change, so users can combine questions from different sections.
-- Make "select all" add every question matching the current filters and search, including matches not currently displayed.
+- Make "select all" add every question matching the current filters and search, including matches not currently displayed. Disable it when every matching question is already selected.
 - Show the total selected and how many selected questions are hidden by the current filters. Provide "Clear selection" to remove the complete selection.
-- Support starring the selected questions in bulk or saving them as a custom exam. Apply these actions to the complete selection, including hidden questions.
+- Support starring the selected questions in bulk or saving them to custom exams. Apply these actions to the complete selection, including hidden questions.
+- When every selected question is already starred, the bulk star action becomes "Unstar selected"; otherwise it is "Star selected".
 - Disable selection-based actions when no questions are selected.
 - Custom exams use the same question, immediate-feedback and answer-locking behaviour as the practice exams, but have no time limit.
 - Show a score for custom exams without a pass/fail result.
@@ -118,20 +119,24 @@ Starred questions are a filtered view of the question bank, not a separate page.
 
 Saved custom exams are named question collections within the question bank, not a separate page.
 
-- Save a selection of questions as a custom exam. Require a non-empty name and at least one question when saving.
+- "Save to exam" opens a pop-up listing the existing saved exams with multi-selection. It also lets the user create a new exam by name; a new exam joins the list, ticked by default. "OK" adds the selected questions to every ticked exam. New exams are created only on "OK"; closing the pop-up changes nothing.
 - List saved exams in a chooser showing each name and question count. Opening one shows its questions, with "Start", "Edit" and "Delete" actions.
 - Tags, search and the starred filter can further narrow the saved-exam view. Filtering alone never changes its membership.
 - Start the complete saved collection as a fresh, untimed exam, not just the questions currently visible through additional filters.
-- "Edit" shows the whole question bank with the saved exam's current questions preselected. Allow changing its name and selecting or deselecting questions.
-- Clearly label this state "Editing: [exam name]" to distinguish editing a collection from creating a new one.
-- Use the question bank's filtering and selection behaviour while editing, including retaining selections when hidden by filters.
-- "Save" updates the name and complete selection, then returns to the saved-exam view. "Cancel" returns without changing anything. Browsing or filtering never overwrites a saved exam.
+- "Edit" shows only the saved exam's questions, with nothing selected. Allow renaming it and removing questions in bulk: select questions, then "Remove selected from exam". To add questions, use "Save to exam" from the question bank.
+- Clearly label this state "Editing: [exam name]".
+- Use the question bank's filtering and selection behaviour while editing.
+- "Save" updates the name and question list, then returns to the saved-exam view. Require a non-empty name and at least one question. "Cancel" returns without changing anything. Browsing or filtering never overwrites a saved exam.
 - Rename through the editing view. Ask for confirmation before deletion; remove only that collection, not its questions, stars or other saved exams.
 - Include per-question options for adding the question to or removing it from existing saved exams. Show which saved exams already contain it.
 - Apply saved-exam membership changes to future attempts, not an attempt already in progress.
 - Save the selected questions themselves, not a dynamic search or filter that could produce a different collection later.
 - Allow a question to belong to several saved exams without copying the question.
 - Keep the saved exam definition in the browser, but do not save in-progress answers. Refreshing still starts a fresh attempt.
+
+### Pop-ups and menus
+
+- Clicking outside any pop-up or menu closes it without applying changes, the same as "Cancel".
 
 ### Cheat sheet
 

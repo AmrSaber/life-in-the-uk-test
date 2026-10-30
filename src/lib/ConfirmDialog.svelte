@@ -35,7 +35,13 @@
 	}
 </script>
 
-<dialog bind:this={dialog} aria-labelledby={titleId} onclose={() => (open = false)}>
+<!-- Clicks on the dialog element itself land on the backdrop, since the form fills the box. -->
+<dialog
+	bind:this={dialog}
+	aria-labelledby={titleId}
+	onclose={() => (open = false)}
+	onclick={(e) => e.target === dialog && (open = false)}
+>
 	<form onsubmit={submit}>
 		<h2 id={titleId}>{title}</h2>
 		{@render children?.()}
@@ -51,11 +57,14 @@
 <style>
 	dialog {
 		width: min(28rem, calc(100vw - 2rem));
-		padding: 1.25rem;
+		padding: 0;
 		border: 1px solid var(--border);
 		border-radius: var(--radius);
 		background: var(--surface);
 		color: var(--text);
+	}
+	form {
+		padding: 1.25rem;
 	}
 	dialog::backdrop {
 		background: rgb(0 0 0 / 50%);

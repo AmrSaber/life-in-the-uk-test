@@ -5,6 +5,7 @@
 	import { questions } from '#lib/data.ts';
 	import { emptyFilters, filterQuestions } from '#lib/filter.ts';
 	import {
+		addToSavedExam,
 		createSavedExam,
 		deleteSavedExam,
 		getSavedExam,
@@ -13,7 +14,8 @@
 		unstarAll,
 		stars,
 		toggleInSavedExam,
-		updateSavedExam
+		updateSavedExam,
+		type SavedExam
 	} from '#lib/storage.svelte.ts';
 	import ConfirmDialog from '#lib/ConfirmDialog.svelte';
 	import QuestionCard from '#lib/QuestionCard.svelte';
@@ -32,9 +34,9 @@
 	});
 	// Temporary and separate from stars; survives filter changes but not a refresh.
 	const selection = new SvelteSet<string>();
+	// Editing works on a draft of the exam's questions; Save writes it back, Cancel drops it.
 	let editName = $state('');
-	// While editing, the selection is the exam's draft membership.
-	let onlyInExam = $state(false);
+	let draft: string[] = $state([]);
 
 	afterNavigate(({ from, to }) => {
 		if (!to) return;
@@ -42,38 +44,29 @@
 		// The header links set the starred filter; other view changes keep it.
 		if (!to.url.search || p.has('starred')) filters.starredOnly = p.get('starred') === '1';
 		const edit = getSavedExam(p.get('edit'));
-		onlyInExam = false;
+		const wasEditing = from?.url?.searchParams.has('edit');
+		if (edit || wasEditing) selection.clear();
 		if (edit) {
-			selection.clear();
-			for (const id of edit.questions) selection.add(id);
+			draft = [...edit.questions];
 			editName = edit.name;
-		} else if (from?.url?.searchParams.has('edit')) {
-			selection.clear();
 		}
 	});
 
-	const base = $derived(
-		saved
-			? questions.filter((q) => saved.questions.includes(q.id))
-			: editing && onlyInExam
-				? questions.filter((q) => selection.has(q.id))
-				: questions
-	);
+	const examIds = $derived(saved?.questions ?? (editing ? draft : null));
+	const base = $derived(examIds ? questions.filter((q) => examIds.includes(q.id)) : questions);
 	const shown = $derived(filterQuestions(base, filters, stars));
 	const shownIds = $derived(new Set(shown.map((q) => q.id)));
 	const hiddenSelected = $derived([...selection].filter((id) => !shownIds.has(id)).length);
-	const shownSelected = $derived(shown.filter((q) => selection.has(q.id)));
-	const allShownSelected = $derived(shownSelected.length === shown.length);
+	const allShownSelected = $derived(shown.every((q) => selection.has(q.id)));
 	const allSelectedStarred = $derived(
 		selection.size > 0 && [...selection].every((id) => stars.has(id))
 	);
 	const filtersActive = $derived(
-		filters.tags.length > 0 || filters.search.trim() !== '' || filters.starredOnly || onlyInExam
+		filters.tags.length > 0 || filters.search.trim() !== '' || filters.starredOnly
 	);
 
 	function clearFilters() {
 		Object.assign(filters, emptyFilters());
-		onlyInExam = false;
 	}
 
 	function toggleSelect(id: string) {
@@ -85,26 +78,52 @@
 		for (const q of shown) selection.add(q.id);
 	}
 
-	function removeShownFromExam() {
-		for (const q of shownSelected) selection.delete(q.id);
+	function removeSelectedFromDraft() {
+		draft = draft.filter((id) => !selection.has(id));
+		selection.clear();
 	}
 
-	// ---- Saved exams
+	// ---- Save to exam: add the selection to any existing exams and/or new ones
 
 	let saveOpen = $state(false);
 	let newName = $state('');
-	let deleteOpen = $state(false);
+	// New exams are only created on OK, so cancelling leaves no empty exams behind.
+	let pending: SavedExam[] = $state([]);
+	const ticked = new SvelteSet<string>();
+	const saveTargets = $derived([...savedExams, ...pending]);
 
-	function saveNew() {
-		const exam = createSavedExam(newName, selection);
-		selection.clear();
+	function openSave() {
+		pending = [];
+		ticked.clear();
 		newName = '';
-		goto(`/bank?saved=${exam.id}`);
+		saveOpen = true;
 	}
+
+	function addPending() {
+		const name = newName.trim();
+		if (!name) return;
+		const id = `new-${pending.length}`;
+		pending.push({ id, name, questions: [] });
+		ticked.add(id);
+		newName = '';
+	}
+
+	function saveToExams() {
+		for (const exam of saveTargets) {
+			if (!ticked.has(exam.id)) continue;
+			if (exam.id.startsWith('new-')) createSavedExam(exam.name, selection);
+			else addToSavedExam(exam.id, selection);
+		}
+		selection.clear();
+	}
+
+	// ---- Editing and deleting
+
+	let deleteOpen = $state(false);
 
 	function saveEdit() {
 		if (!editing) return;
-		updateSavedExam(editing.id, editName, selection);
+		updateSavedExam(editing.id, editName, draft);
 		goto(`/bank?saved=${editing.id}`);
 	}
 
@@ -139,8 +158,8 @@
 		<section class="card banner" aria-labelledby="edit-heading">
 			<h1 id="edit-heading">Editing: {editing.name}</h1>
 			<p class="muted">
-				Select the questions this exam should contain. Filters only change what you see; hidden
-				selected questions stay in the exam.
+				Select questions to remove them, or rename the exam. To add questions, use “Save to exam” in
+				the question bank.
 			</p>
 			<div class="edit-row">
 				<label for="edit-name">Name</label>
@@ -148,16 +167,16 @@
 				<button
 					type="button"
 					class="primary"
-					disabled={!editName.trim() || !selection.size}
+					disabled={!editName.trim() || !draft.length}
 					onclick={saveEdit}
 				>
 					Save
 				</button>
 				<a class="button" href="/bank?saved={editing.id}">Cancel</a>
 			</div>
-			{#if !editName.trim() || !selection.size}
+			{#if !editName.trim() || !draft.length}
 				<p class="muted hint">
-					{!editName.trim() ? 'Enter a name.' : 'Select at least one question.'}
+					{!editName.trim() ? 'Enter a name.' : 'An exam needs at least one question.'}
 				</p>
 			{/if}
 		</section>
@@ -179,7 +198,7 @@
 				</select>
 			{:else}
 				<p class="muted">
-					No saved exams yet. Select questions, then choose “Save as exam” to create one.
+					No saved exams yet. Select questions, then choose “Save to exam” to create one.
 				</p>
 			{/if}
 		</div>
@@ -224,12 +243,6 @@
 				<input type="checkbox" bind:checked={filters.starredOnly} />
 				<span aria-hidden="true">★</span> Starred only
 			</label>
-			{#if editing}
-				<label class="check">
-					<input type="checkbox" bind:checked={onlyInExam} />
-					Only questions in this exam
-				</label>
-			{/if}
 			{#if filtersActive}
 				<button type="button" onclick={clearFilters}>Clear filters</button>
 			{/if}
@@ -237,9 +250,7 @@
 	</search>
 
 	<p class="count" role="status">
-		Showing {shown.length} of {base.length} questions{saved || (editing && onlyInExam)
-			? ' in this exam'
-			: ''}
+		Showing {shown.length} of {base.length} questions{examIds ? ' in this exam' : ''}
 	</p>
 
 	{#if shown.length}
@@ -259,28 +270,31 @@
 								</label>
 							{/if}
 							{@const inExams = savedExams.filter((e) => e.questions.includes(q.id))}
-							<details class="menu">
-								<summary class="button">
-									Saved exams{inExams.length ? ` (${inExams.length})` : ''}
-								</summary>
-								<div class="menu-panel">
-									{#if savedExams.length}
-										<p class="muted">Include this question in:</p>
-										{#each savedExams as exam (exam.id)}
-											<label class="check">
-												<input
-													type="checkbox"
-													checked={exam.questions.includes(q.id)}
-													onchange={() => toggleInSavedExam(exam.id, q.id)}
-												/>
-												{exam.name}
-											</label>
-										{/each}
-									{:else}
-										<p class="muted">No saved exams yet.</p>
-									{/if}
-								</div>
-							</details>
+							<!-- Hidden while editing: direct membership changes would bypass the draft. -->
+							{#if !editing}
+								<details class="menu">
+									<summary class="button">
+										Saved exams{inExams.length ? ` (${inExams.length})` : ''}
+									</summary>
+									<div class="menu-panel">
+										{#if savedExams.length}
+											<p class="muted">Include this question in:</p>
+											{#each savedExams as exam (exam.id)}
+												<label class="check">
+													<input
+														type="checkbox"
+														checked={exam.questions.includes(q.id)}
+														onchange={() => toggleInSavedExam(exam.id, q.id)}
+													/>
+													{exam.name}
+												</label>
+											{/each}
+										{:else}
+											<p class="muted">No saved exams yet.</p>
+										{/if}
+									</div>
+								</details>
+							{/if}
 						{/snippet}
 					</QuestionCard>
 				</li>
@@ -289,8 +303,10 @@
 	{:else}
 		<div class="empty card">
 			<p>
-				{#if saved && !saved.questions.length}
-					This saved exam has no questions. Use Edit to add some.
+				{#if examIds && !examIds.length}
+					{editing
+						? 'All questions are removed. Cancel to keep the exam as it was.'
+						: 'This saved exam has no questions.'}
 				{:else if filters.starredOnly && !stars.size}
 					You haven't starred any questions yet. Use the Star button on a question to save it for
 					revision.
@@ -329,20 +345,14 @@
 					<button
 						type="button"
 						class="danger"
-						disabled={!shownSelected.length}
-						onclick={removeShownFromExam}
-					>
-						Remove {shownSelected.length} shown from exam
-					</button>
-				{/if}
-				{#if !editing}
-					<button
-						type="button"
-						class="primary"
 						disabled={!selection.size}
-						onclick={() => (saveOpen = true)}
+						onclick={removeSelectedFromDraft}
 					>
-						Save as exam…
+						Remove selected from exam
+					</button>
+				{:else}
+					<button type="button" class="primary" disabled={!selection.size} onclick={openSave}>
+						Save to exam…
 					</button>
 				{/if}
 			</div>
@@ -352,18 +362,52 @@
 
 <ConfirmDialog
 	bind:open={saveOpen}
-	title="Save as exam"
-	confirmLabel="Save"
-	confirmDisabled={!newName.trim()}
-	onconfirm={saveNew}
+	title="Save to exam"
+	confirmLabel="OK"
+	confirmDisabled={!ticked.size}
+	onconfirm={saveToExams}
 >
 	<p>
-		Save the {selection.size} selected question{selection.size === 1 ? '' : 's'} as a custom exam.
+		Add the {selection.size} selected question{selection.size === 1 ? '' : 's'} to these exams:
 	</p>
-	<label class="field">
-		Name
-		<input type="text" maxlength="80" required bind:value={newName} />
-	</label>
+	{#if saveTargets.length}
+		<ul class="targets">
+			{#each saveTargets as exam (exam.id)}
+				<li>
+					<label class="check">
+						<input
+							type="checkbox"
+							checked={ticked.has(exam.id)}
+							onchange={() => (ticked.has(exam.id) ? ticked.delete(exam.id) : ticked.add(exam.id))}
+						/>
+						{exam.name}
+						<span class="muted">
+							{exam.id.startsWith('new-') ? '(new)' : `(${exam.questions.length})`}
+						</span>
+					</label>
+				</li>
+			{/each}
+		</ul>
+	{:else}
+		<p class="muted">No saved exams yet. Create one below.</p>
+	{/if}
+	<div class="new-exam">
+		<label class="visually-hidden" for="new-exam">New exam name</label>
+		<input
+			id="new-exam"
+			type="text"
+			maxlength="80"
+			placeholder="New exam name"
+			bind:value={newName}
+			onkeydown={(e) => {
+				if (e.key === 'Enter') {
+					e.preventDefault();
+					addPending();
+				}
+			}}
+		/>
+		<button type="button" disabled={!newName.trim()} onclick={addPending}>Add</button>
+	</div>
 </ConfirmDialog>
 
 <ConfirmDialog
@@ -516,10 +560,23 @@
 		flex-wrap: wrap;
 		gap: 0.5rem;
 	}
-	.field {
-		display: grid;
-		gap: 0.25rem;
-		font-weight: 600;
+	.targets {
+		list-style: none;
+		padding: 0;
+		margin: 0 0 0.5rem;
+		max-height: 40vh;
+		overflow-y: auto;
+	}
+	.targets .muted {
+		font-size: 0.9rem;
+	}
+	.new-exam {
+		display: flex;
+		gap: 0.5rem;
+	}
+	.new-exam input {
+		flex: 1;
+		min-width: 0;
 	}
 	@media (max-width: 40rem) {
 		.selection-bar {

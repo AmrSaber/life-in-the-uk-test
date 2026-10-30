@@ -30,14 +30,16 @@ test('leaving an unfinished exam asks for confirmation', async ({ page }) => {
 	await expect(page).toHaveURL(/\/bank$/);
 });
 
-test('bank: filter, select, save as exam and start it untimed', async ({ page }) => {
+test('bank: filter, select, save to a new exam and start it untimed', async ({ page }) => {
 	await page.goto('/bank');
 	await page.getByRole('searchbox').fill('Shakespeare');
 	await page.getByRole('button', { name: /^Select all/ }).click();
-	await page.getByRole('button', { name: 'Save as exam…' }).click();
-	await page.locator('dialog[open] input').fill('Shakespeare');
-	await page.locator('dialog[open]').getByRole('button', { name: 'Save' }).click();
+	await page.getByRole('button', { name: 'Save to exam…' }).click();
+	await page.getByPlaceholder('New exam name').fill('Shakespeare');
+	await page.getByRole('button', { name: 'Add', exact: true }).click();
+	await page.locator('dialog[open]').getByRole('button', { name: 'OK' }).click();
 
+	await page.getByLabel('View').selectOption({ label: 'Shakespeare (5 questions)' });
 	await expect(page.getByRole('heading', { name: 'Shakespeare' })).toBeVisible();
 	await page.getByRole('link', { name: 'Start' }).click();
 	await expect(page.getByText(/Question 1 of \d+/)).toBeVisible();
