@@ -1,0 +1,2306 @@
+[
+  {
+    "id": "nations",
+    "title": "The four nations",
+    "blocks": [
+      {
+        "kind": "table",
+        "columns": [
+          "",
+          "England",
+          "Scotland",
+          "Wales",
+          "Northern Ireland"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Patron saint",
+              "St George",
+              "St Andrew",
+              "St David",
+              "St Patrick"
+            ],
+            "questions": [
+              "q0005",
+              "q0062",
+              "q0108",
+              "q0216"
+            ]
+          },
+          {
+            "cells": [
+              "Saint's day",
+              "23 April",
+              "30 November",
+              "1 March",
+              "17 March"
+            ],
+            "questions": [
+              "q0172",
+              "q0257",
+              "q0287",
+              "q0311"
+            ]
+          },
+          {
+            "cells": [
+              "Capital",
+              "—",
+              "Edinburgh",
+              "Cardiff",
+              "Belfast"
+            ],
+            "questions": [
+              "q0069",
+              "q0154",
+              "q0200"
+            ]
+          },
+          {
+            "cells": [
+              "National flower",
+              "Rose",
+              "Thistle",
+              "Daffodil",
+              "Shamrock"
+            ],
+            "questions": [
+              "q0074",
+              "q0169",
+              "q0192",
+              "q0377"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Great Britain, Crown dependencies and overseas territories",
+        "rows": [
+          {
+            "term": "Great Britain",
+            "fact": "England, Scotland and Wales only; Northern Ireland is not part of Great Britain",
+            "questions": [
+              "q0079",
+              "q0125",
+              "q0177"
+            ]
+          },
+          {
+            "term": "Crown dependencies",
+            "fact": "Territories linked to the UK but not part of it",
+            "questions": [
+              "q0388"
+            ]
+          },
+          {
+            "term": "Channel Islands, Isle of Man",
+            "fact": "Crown dependencies; not part of the UK",
+            "questions": [
+              "q0020",
+              "q0263"
+            ]
+          },
+          {
+            "term": "St Helena, Falkland Islands",
+            "fact": "British overseas territories; not part of the UK or Great Britain",
+            "questions": [
+              "q0026",
+              "q0099",
+              "q0157",
+              "q0184",
+              "q0239"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Flag",
+        "rows": [
+          {
+            "term": "Union Jack",
+            "fact": "The flag of the United Kingdom",
+            "questions": [
+              "q0284"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Currency",
+        "rows": [
+          {
+            "term": "Pound sterling",
+            "fact": "UK currency",
+            "questions": [
+              "q0241"
+            ]
+          },
+          {
+            "term": "Scottish and Northern Irish banknotes",
+            "fact": "Scotland and Northern Ireland have their own banknotes, valid everywhere in the UK",
+            "questions": [
+              "q0037",
+              "q0077",
+              "q0175"
+            ]
+          },
+          {
+            "term": "Coins",
+            "fact": "No 25p coin (1p, 5p and £1 are valid)",
+            "questions": [
+              "q0097"
+            ]
+          },
+          {
+            "term": "Banknotes",
+            "fact": "No £25 note (£5, £20 and £50 are valid); £100 is not the highest note in circulation",
+            "questions": [
+              "q0194",
+              "q0227"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dates",
+    "title": "Key dates",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Early Britain to the Middle Ages",
+        "rows": [
+          {
+            "term": "Stone Age",
+            "fact": "First people in Britain: hunter-gatherers",
+            "questions": [
+              "q0161"
+            ]
+          },
+          {
+            "term": "6,000 years ago",
+            "fact": "First farmers came to Britain, from south-east Europe",
+            "questions": [
+              "q0031",
+              "q0339"
+            ]
+          },
+          {
+            "term": "Iron Age",
+            "fact": "First coins minted in Britain, inscribed with names of Iron Age kings",
+            "questions": [
+              "q0121",
+              "q0259",
+              "q0267"
+            ]
+          },
+          {
+            "term": "AD 410",
+            "fact": "Romans left; Jutes (among others) came from northern Europe",
+            "questions": [
+              "q0362"
+            ]
+          },
+          {
+            "term": "Middle Ages",
+            "fact": "Norman French and Anglo-Saxon both used; they combined into one English language",
+            "questions": [
+              "q0247",
+              "q0335"
+            ]
+          },
+          {
+            "term": "Serfs",
+            "fact": "Middle Ages peasants with a small area of their lord's agricultural land",
+            "questions": [
+              "q0207"
+            ]
+          },
+          {
+            "term": "1348",
+            "fact": "Black Death (a plague, Middle Ages): one third of population of England, Wales and Scotland died",
+            "questions": [
+              "q0067",
+              "q0137",
+              "q0390",
+              "q0393"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Tudors and Stuarts",
+        "rows": [
+          {
+            "term": "Reformation",
+            "fact": "Movement against the authority of the Pope and Catholic Church, during Henry VIII's reign",
+            "questions": [
+              "q0162",
+              "q0210",
+              "q0380"
+            ]
+          },
+          {
+            "term": "1560",
+            "fact": "Scotland established a Protestant church",
+            "questions": [
+              "q0252"
+            ]
+          },
+          {
+            "term": "1666",
+            "fact": "Great Fire of London, in reign of Charles II",
+            "questions": [
+              "q0075"
+            ]
+          },
+          {
+            "term": "1688",
+            "fact": "Glorious Revolution: William of Orange invited by Protestants to invade and rule England; no resistance; laws after it began constitutional monarchy",
+            "questions": [
+              "q0113",
+              "q0229",
+              "q0402"
+            ]
+          },
+          {
+            "term": "Glencoe",
+            "fact": "MacDonalds of Glencoe killed for not taking the oath",
+            "questions": [
+              "q0151"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Georgians to modern Britain",
+        "rows": [
+          {
+            "term": "1680–1720",
+            "fact": "Huguenot refugees came to England from France",
+            "questions": [
+              "q0272"
+            ]
+          },
+          {
+            "term": "The Enlightenment",
+            "fact": "Period when new ideas about politics, philosophy and science developed",
+            "questions": [
+              "q0109",
+              "q0243"
+            ]
+          },
+          {
+            "term": "18th century",
+            "fact": "Manufacturing the biggest source of employment; conflict with France over trade",
+            "questions": [
+              "q0148",
+              "q0394"
+            ]
+          },
+          {
+            "term": "Industrial Revolution",
+            "fact": "Steam power drove rapid industrial development (18th–19th centuries); canals built to link factories to towns, cities and ports",
+            "questions": [
+              "q0208",
+              "q0330",
+              "q0333"
+            ]
+          },
+          {
+            "term": "1776",
+            "fact": "North American colonies declared independence: 'no taxation without representation'; Britain wanted to tax them",
+            "questions": [
+              "q0066",
+              "q0336"
+            ]
+          },
+          {
+            "term": "Highland Clearances",
+            "fact": "Scottish landlords destroyed small farms (crofts) to make space for sheep and cattle",
+            "questions": [
+              "q0156"
+            ]
+          },
+          {
+            "term": "Victorian free trade",
+            "fact": "Government abolished a number of taxes on imported goods",
+            "questions": [
+              "q0205"
+            ]
+          },
+          {
+            "term": "1851",
+            "fact": "Great Exhibition in Hyde Park, held in the Crystal Palace",
+            "questions": [
+              "q0214"
+            ]
+          },
+          {
+            "term": "Irish famine",
+            "fact": "Caused by potato shortage",
+            "questions": [
+              "q0384"
+            ]
+          },
+          {
+            "term": "Fenians",
+            "fact": "19th-century Irish who favoured complete independence from the UK",
+            "questions": [
+              "q0351"
+            ]
+          },
+          {
+            "term": "1913",
+            "fact": "Home Rule promised for Ireland; delayed until 1921 by the First World War",
+            "questions": [
+              "q0141"
+            ]
+          },
+          {
+            "term": "1930s",
+            "fact": "Great Depression: shipbuilding badly affected",
+            "questions": [
+              "q0070"
+            ]
+          },
+          {
+            "term": "1949",
+            "fact": "Ireland became a republic",
+            "questions": [
+              "q0030"
+            ]
+          },
+          {
+            "term": "1960s",
+            "fact": "Swinging Sixties: The Beatles and The Rolling Stones; growth of British fashion and pop music; social laws liberalised",
+            "questions": [
+              "q0188",
+              "q0271",
+              "q0352"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "battles",
+    "title": "Battles and wars",
+    "blocks": [
+      {
+        "kind": "facts",
+        "rows": [
+          {
+            "term": "Julius Caesar",
+            "fact": "Led the first invasion of Britain",
+            "questions": [
+              "q0034"
+            ]
+          },
+          {
+            "term": "Boudicca",
+            "fact": "Tribal leader who fought against the Romans",
+            "questions": [
+              "q0080",
+              "q0289",
+              "q0334"
+            ]
+          },
+          {
+            "term": "1066",
+            "fact": "Norman Conquest: last successful foreign invasion of England; Battle of Hastings, shown in the Bayeux Tapestry",
+            "questions": [
+              "q0043",
+              "q0089",
+              "q0167"
+            ]
+          },
+          {
+            "term": "1314",
+            "fact": "Battle of Bannockburn: Robert the Bruce's Scots defeat the English; Scotland stays unconquered",
+            "questions": [
+              "q0149",
+              "q0276"
+            ]
+          },
+          {
+            "term": "Hundred Years War",
+            "fact": "Long war of English kings against France in the Middle Ages",
+            "questions": [
+              "q0053"
+            ]
+          },
+          {
+            "term": "Wars of the Roses",
+            "fact": "House of York against House of Lancaster",
+            "questions": [
+              "q0006"
+            ]
+          },
+          {
+            "term": "1588",
+            "fact": "English defeat the Spanish Armada, a fleet sent by Spain under Elizabeth I to conquer England and restore Catholicism",
+            "questions": [
+              "q0012",
+              "q0185",
+              "q0230",
+              "q0249",
+              "q0307"
+            ]
+          },
+          {
+            "term": "1642",
+            "fact": "English Civil War: Cavaliers (supported Charles I) against Roundheads",
+            "questions": [
+              "q0088",
+              "q0348"
+            ]
+          },
+          {
+            "term": "Marston Moor, Naseby",
+            "fact": "Civil War battles",
+            "questions": [
+              "q0158"
+            ]
+          },
+          {
+            "term": "Battle of the Boyne",
+            "fact": "James II defeated",
+            "questions": [
+              "q0403"
+            ]
+          },
+          {
+            "term": "1745",
+            "fact": "Bonnie Prince Charlie raised an army, supported by clansmen from the Scottish Highlands",
+            "questions": [
+              "q0054",
+              "q0296"
+            ]
+          },
+          {
+            "term": "Battle of Trafalgar",
+            "fact": "Admiral Nelson in charge of the British fleet (against the Spanish fleet); Nelson died there",
+            "questions": [
+              "q0112",
+              "q0206",
+              "q0266",
+              "q0316"
+            ]
+          },
+          {
+            "term": "Battle of Waterloo",
+            "fact": "Britain against France; last battle between Britain and France",
+            "questions": [
+              "q0073",
+              "q0193",
+              "q0302"
+            ]
+          },
+          {
+            "term": "Crimean War",
+            "fact": "Britain fought Russia; first war extensively covered by the media",
+            "questions": [
+              "q0261",
+              "q0322"
+            ]
+          },
+          {
+            "term": "1899–1902",
+            "fact": "Boer War in South Africa; Boers = settlers from the Netherlands",
+            "questions": [
+              "q0116",
+              "q0201",
+              "q0399"
+            ]
+          },
+          {
+            "term": "1914",
+            "fact": "Assassination of Archduke Franz Ferdinand of Austria led to the First World War",
+            "questions": [
+              "q0153"
+            ]
+          },
+          {
+            "term": "1918",
+            "fact": "First World War ended at 11.00 am on 11 November 1918",
+            "questions": [
+              "q0235",
+              "q0340"
+            ]
+          },
+          {
+            "term": "1939",
+            "fact": "Germany invaded Poland, starting the Second World War",
+            "questions": [
+              "q0061",
+              "q0119",
+              "q0168"
+            ]
+          },
+          {
+            "term": "Dunkirk spirit",
+            "fact": "Evacuation of Allied soldiers from France during the Second World War",
+            "questions": [
+              "q0279"
+            ]
+          },
+          {
+            "term": "1940",
+            "fact": "Battle of Britain: aerial battle, Germany against Britain, summer 1940; fought by the Royal Air Force",
+            "questions": [
+              "q0133",
+              "q0245",
+              "q0299"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "acts",
+    "title": "Key acts and documents",
+    "blocks": [
+      {
+        "kind": "facts",
+        "rows": [
+          {
+            "term": "Domesday Book",
+            "fact": "Ordered by William the Conqueror; with the Bayeux Tapestry, a record of England in his reign",
+            "questions": [
+              "q0140",
+              "q0211",
+              "q0253",
+              "q0345"
+            ]
+          },
+          {
+            "term": "1215",
+            "fact": "Magna Carta: restricted the King's power",
+            "questions": [
+              "q0036",
+              "q0181"
+            ]
+          },
+          {
+            "term": "Authorised Version",
+            "fact": "Version of the Bible created by King James I",
+            "questions": [
+              "q0270"
+            ]
+          },
+          {
+            "term": "Habeas Corpus Act",
+            "fact": "Every prisoner has a right to a court hearing",
+            "questions": [
+              "q0231"
+            ]
+          },
+          {
+            "term": "1689",
+            "fact": "Bill of Rights did NOT give the vote to all adult men or to women",
+            "questions": [
+              "q0007",
+              "q0146"
+            ]
+          },
+          {
+            "term": "1833",
+            "fact": "Emancipation Act abolished slavery throughout the British Empire",
+            "questions": [
+              "q0155",
+              "q0355"
+            ]
+          },
+          {
+            "term": "1847",
+            "fact": "Factories Act limited women and children to 10 hours' work per day",
+            "questions": [
+              "q0404"
+            ]
+          },
+          {
+            "term": "1918",
+            "fact": "Women over 30 got the vote, for their contribution to the First World War effort",
+            "questions": [
+              "q0029",
+              "q0183",
+              "q0221"
+            ]
+          },
+          {
+            "term": "1928",
+            "fact": "Men and women got the vote at 21, the same age",
+            "questions": [
+              "q0003",
+              "q0083",
+              "q0198"
+            ]
+          },
+          {
+            "term": "1944",
+            "fact": "Butler Act introduced free secondary education in England and Wales",
+            "questions": [
+              "q0212"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "monarchs",
+    "title": "Kings, queens and leaders",
+    "blocks": [
+      {
+        "kind": "facts",
+        "rows": [
+          {
+            "term": "Alfred the Great",
+            "fact": "Anglo-Saxon kingdoms united under him to defeat the Vikings",
+            "questions": [
+              "q0035",
+              "q0293"
+            ]
+          },
+          {
+            "term": "William the Conqueror",
+            "fact": "From France (Duke of Normandy)",
+            "questions": [
+              "q0398"
+            ]
+          },
+          {
+            "term": "Henry VIII",
+            "fact": "Established the Church of England because the Pope would not let him divorce his first wife, Catherine of Aragon",
+            "questions": [
+              "q0052",
+              "q0136"
+            ]
+          },
+          {
+            "term": "Anne Boleyn",
+            "fact": "Wife of Henry VIII; executed at the Tower of London",
+            "questions": [
+              "q0090"
+            ]
+          },
+          {
+            "term": "Elizabeth I",
+            "fact": "Daughter of Henry VIII; Protestant; balanced Catholic and extreme Protestant views; reigning when English settlers first colonised America's east coast",
+            "questions": [
+              "q0106",
+              "q0130",
+              "q0142",
+              "q0297"
+            ]
+          },
+          {
+            "term": "Mary, Queen of Scots",
+            "fact": "Mary Stuart, a Catholic; imprisoned 20 years by her cousin Elizabeth I, then executed",
+            "questions": [
+              "q0110",
+              "q0173",
+              "q0361"
+            ]
+          },
+          {
+            "term": "James I",
+            "fact": "King of Scotland before becoming King of England",
+            "questions": [
+              "q0305"
+            ]
+          },
+          {
+            "term": "Charles I",
+            "fact": "Believed in the Divine Right of Kings; tried to rule without Parliament",
+            "questions": [
+              "q0283"
+            ]
+          },
+          {
+            "term": "Charles I",
+            "fact": "Executed in 1649; England then became a republic",
+            "questions": [
+              "q0127",
+              "q0337",
+              "q0391"
+            ]
+          },
+          {
+            "term": "Oliver Cromwell",
+            "fact": "Given the title Lord Protector",
+            "questions": [
+              "q0023"
+            ]
+          },
+          {
+            "term": "Charles II",
+            "fact": "Defeated by Cromwell in the Civil War; hid in an oak tree, escaped to Europe",
+            "questions": [
+              "q0105",
+              "q0292"
+            ]
+          },
+          {
+            "term": "Charles II",
+            "fact": "Came from the Netherlands to become the British monarch",
+            "questions": [
+              "q0365"
+            ]
+          },
+          {
+            "term": "Sir Robert Walpole",
+            "fact": "First British Prime Minister",
+            "questions": [
+              "q0313"
+            ]
+          },
+          {
+            "term": "Winston Churchill",
+            "fact": "Prime Minister and inspirational leader in the Second World War; voted greatest Briton of all time in 2002",
+            "questions": [
+              "q0033",
+              "q0081",
+              "q0285"
+            ]
+          },
+          {
+            "term": "Clement Attlee",
+            "fact": "Elected Prime Minister in 1945",
+            "questions": [
+              "q0328"
+            ]
+          },
+          {
+            "term": "Margaret Thatcher",
+            "fact": "First woman Prime Minister of the UK; longest-serving PM of the 20th century",
+            "questions": [
+              "q0009",
+              "q0246",
+              "q0387"
+            ]
+          },
+          {
+            "term": "John Major",
+            "fact": "PM after Margaret Thatcher; important part in the Northern Ireland peace process",
+            "questions": [
+              "q0374"
+            ]
+          },
+          {
+            "term": "Tony Blair",
+            "fact": "Labour leader who introduced a Scottish Parliament and a Welsh Assembly",
+            "questions": [
+              "q0371"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "government",
+    "title": "Parliament and government",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Constitution and monarch",
+        "rows": [
+          {
+            "term": "System of government",
+            "fact": "Parliamentary democracy",
+            "questions": [
+              "q0326"
+            ]
+          },
+          {
+            "term": "Written constitution",
+            "fact": "Britain has no written constitution",
+            "questions": [
+              "q0238"
+            ]
+          },
+          {
+            "term": "Constitutional institutions",
+            "fact": "Include Parliament, the cabinet and the police; the armed forces are not one",
+            "questions": [
+              "q0383"
+            ]
+          },
+          {
+            "term": "Monarch's role",
+            "fact": "Appoints the government; advises, warns and encourages the Prime Minister on government policy",
+            "questions": [
+              "q0392"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Parliament",
+        "rows": [
+          {
+            "term": "Bishops in the Lords",
+            "fact": "Several Church of England bishops sit in the House of Lords",
+            "questions": [
+              "q0027"
+            ]
+          },
+          {
+            "term": "UK Parliament",
+            "fact": "Two houses: House of Commons and House of Lords",
+            "questions": [
+              "q0082"
+            ]
+          },
+          {
+            "term": "The Speaker",
+            "fact": "Chairs debates in the House of Commons; is an MP who represents a constituency and its constituents",
+            "questions": [
+              "q0010",
+              "q0395"
+            ]
+          },
+          {
+            "term": "Peers",
+            "fact": "Members of the House of Lords; not elected by the people; life peers appointed by the monarch",
+            "questions": [
+              "q0320",
+              "q0354"
+            ]
+          },
+          {
+            "term": "MPs' responsibilities",
+            "fact": "Represent everyone in their constituency; help create new laws",
+            "questions": [
+              "q0180",
+              "q0386"
+            ]
+          },
+          {
+            "term": "Contacting MPs",
+            "fact": "Not only by post, and not only at their House of Commons office",
+            "questions": [
+              "q0209",
+              "q0274"
+            ]
+          },
+          {
+            "term": "By-election",
+            "fact": "Held when an MP dies or resigns",
+            "questions": [
+              "q0190"
+            ]
+          },
+          {
+            "term": "Hansard",
+            "fact": "Official reports of proceedings in Parliament (also broadcast on television)",
+            "questions": [
+              "q0318"
+            ]
+          },
+          {
+            "term": "10 Downing Street",
+            "fact": "Official home of the Prime Minister",
+            "questions": [
+              "q0095"
+            ]
+          },
+          {
+            "term": "Home Secretary",
+            "fact": "Responsible for crime, policing and immigration",
+            "questions": [
+              "q0025",
+              "q0171",
+              "q0356"
+            ]
+          },
+          {
+            "term": "Shadow Cabinet",
+            "fact": "Senior opposition MPs appointed by the leader of the opposition; challenge the government and propose alternative policies",
+            "questions": [
+              "q0385",
+              "q0405"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Elections and voting",
+        "rows": [
+          {
+            "term": "Poll card",
+            "fact": "Sent to you before an election",
+            "questions": [
+              "q0017"
+            ]
+          },
+          {
+            "term": "Election coverage",
+            "fact": "By law, television and radio must give balanced coverage and equal time to rival viewpoints",
+            "questions": [
+              "q0019",
+              "q0248"
+            ]
+          },
+          {
+            "term": "Individual registration",
+            "fact": "Used in Northern Ireland (each voter completes own form); not in Scotland and Wales",
+            "questions": [
+              "q0131",
+              "q0202"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Canvassing",
+            "fact": "Persuading people to vote for a political party",
+            "questions": [
+              "q0117"
+            ]
+          },
+          {
+            "term": "2010 coalition",
+            "fact": "Conservative Party and Liberal Democrats",
+            "questions": [
+              "q0135"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Civil service and local government",
+        "rows": [
+          {
+            "term": "Civil servants",
+            "fact": "Chosen on merit, not appointed by the government; politically neutral",
+            "questions": [
+              "q0278",
+              "q0331"
+            ]
+          },
+          {
+            "term": "Local government",
+            "fact": "Towns, cities and rural areas are not governed by government-appointed officials",
+            "questions": [
+              "q0268"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Devolved administrations",
+        "rows": [
+          {
+            "term": "Devolved powers",
+            "fact": "Devolved administrations can pass laws on health and education; Scottish Parliament can legislate on education",
+            "questions": [
+              "q0152",
+              "q0406"
+            ]
+          },
+          {
+            "term": "Not devolved",
+            "fact": "Defence and immigration, including for the Northern Ireland Assembly",
+            "questions": [
+              "q0203",
+              "q0254"
+            ]
+          },
+          {
+            "term": "Northern Ireland Assembly",
+            "fact": "Members elected by proportional representation; has been suspended by the UK government",
+            "questions": [
+              "q0251",
+              "q0312"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "International bodies",
+        "rows": [
+          {
+            "term": "United Nations",
+            "fact": "Set up after the Second World War",
+            "questions": [
+              "q0359"
+            ]
+          },
+          {
+            "term": "Commonwealth",
+            "fact": "Association of countries that support each other and work towards shared goals in democracy and development",
+            "questions": [
+              "q0379"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "law",
+    "title": "Values, law and your role",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Fundamental principles of British life",
+        "rows": [
+          {
+            "term": "Principles",
+            "fact": "Democracy, the rule of law, individual liberty",
+            "questions": [
+              "q0049",
+              "q0100"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Responsibilities of citizens and permanent residents",
+        "rows": [
+          {
+            "term": "The law",
+            "fact": "Respect and obey the law",
+            "questions": [
+              "q0120",
+              "q0144"
+            ]
+          },
+          {
+            "term": "Others' rights",
+            "fact": "Respect the rights of others, including their right to their own opinions",
+            "questions": [
+              "q0196",
+              "q0281"
+            ]
+          },
+          {
+            "term": "Yourself and family",
+            "fact": "Look after yourself and your family",
+            "questions": [
+              "q0001",
+              "q0120",
+              "q0196",
+              "q0281"
+            ]
+          },
+          {
+            "term": "Your area",
+            "fact": "Look after the area in which you live and the environment",
+            "questions": [
+              "q0001",
+              "q0144"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Courts and juries",
+        "rows": [
+          {
+            "term": "Magistrates' Court",
+            "fact": "Minor criminal cases in England, Wales and Northern Ireland",
+            "questions": [
+              "q0047"
+            ]
+          },
+          {
+            "term": "Justice of the Peace Court",
+            "fact": "Minor criminal offences in Scotland",
+            "questions": [
+              "q0139"
+            ]
+          },
+          {
+            "term": "Youth Court",
+            "fact": "England, Wales and Northern Ireland: heard by up to 3 specially trained magistrates or a District Judge",
+            "questions": [
+              "q0343",
+              "q0364",
+              "q0400"
+            ]
+          },
+          {
+            "term": "Young offenders",
+            "fact": "Names or photographs of young people found guilty cannot be published by the media",
+            "questions": [
+              "q0225"
+            ]
+          },
+          {
+            "term": "Jury selection",
+            "fact": "Chosen randomly from the electoral register; register there to be part of a jury",
+            "questions": [
+              "q0015",
+              "q0101"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Small claims procedure",
+            "fact": "Informal way to settle minor disputes without the time and cost of a lawyer",
+            "questions": [
+              "q0213"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Solicitors' charges",
+            "fact": "Usually based on how much time they spend on a case",
+            "questions": [
+              "q0018"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Criminal and civil law",
+        "rows": [
+          {
+            "term": "Criminal offences",
+            "fact": "Examples: racial crime; smoking in public places where not allowed",
+            "questions": [
+              "q0091",
+              "q0150"
+            ]
+          },
+          {
+            "term": "Civil law",
+            "fact": "Example: discrimination in the workplace",
+            "questions": [
+              "q0111"
+            ]
+          },
+          {
+            "term": "Rape in marriage",
+            "fact": "A husband who forces his wife to have sex can be charged with rape",
+            "questions": [
+              "q0115"
+            ]
+          },
+          {
+            "term": "Domestic violence",
+            "fact": "Anyone violent towards their partner (man or woman, married or living together) can be prosecuted",
+            "questions": [
+              "q0358"
+            ]
+          },
+          {
+            "term": "FGM",
+            "fact": "Female genital mutilation, or taking a girl or woman abroad for it, is illegal and a criminal offence",
+            "questions": [
+              "q0182"
+            ]
+          },
+          {
+            "term": "Forced marriage",
+            "fact": "Court orders can protect a person from being forced into marriage",
+            "questions": [
+              "q0341"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Police",
+        "rows": [
+          {
+            "term": "Complaints against the police",
+            "fact": "Go to a police station or write to the Chief Constable of the force involved; not only one of these, and not only to the Police Complaints Commissioner",
+            "questions": [
+              "q0013",
+              "q0107",
+              "q0170",
+              "q0255"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Extremism and terrorism",
+            "fact": "Report recruitment attempts or terrorist activity to your local police force",
+            "questions": [
+              "q0055",
+              "q0375"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Everyday rules",
+        "rows": [
+          {
+            "term": "Dog collar",
+            "fact": "In public, a dog must wear a collar showing the owner's name and address",
+            "questions": [
+              "q0028",
+              "q0178"
+            ]
+          },
+          {
+            "term": "National Insurance number",
+            "fact": "Apply through the Department for Work and Pensions (DWP); need proof of identity and proof of permission to work in the UK",
+            "questions": [
+              "q0143",
+              "q0163"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Driving",
+            "fact": "You need a valid driving licence",
+            "questions": [
+              "q0222"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Community and volunteering",
+        "rows": [
+          {
+            "term": "Friends of the Earth",
+            "fact": "Environmental charity",
+            "questions": [
+              "q0114",
+              "q0244"
+            ]
+          },
+          {
+            "term": "School governors",
+            "fact": "Set the school's strategic direction; monitor and evaluate school performance",
+            "questions": [
+              "q0065"
+            ]
+          },
+          {
+            "term": "National Citizen Service",
+            "fact": "Open to 16- and 17-year-olds; not compulsory",
+            "questions": [
+              "q0056",
+              "q0366"
+            ],
+            "note": "May be out of date."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "numbers",
+    "title": "Key numbers",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Ages",
+        "rows": [
+          {
+            "term": "16",
+            "fact": "Minimum age to drive a moped",
+            "questions": [
+              "q0370"
+            ]
+          },
+          {
+            "term": "17",
+            "fact": "Minimum age to drive a motorcycle",
+            "questions": [
+              "q0353"
+            ]
+          },
+          {
+            "term": "18",
+            "fact": "Minimum age to stand as an MP or for public office (UK, Irish Republic or Commonwealth citizens)",
+            "questions": [
+              "q0093",
+              "q0204"
+            ]
+          },
+          {
+            "term": "18",
+            "fact": "Minimum age to serve on a jury (not 21)",
+            "questions": [
+              "q0014",
+              "q0280"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "18",
+            "fact": "Minimum age to buy alcohol",
+            "questions": [
+              "q0262"
+            ]
+          },
+          {
+            "term": "18",
+            "fact": "Minimum age to enter betting shops or gambling clubs",
+            "questions": [
+              "q0325"
+            ]
+          },
+          {
+            "term": "Voting age",
+            "fact": "You do not have to be 21 to vote in a general election",
+            "questions": [
+              "q0300"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Counts and amounts",
+        "rows": [
+          {
+            "term": "3",
+            "fact": "Times the UK has hosted the Olympic Games",
+            "questions": [
+              "q0329"
+            ]
+          },
+          {
+            "term": "12",
+            "fact": "Jury members in England, Wales and Northern Ireland",
+            "questions": [
+              "q0039"
+            ]
+          },
+          {
+            "term": "15",
+            "fact": "Jury members in Scotland",
+            "questions": [
+              "q0165"
+            ]
+          },
+          {
+            "term": "15",
+            "fact": "National parks in England, Wales and Scotland",
+            "questions": [
+              "q0123",
+              "q0176"
+            ]
+          },
+          {
+            "term": "60",
+            "fact": "Members of the Welsh government",
+            "questions": [
+              "q0224"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "90",
+            "fact": "Members of the Northern Ireland Assembly",
+            "questions": [
+              "q0265"
+            ]
+          },
+          {
+            "term": "About half",
+            "fact": "Share of the UK workforce made up of women",
+            "questions": [
+              "q0286"
+            ]
+          },
+          {
+            "term": "Around 10%",
+            "fact": "UK population with a parent or grandparent born outside the UK",
+            "questions": [
+              "q0369"
+            ]
+          },
+          {
+            "term": "£5,000",
+            "fact": "Maximum small claim in Scotland and Northern Ireland",
+            "questions": [
+              "q0372"
+            ],
+            "note": "May be out of date."
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "How often",
+        "rows": [
+          {
+            "term": "Every week",
+            "fact": "Prime Minister's Questions",
+            "questions": [
+              "q0126"
+            ]
+          },
+          {
+            "term": "Every 4 years",
+            "fact": "Welsh government members elected",
+            "questions": [
+              "q0187"
+            ]
+          },
+          {
+            "term": "Every 5 years",
+            "fact": "UK general elections",
+            "questions": [
+              "q0076"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "people",
+    "title": "Famous people",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Writers and poets",
+        "rows": [
+          {
+            "term": "William Shakespeare",
+            "fact": "Born in Stratford-upon-Avon; plays include A Midsummer Night's Dream and Macbeth",
+            "questions": [
+              "q0038",
+              "q0128",
+              "q0197",
+              "q0397"
+            ]
+          },
+          {
+            "term": "Geoffrey Chaucer",
+            "fact": "The Canterbury Tales: poems about a group of people on a pilgrimage",
+            "questions": [
+              "q0086",
+              "q0218",
+              "q0290"
+            ]
+          },
+          {
+            "term": "William Caxton",
+            "fact": "First person in England to print books using a printing press",
+            "questions": [
+              "q0046",
+              "q0294"
+            ]
+          },
+          {
+            "term": "William Wordsworth",
+            "fact": "Poet inspired by nature; wrote 'The Daffodils'",
+            "questions": [
+              "q0022",
+              "q0256",
+              "q0301"
+            ]
+          },
+          {
+            "term": "Sir Arthur Conan Doyle",
+            "fact": "Wrote Sherlock Holmes",
+            "questions": [
+              "q0060"
+            ]
+          },
+          {
+            "term": "JRR Tolkien",
+            "fact": "'The Lord of the Rings' voted the country's best-loved novel in 2003",
+            "questions": [
+              "q0118"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Artists, architects and designers",
+        "rows": [
+          {
+            "term": "Sir Christopher Wren",
+            "fact": "Rebuilt St Paul's Cathedral after the Great Fire of 1666",
+            "questions": [
+              "q0258"
+            ]
+          },
+          {
+            "term": "David Hockney",
+            "fact": "Important contributor to 1960s pop art",
+            "questions": [
+              "q0032"
+            ]
+          },
+          {
+            "term": "Sir Edwin Lutyens",
+            "fact": "Designed the Cenotaph",
+            "questions": [
+              "q0186"
+            ]
+          },
+          {
+            "term": "Clarice Cliff",
+            "fact": "Art Deco ceramic designer",
+            "questions": [
+              "q0310"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Composers",
+        "rows": [
+          {
+            "term": "Edward Elgar",
+            "fact": "Composer",
+            "questions": [
+              "q0226"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Film",
+        "rows": [
+          {
+            "term": "Charlie Chaplin",
+            "fact": "Famous for his tramp character in silent movies",
+            "questions": [
+              "q0092",
+              "q0298"
+            ]
+          },
+          {
+            "term": "Nick Park",
+            "fact": "Animated films; four Oscars, three for Wallace and Gromit",
+            "questions": [
+              "q0357",
+              "q0367",
+              "q0382"
+            ]
+          },
+          {
+            "term": "Oscar winners",
+            "fact": "Tilda Swinton, Dame Judi Dench and Kate Winslet have won Oscars; Emily Watson has not",
+            "questions": [
+              "q0314"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Scientists and inventors",
+        "rows": [
+          {
+            "term": "Isaac Newton",
+            "fact": "Discovered gravity",
+            "questions": [
+              "q0234",
+              "q0381"
+            ]
+          },
+          {
+            "term": "Isambard Kingdom Brunel",
+            "fact": "Built the Great Western Railway",
+            "questions": [
+              "q0378"
+            ]
+          },
+          {
+            "term": "Ernest Rutherford",
+            "fact": "Led the team that first split the atom",
+            "questions": [
+              "q0346"
+            ]
+          },
+          {
+            "term": "John Logie Baird",
+            "fact": "Scottish; developed television",
+            "questions": [
+              "q0048"
+            ]
+          },
+          {
+            "term": "Sir Frank Whittle",
+            "fact": "Invented the jet engine (1930s)",
+            "questions": [
+              "q0021"
+            ]
+          },
+          {
+            "term": "Alan Turing",
+            "fact": "Invented the Turing machine (1930s)",
+            "questions": [
+              "q0344"
+            ]
+          },
+          {
+            "term": "Sir Robert Watson-Watt",
+            "fact": "Developed radar",
+            "questions": [
+              "q0094"
+            ]
+          },
+          {
+            "term": "Francis Crick",
+            "fact": "Co-discovered the structure of the DNA molecule (1950s)",
+            "questions": [
+              "q0174",
+              "q0368"
+            ]
+          },
+          {
+            "term": "Concorde",
+            "fact": "World's only supersonic commercial airliner; developed by Britain and France",
+            "questions": [
+              "q0058",
+              "q0332"
+            ]
+          },
+          {
+            "term": "Sir Tim Berners-Lee",
+            "fact": "Invented the World Wide Web",
+            "questions": [
+              "q0277"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Enlightenment thinkers",
+        "rows": [
+          {
+            "term": "Adam Smith",
+            "fact": "Economics",
+            "questions": [
+              "q0315"
+            ]
+          },
+          {
+            "term": "David Hume",
+            "fact": "Philosophy",
+            "questions": [
+              "q0389"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Others",
+        "rows": [
+          {
+            "term": "St Augustine",
+            "fact": "First Archbishop of Canterbury",
+            "questions": [
+              "q0324"
+            ]
+          },
+          {
+            "term": "James Cook",
+            "fact": "Mapped the coast of Australia",
+            "questions": [
+              "q0321"
+            ]
+          },
+          {
+            "term": "William Wilberforce",
+            "fact": "A politician",
+            "questions": [
+              "q0303"
+            ]
+          },
+          {
+            "term": "Florence Nightingale",
+            "fact": "A nurse",
+            "questions": [
+              "q0215"
+            ]
+          },
+          {
+            "term": "Emmeline Pankhurst",
+            "fact": "Leader of the suffragettes, the group that campaigned for women's right to vote",
+            "questions": [
+              "q0068",
+              "q0159",
+              "q0232",
+              "q0260"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sport",
+    "title": "Sport",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Sportspeople",
+        "rows": [
+          {
+            "term": "Bobby Moore",
+            "fact": "Captain of the England football team that won the 1966 World Cup",
+            "questions": [
+              "q0011"
+            ],
+            "note": "May be out of date."
+          },
+          {
+            "term": "Sir Roger Bannister",
+            "fact": "First man in the world to run a mile in under four minutes",
+            "questions": [
+              "q0071",
+              "q0401"
+            ]
+          },
+          {
+            "term": "Baroness Tanni Grey-Thompson",
+            "fact": "Famous British Paralympian",
+            "questions": [
+              "q0129"
+            ]
+          },
+          {
+            "term": "Ellie Simmonds",
+            "fact": "Famous British Paralympian; swimming gold medals at the 2008, 2012 and 2016 Paralympics",
+            "questions": [
+              "q0129",
+              "q0376"
+            ]
+          },
+          {
+            "term": "Mary Peters",
+            "fact": "Won gold at the 1972 Olympics",
+            "questions": [
+              "q0342"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Sports and events",
+        "rows": [
+          {
+            "term": "Golf",
+            "fact": "Comes from Scotland; traced back to the 15th century",
+            "questions": [
+              "q0045",
+              "q0103"
+            ]
+          },
+          {
+            "term": "Grand National",
+            "fact": "Horse racing event",
+            "questions": [
+              "q0085"
+            ]
+          },
+          {
+            "term": "Scottish Grand National",
+            "fact": "Takes place at Ayr",
+            "questions": [
+              "q0228"
+            ]
+          },
+          {
+            "term": "Royal Ascot",
+            "fact": "Major horse-racing event in England",
+            "questions": [
+              "q0164"
+            ]
+          },
+          {
+            "term": "National Horseracing Museum",
+            "fact": "Newmarket, Suffolk",
+            "questions": [
+              "q0308"
+            ]
+          },
+          {
+            "term": "The Ashes",
+            "fact": "Most famous cricket competition, England against Australia",
+            "questions": [
+              "q0147"
+            ]
+          },
+          {
+            "term": "Six Nations Championship",
+            "fact": "Rugby competition",
+            "questions": [
+              "q0319"
+            ]
+          },
+          {
+            "term": "Wimbledon",
+            "fact": "Most famous tennis tournament in the UK",
+            "questions": [
+              "q0273"
+            ]
+          },
+          {
+            "term": "Boat Race",
+            "fact": "Annual rowing race on the River Thames between Oxford and Cambridge universities",
+            "questions": [
+              "q0237"
+            ]
+          },
+          {
+            "term": "2012",
+            "fact": "UK hosted the Olympic Games",
+            "questions": [
+              "q0282"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "customs",
+    "title": "Customs, festivals and leisure",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "Religion",
+        "rows": [
+          {
+            "term": "Puritans",
+            "fact": "A Protestant group",
+            "questions": [
+              "q0350"
+            ]
+          },
+          {
+            "term": "Church of England",
+            "fact": "Head: the monarch; spiritual leader: the Archbishop of Canterbury",
+            "questions": [
+              "q0084",
+              "q0304"
+            ]
+          },
+          {
+            "term": "Church of Scotland",
+            "fact": "Presbyterian church",
+            "questions": [
+              "q0102"
+            ]
+          },
+          {
+            "term": "Wales and Northern Ireland",
+            "fact": "No established church",
+            "questions": [
+              "q0050",
+              "q0124"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Festivals and holidays",
+        "rows": [
+          {
+            "term": "Bank holidays",
+            "fact": "Public holidays when banks and many other businesses close for the day",
+            "questions": [
+              "q0016",
+              "q0220",
+              "q0291"
+            ]
+          },
+          {
+            "term": "Lent",
+            "fact": "The 40 days before Easter",
+            "questions": [
+              "q0024",
+              "q0166"
+            ]
+          },
+          {
+            "term": "Good Friday",
+            "fact": "Day Jesus Christ died",
+            "questions": [
+              "q0041",
+              "q0179"
+            ]
+          },
+          {
+            "term": "Easter",
+            "fact": "March or April",
+            "questions": [
+              "q0096"
+            ]
+          },
+          {
+            "term": "Eid al-Fitr",
+            "fact": "Celebrates the end of Ramadan, after Muslims fast for a month",
+            "questions": [
+              "q0072"
+            ]
+          },
+          {
+            "term": "Diwali",
+            "fact": "Festival of Lights; celebrated by Hindus and Sikhs",
+            "questions": [
+              "q0040",
+              "q0242"
+            ]
+          },
+          {
+            "term": "April Fool's Day",
+            "fact": "TV and newspapers have joke stories until midday",
+            "questions": [
+              "q0104",
+              "q0275"
+            ]
+          },
+          {
+            "term": "Halloween",
+            "fact": "31 October",
+            "questions": [
+              "q0145"
+            ]
+          },
+          {
+            "term": "Christmas Day",
+            "fact": "25 December; celebrates the birth of Jesus Christ",
+            "questions": [
+              "q0087",
+              "q0132"
+            ]
+          },
+          {
+            "term": "Boxing Day",
+            "fact": "26 December",
+            "questions": [
+              "q0219"
+            ]
+          },
+          {
+            "term": "Hogmanay",
+            "fact": "New Year's Eve in Scotland, 31 December",
+            "questions": [
+              "q0051",
+              "q0199",
+              "q0317"
+            ]
+          },
+          {
+            "term": "St Patrick's Day",
+            "fact": "Public holiday in Northern Ireland",
+            "questions": [
+              "q0042"
+            ]
+          },
+          {
+            "term": "Auld Lang Syne",
+            "fact": "Song sung in the UK and other countries to celebrate New Year",
+            "questions": [
+              "q0347"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Arts and awards",
+        "rows": [
+          {
+            "term": "Man Booker Prize",
+            "fact": "Literature award",
+            "note": "May be out of date.",
+            "questions": [
+              "q0189"
+            ]
+          },
+          {
+            "term": "Turner Prize",
+            "fact": "Contemporary art award",
+            "note": "May be out of date.",
+            "questions": [
+              "q0191"
+            ]
+          },
+          {
+            "term": "Theatreland",
+            "fact": "Area of famous theatres in London's West End",
+            "questions": [
+              "q0064",
+              "q0240"
+            ]
+          },
+          {
+            "term": "The Fringe",
+            "fact": "Festival in Edinburgh",
+            "questions": [
+              "q0223"
+            ]
+          },
+          {
+            "term": "The Proms",
+            "fact": "Eight-week summer season of daily orchestral classical music concerts",
+            "questions": [
+              "q0233"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Film and TV",
+        "rows": [
+          {
+            "term": "Harry Potter",
+            "fact": "UK-produced; among the most commercially successful films and highest-grossing franchises",
+            "note": "May be out of date.",
+            "questions": [
+              "q0338"
+            ]
+          },
+          {
+            "term": "James Bond",
+            "fact": "One of the highest-grossing film franchises produced in the UK",
+            "note": "May be out of date.",
+            "questions": [
+              "q0363"
+            ]
+          },
+          {
+            "term": "BBC",
+            "fact": "Not controlled by the government",
+            "questions": [
+              "q0264"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Food and shopping",
+        "rows": [
+          {
+            "term": "Haggis",
+            "fact": "Traditional food of Scotland",
+            "questions": [
+              "q0138"
+            ]
+          },
+          {
+            "term": "Ulster Fry",
+            "fact": "Traditional food of Northern Ireland",
+            "questions": [
+              "q0327"
+            ]
+          },
+          {
+            "term": "Shops",
+            "fact": "Most shops in the UK open seven days a week",
+            "questions": [
+              "q0306"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "places",
+    "title": "Places of interest",
+    "blocks": [
+      {
+        "kind": "facts",
+        "title": "London landmarks",
+        "rows": [
+          {
+            "term": "Big Ben",
+            "fact": "At the Houses of Parliament",
+            "questions": [
+              "q0002"
+            ]
+          },
+          {
+            "term": "Cenotaph",
+            "fact": "War memorial in Whitehall",
+            "questions": [
+              "q0008",
+              "q0250"
+            ]
+          },
+          {
+            "term": "Tower of London",
+            "fact": "Built by William the Conqueror; houses the Crown Jewels",
+            "questions": [
+              "q0044",
+              "q0122"
+            ]
+          },
+          {
+            "term": "Beefeaters",
+            "fact": "Tour guides at the Tower of London who tell its history",
+            "questions": [
+              "q0057",
+              "q0295"
+            ]
+          },
+          {
+            "term": "Tate",
+            "fact": "Art gallery in London",
+            "questions": [
+              "q0269"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Historic sites",
+        "rows": [
+          {
+            "term": "Hadrian's Wall",
+            "fact": "Built by Emperor Hadrian in the north of England to keep out the Picts",
+            "questions": [
+              "q0236"
+            ]
+          },
+          {
+            "term": "Vindolanda, Housesteads",
+            "fact": "Forts on Hadrian's Wall",
+            "questions": [
+              "q0349"
+            ]
+          },
+          {
+            "term": "Stonehenge",
+            "fact": "In Wiltshire",
+            "questions": [
+              "q0323"
+            ]
+          },
+          {
+            "term": "Skara Brae",
+            "fact": "In Scotland; best-preserved prehistoric village in northern Europe",
+            "questions": [
+              "q0396"
+            ]
+          },
+          {
+            "term": "White Tower",
+            "fact": "Built by William the Conqueror",
+            "questions": [
+              "q0373"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "National parks and countryside",
+        "rows": [
+          {
+            "term": "National parks",
+            "fact": "Areas of protected countryside",
+            "questions": [
+              "q0123"
+            ]
+          },
+          {
+            "term": "Lake District",
+            "fact": "In England; largest national park in England; voted Britain's favourite view in 2007",
+            "questions": [
+              "q0063",
+              "q0160",
+              "q0195",
+              "q0288"
+            ]
+          },
+          {
+            "term": "Snowdonia",
+            "fact": "In Wales",
+            "questions": [
+              "q0059"
+            ]
+          },
+          {
+            "term": "Loch Lomond and the Trossachs",
+            "fact": "National park in Scotland",
+            "questions": [
+              "q0217"
+            ]
+          },
+          {
+            "term": "Giant's Causeway",
+            "fact": "In Northern Ireland",
+            "questions": [
+              "q0360"
+            ]
+          },
+          {
+            "term": "National Trust",
+            "fact": "Charity that preserves important buildings, coastline and countryside",
+            "questions": [
+              "q0078"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "facts",
+        "title": "Other places",
+        "rows": [
+          {
+            "term": "UK location",
+            "fact": "North-west Europe",
+            "questions": [
+              "q0004"
+            ]
+          },
+          {
+            "term": "Swansea",
+            "fact": "In Wales",
+            "questions": [
+              "q0134"
+            ]
+          },
+          {
+            "term": "Eden Project",
+            "fact": "In Cornwall",
+            "questions": [
+              "q0098"
+            ]
+          },
+          {
+            "term": "Crathes Castle",
+            "fact": "In Scotland",
+            "questions": [
+              "q0309"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
