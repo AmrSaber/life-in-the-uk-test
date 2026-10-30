@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { exams, questionById } from '#lib/data.ts';
 	import { getSavedExam } from '#lib/storage.svelte.ts';
@@ -32,7 +33,11 @@
 			Choose one of the practice exams on the home page.
 		{/if}
 	</p>
-	<p><a class="button" href={savedId ? '/bank' : '/'}>{savedId ? 'Question bank' : 'Home'}</a></p>
+	<p>
+		<a class="button" href={resolve(savedId ? '/bank' : '/')}
+			>{savedId ? 'Question bank' : 'Home'}</a
+		>
+	</p>
 {:else}
 	{#key `${page.url.search}#${run}`}
 		<Attempt

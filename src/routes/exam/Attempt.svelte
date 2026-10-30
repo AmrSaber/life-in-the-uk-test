@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { tick, untrack } from 'svelte';
 	import { beforeNavigate, goto } from '$app/navigation';
 	import {
@@ -223,7 +224,7 @@
 		{#if unanswered}<p class="muted">{unanswered} unanswered, counted as incorrect.</p>{/if}
 		<div class="summary-actions">
 			<button type="button" class="primary" onclick={onrestart}>Try again</button>
-			<a class="button" href="/">Home</a>
+			<a class="button" href={resolve('/')}>Home</a>
 		</div>
 	</section>
 

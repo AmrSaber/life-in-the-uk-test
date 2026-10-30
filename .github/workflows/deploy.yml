@@ -27,6 +27,9 @@ jobs:
       - run: npm run check
       - run: npm run test:unit -- --run
       - run: npm run build
+        env:
+          # Project-site sub-path; remove when the site moves to a custom domain.
+          BASE_PATH: /life-in-the-uk-test
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build

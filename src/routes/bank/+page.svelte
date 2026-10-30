@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
@@ -124,13 +125,13 @@
 	function saveEdit() {
 		if (!editing) return;
 		updateSavedExam(editing.id, editName, draft);
-		goto(`/bank?saved=${editing.id}`);
+		goto(resolve(`/bank?saved=${editing.id}`));
 	}
 
 	async function remove() {
 		if (!saved) return;
 		const id = saved.id;
-		await goto('/bank');
+		await goto(resolve('/bank'));
 		deleteSavedExam(id);
 	}
 
@@ -152,7 +153,7 @@
 {#if missing}
 	<h1>Saved exam not found</h1>
 	<p>It might have been deleted, or it was saved in a different browser.</p>
-	<p><a class="button" href="/bank">Question bank</a></p>
+	<p><a class="button" href={resolve('/bank')}>Question bank</a></p>
 {:else}
 	{#if editing}
 		<section class="card banner" aria-labelledby="edit-heading">
@@ -172,7 +173,7 @@
 				>
 					Save
 				</button>
-				<a class="button" href="/bank?saved={editing.id}">Cancel</a>
+				<a class="button" href={resolve(`/bank?saved=${editing.id}`)}>Cancel</a>
 			</div>
 			{#if !editName.trim() || !draft.length}
 				<p class="muted hint">
@@ -189,7 +190,7 @@
 					id="view"
 					value={saved?.id ?? ''}
 					onchange={(e) =>
-						goto(e.currentTarget.value ? `/bank?saved=${e.currentTarget.value}` : '/bank')}
+						goto(resolve(e.currentTarget.value ? `/bank?saved=${e.currentTarget.value}` : '/bank'))}
 				>
 					<option value="">All questions ({questions.length})</option>
 					{#each savedExams as exam (exam.id)}
@@ -212,11 +213,11 @@
 				</p>
 				<div class="saved-actions">
 					{#if saved.questions.length}
-						<a class="button primary" href="/exam?saved={saved.id}">Start</a>
+						<a class="button primary" href={resolve(`/exam?saved=${saved.id}`)}>Start</a>
 					{:else}
 						<button type="button" class="primary" disabled>Start</button>
 					{/if}
-					<a class="button" href="/bank?edit={saved.id}">Edit</a>
+					<a class="button" href={resolve(`/bank?edit=${saved.id}`)}>Edit</a>
 					<button type="button" class="danger" onclick={() => (deleteOpen = true)}>Delete</button>
 				</div>
 			</section>

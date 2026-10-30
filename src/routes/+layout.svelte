@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import '../app.css';
 	import { page } from '$app/state';
 	import { setTheme, theme, type Theme } from '#lib/storage.svelte.ts';
@@ -6,10 +7,10 @@
 	let { children } = $props();
 
 	const links = [
-		{ href: '/', label: 'Home' },
-		{ href: '/bank', label: 'Question bank' },
-		{ href: '/cheat-sheet', label: 'Cheat sheet' }
-	];
+		{ path: '/', label: 'Home' },
+		{ path: '/bank', label: 'Question bank' },
+		{ path: '/cheat-sheet', label: 'Cheat sheet' }
+	] as const;
 	const themes: { value: Theme; label: string }[] = [
 		{ value: 'light', label: 'Light' },
 		{ value: 'dark', label: 'Dark' },
@@ -22,10 +23,7 @@
 			if (!menu.contains(e.target as Node)) menu.open = false;
 	}
 
-	const isCurrent = (href: string) => {
-		const [path, query] = href.split('?');
-		return page.url.pathname === path && page.url.search === (query ? `?${query}` : '');
-	};
+	const isCurrent = (path: (typeof links)[number]['path']) => page.url.pathname === resolve(path);
 </script>
 
 <svelte:document onclick={closeMenus} />
@@ -34,10 +32,11 @@
 
 <header>
 	<div class="inner">
-		<a class="title" href="/">Life in the UK practice</a>
+		<a class="title" href={resolve('/')}>Life in the UK practice</a>
 		<nav aria-label="Main">
-			{#each links as link (link.href)}
-				<a href={link.href} aria-current={isCurrent(link.href) ? 'page' : undefined}>{link.label}</a
+			{#each links as link (link.path)}
+				<a href={resolve(link.path)} aria-current={isCurrent(link.path) ? 'page' : undefined}
+					>{link.label}</a
 				>
 			{/each}
 		</nav>

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { EXAM_MINUTES, PASS_MARK, exams } from '#lib/data.ts';
 </script>
 
@@ -13,9 +14,9 @@
 		cheat sheet. Every answer comes with an explanation, so you learn as you go.
 	</p>
 	<p class="links">
-		<a class="button" href="/bank">Browse the question bank</a>
-		<a class="button" href="/bank?starred=1">Starred questions</a>
-		<a class="button" href="/cheat-sheet">Cheat sheet</a>
+		<a class="button" href={resolve('/bank')}>Browse the question bank</a>
+		<a class="button" href={resolve('/bank?starred=1')}>Starred questions</a>
+		<a class="button" href={resolve('/cheat-sheet')}>Cheat sheet</a>
 	</p>
 </section>
 
@@ -28,7 +29,7 @@
 	<ul class="grid">
 		{#each exams as exam (exam.id)}
 			<li>
-				<a class="exam card" href="/exam?id={exam.id}">
+				<a class="exam card" href={resolve(`/exam?id=${exam.id}`)}>
 					<span class="name">{exam.name}</span>
 					<span class="muted">{exam.questions.length} questions</span>
 				</a>
