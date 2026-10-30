@@ -46,7 +46,7 @@
           {
             "cells": [
               "Capital",
-              "—",
+              "London",
               "Edinburgh",
               "Cardiff",
               "Belfast"
@@ -80,7 +80,7 @@
         "rows": [
           {
             "term": "Great Britain",
-            "fact": "England, Scotland and Wales only; Northern Ireland is not part of Great Britain",
+            "fact": "England, Scotland and Wales",
             "questions": [
               "q0079",
               "q0125",
@@ -88,15 +88,8 @@
             ]
           },
           {
-            "term": "Crown dependencies",
-            "fact": "Territories linked to the UK but not part of it",
-            "questions": [
-              "q0388"
-            ]
-          },
-          {
             "term": "Channel Islands, Isle of Man",
-            "fact": "Crown dependencies; not part of the UK",
+            "fact": "Crown dependencies",
             "questions": [
               "q0020",
               "q0263"
@@ -104,7 +97,7 @@
           },
           {
             "term": "St Helena, Falkland Islands",
-            "fact": "British overseas territories; not part of the UK or Great Britain",
+            "fact": "British overseas territories",
             "questions": [
               "q0026",
               "q0099",
@@ -146,21 +139,6 @@
               "q0037",
               "q0077",
               "q0175"
-            ]
-          },
-          {
-            "term": "Coins",
-            "fact": "No 25p coin (1p, 5p and £1 are valid)",
-            "questions": [
-              "q0097"
-            ]
-          },
-          {
-            "term": "Banknotes",
-            "fact": "No £25 note (£5, £20 and £50 are valid); £100 is not the highest note in circulation",
-            "questions": [
-              "q0194",
-              "q0227"
             ]
           }
         ]
@@ -212,13 +190,6 @@
             "questions": [
               "q0247",
               "q0335"
-            ]
-          },
-          {
-            "term": "Serfs",
-            "fact": "Middle Ages peasants with a small area of their lord's agricultural land",
-            "questions": [
-              "q0207"
             ]
           },
           {
@@ -298,14 +269,6 @@
             ]
           },
           {
-            "term": "18th century",
-            "fact": "Manufacturing the biggest source of employment; conflict with France over trade",
-            "questions": [
-              "q0148",
-              "q0394"
-            ]
-          },
-          {
             "term": "Industrial Revolution",
             "fact": "Steam power drove rapid industrial development (18th–19th centuries); canals built to link factories to towns, cities and ports",
             "questions": [
@@ -327,13 +290,6 @@
             "fact": "Scottish landlords destroyed small farms (crofts) to make space for sheep and cattle",
             "questions": [
               "q0156"
-            ]
-          },
-          {
-            "term": "Victorian free trade",
-            "fact": "Government abolished a number of taxes on imported goods",
-            "questions": [
-              "q0205"
             ]
           },
           {
@@ -531,7 +487,7 @@
           },
           {
             "term": "1918",
-            "fact": "First World War ended at 11.00 am on 11 November 1918",
+            "fact": "First World War ended at 11 am on 11 November",
             "questions": [
               "q0235",
               "q0340"
@@ -603,14 +559,6 @@
             "fact": "Every prisoner has a right to a court hearing",
             "questions": [
               "q0231"
-            ]
-          },
-          {
-            "term": "1689",
-            "fact": "Bill of Rights did NOT give the vote to all adult men or to women",
-            "questions": [
-              "q0007",
-              "q0146"
             ]
           },
           {
@@ -822,27 +770,6 @@
             "questions": [
               "q0326"
             ]
-          },
-          {
-            "term": "Written constitution",
-            "fact": "Britain has no written constitution",
-            "questions": [
-              "q0238"
-            ]
-          },
-          {
-            "term": "Constitutional institutions",
-            "fact": "Include Parliament, the cabinet and the police; the armed forces are not one",
-            "questions": [
-              "q0383"
-            ]
-          },
-          {
-            "term": "Monarch's role",
-            "fact": "Appoints the government; advises, warns and encourages the Prime Minister on government policy",
-            "questions": [
-              "q0392"
-            ]
           }
         ]
       },
@@ -874,26 +801,10 @@
           },
           {
             "term": "Peers",
-            "fact": "Members of the House of Lords; not elected by the people; life peers appointed by the monarch",
+            "fact": "Members of the House of Lords; life peers appointed by the monarch",
             "questions": [
               "q0320",
               "q0354"
-            ]
-          },
-          {
-            "term": "MPs' responsibilities",
-            "fact": "Represent everyone in their constituency; help create new laws",
-            "questions": [
-              "q0180",
-              "q0386"
-            ]
-          },
-          {
-            "term": "Contacting MPs",
-            "fact": "Not only by post, and not only at their House of Commons office",
-            "questions": [
-              "q0209",
-              "q0274"
             ]
           },
           {
@@ -941,37 +852,6 @@
         "title": "Elections and voting",
         "rows": [
           {
-            "term": "Poll card",
-            "fact": "Sent to you before an election",
-            "questions": [
-              "q0017"
-            ]
-          },
-          {
-            "term": "Election coverage",
-            "fact": "By law, television and radio must give balanced coverage and equal time to rival viewpoints",
-            "questions": [
-              "q0019",
-              "q0248"
-            ]
-          },
-          {
-            "term": "Individual registration",
-            "fact": "Used in Northern Ireland (each voter completes own form); not in Scotland and Wales",
-            "questions": [
-              "q0131",
-              "q0202"
-            ],
-            "note": "May be out of date."
-          },
-          {
-            "term": "Canvassing",
-            "fact": "Persuading people to vote for a political party",
-            "questions": [
-              "q0117"
-            ]
-          },
-          {
             "term": "2010 coalition",
             "fact": "Conservative Party and Liberal Democrats",
             "questions": [
@@ -982,45 +862,8 @@
       },
       {
         "kind": "facts",
-        "title": "Civil service and local government",
-        "rows": [
-          {
-            "term": "Civil servants",
-            "fact": "Chosen on merit, not appointed by the government; politically neutral",
-            "questions": [
-              "q0278",
-              "q0331"
-            ]
-          },
-          {
-            "term": "Local government",
-            "fact": "Towns, cities and rural areas are not governed by government-appointed officials",
-            "questions": [
-              "q0268"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
         "title": "Devolved administrations",
         "rows": [
-          {
-            "term": "Devolved powers",
-            "fact": "Devolved administrations can pass laws on health and education; Scottish Parliament can legislate on education",
-            "questions": [
-              "q0152",
-              "q0406"
-            ]
-          },
-          {
-            "term": "Not devolved",
-            "fact": "Defence and immigration, including for the Northern Ireland Assembly",
-            "questions": [
-              "q0203",
-              "q0254"
-            ]
-          },
           {
             "term": "Northern Ireland Assembly",
             "fact": "Members elected by proportional representation; has been suspended by the UK government",
@@ -1041,13 +884,6 @@
             "questions": [
               "q0359"
             ]
-          },
-          {
-            "term": "Commonwealth",
-            "fact": "Association of countries that support each other and work towards shared goals in democracy and development",
-            "questions": [
-              "q0379"
-            ]
           }
         ]
       }
@@ -1067,46 +903,6 @@
             "questions": [
               "q0049",
               "q0100"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Responsibilities of citizens and permanent residents",
-        "rows": [
-          {
-            "term": "The law",
-            "fact": "Respect and obey the law",
-            "questions": [
-              "q0120",
-              "q0144"
-            ]
-          },
-          {
-            "term": "Others' rights",
-            "fact": "Respect the rights of others, including their right to their own opinions",
-            "questions": [
-              "q0196",
-              "q0281"
-            ]
-          },
-          {
-            "term": "Yourself and family",
-            "fact": "Look after yourself and your family",
-            "questions": [
-              "q0001",
-              "q0120",
-              "q0196",
-              "q0281"
-            ]
-          },
-          {
-            "term": "Your area",
-            "fact": "Look after the area in which you live and the environment",
-            "questions": [
-              "q0001",
-              "q0144"
             ]
           }
         ]
@@ -1137,141 +933,6 @@
               "q0364",
               "q0400"
             ]
-          },
-          {
-            "term": "Young offenders",
-            "fact": "Names or photographs of young people found guilty cannot be published by the media",
-            "questions": [
-              "q0225"
-            ]
-          },
-          {
-            "term": "Jury selection",
-            "fact": "Chosen randomly from the electoral register; register there to be part of a jury",
-            "questions": [
-              "q0015",
-              "q0101"
-            ],
-            "note": "May be out of date."
-          },
-          {
-            "term": "Small claims procedure",
-            "fact": "Informal way to settle minor disputes without the time and cost of a lawyer",
-            "questions": [
-              "q0213"
-            ],
-            "note": "May be out of date."
-          },
-          {
-            "term": "Solicitors' charges",
-            "fact": "Usually based on how much time they spend on a case",
-            "questions": [
-              "q0018"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Criminal and civil law",
-        "rows": [
-          {
-            "term": "Criminal offences",
-            "fact": "Examples: racial crime; smoking in public places where not allowed",
-            "questions": [
-              "q0091",
-              "q0150"
-            ]
-          },
-          {
-            "term": "Civil law",
-            "fact": "Example: discrimination in the workplace",
-            "questions": [
-              "q0111"
-            ]
-          },
-          {
-            "term": "Rape in marriage",
-            "fact": "A husband who forces his wife to have sex can be charged with rape",
-            "questions": [
-              "q0115"
-            ]
-          },
-          {
-            "term": "Domestic violence",
-            "fact": "Anyone violent towards their partner (man or woman, married or living together) can be prosecuted",
-            "questions": [
-              "q0358"
-            ]
-          },
-          {
-            "term": "FGM",
-            "fact": "Female genital mutilation, or taking a girl or woman abroad for it, is illegal and a criminal offence",
-            "questions": [
-              "q0182"
-            ]
-          },
-          {
-            "term": "Forced marriage",
-            "fact": "Court orders can protect a person from being forced into marriage",
-            "questions": [
-              "q0341"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Police",
-        "rows": [
-          {
-            "term": "Complaints against the police",
-            "fact": "Go to a police station or write to the Chief Constable of the force involved; not only one of these, and not only to the Police Complaints Commissioner",
-            "questions": [
-              "q0013",
-              "q0107",
-              "q0170",
-              "q0255"
-            ],
-            "note": "May be out of date."
-          },
-          {
-            "term": "Extremism and terrorism",
-            "fact": "Report recruitment attempts or terrorist activity to your local police force",
-            "questions": [
-              "q0055",
-              "q0375"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Everyday rules",
-        "rows": [
-          {
-            "term": "Dog collar",
-            "fact": "In public, a dog must wear a collar showing the owner's name and address",
-            "questions": [
-              "q0028",
-              "q0178"
-            ]
-          },
-          {
-            "term": "National Insurance number",
-            "fact": "Apply through the Department for Work and Pensions (DWP); need proof of identity and proof of permission to work in the UK",
-            "questions": [
-              "q0143",
-              "q0163"
-            ],
-            "note": "May be out of date."
-          },
-          {
-            "term": "Driving",
-            "fact": "You need a valid driving licence",
-            "questions": [
-              "q0222"
-            ]
           }
         ]
       },
@@ -1288,15 +949,8 @@
             ]
           },
           {
-            "term": "School governors",
-            "fact": "Set the school's strategic direction; monitor and evaluate school performance",
-            "questions": [
-              "q0065"
-            ]
-          },
-          {
             "term": "National Citizen Service",
-            "fact": "Open to 16- and 17-year-olds; not compulsory",
+            "fact": "Open to 16- and 17-year-olds",
             "questions": [
               "q0056",
               "q0366"
@@ -1339,7 +993,7 @@
           },
           {
             "term": "18",
-            "fact": "Minimum age to serve on a jury (not 21)",
+            "fact": "Minimum age to serve on a jury",
             "questions": [
               "q0014",
               "q0280"
@@ -1358,13 +1012,6 @@
             "fact": "Minimum age to enter betting shops or gambling clubs",
             "questions": [
               "q0325"
-            ]
-          },
-          {
-            "term": "Voting age",
-            "fact": "You do not have to be 21 to vote in a general election",
-            "questions": [
-              "q0300"
             ]
           }
         ]
@@ -1600,7 +1247,7 @@
           },
           {
             "term": "Oscar winners",
-            "fact": "Tilda Swinton, Dame Judi Dench and Kate Winslet have won Oscars; Emily Watson has not",
+            "fact": "Tilda Swinton, Dame Judi Dench and Kate Winslet",
             "questions": [
               "q0314"
             ]
@@ -1908,14 +1555,6 @@
             "questions": [
               "q0102"
             ]
-          },
-          {
-            "term": "Wales and Northern Ireland",
-            "fact": "No established church",
-            "questions": [
-              "q0050",
-              "q0124"
-            ]
           }
         ]
       },
@@ -1923,15 +1562,6 @@
         "kind": "facts",
         "title": "Festivals and holidays",
         "rows": [
-          {
-            "term": "Bank holidays",
-            "fact": "Public holidays when banks and many other businesses close for the day",
-            "questions": [
-              "q0016",
-              "q0220",
-              "q0291"
-            ]
-          },
           {
             "term": "Lent",
             "fact": "The 40 days before Easter",
@@ -2088,13 +1718,6 @@
             "questions": [
               "q0363"
             ]
-          },
-          {
-            "term": "BBC",
-            "fact": "Not controlled by the government",
-            "questions": [
-              "q0264"
-            ]
           }
         ]
       },
@@ -2114,13 +1737,6 @@
             "fact": "Traditional food of Northern Ireland",
             "questions": [
               "q0327"
-            ]
-          },
-          {
-            "term": "Shops",
-            "fact": "Most shops in the UK open seven days a week",
-            "questions": [
-              "q0306"
             ]
           }
         ]
@@ -2220,13 +1836,6 @@
         "kind": "facts",
         "title": "National parks and countryside",
         "rows": [
-          {
-            "term": "National parks",
-            "fact": "Areas of protected countryside",
-            "questions": [
-              "q0123"
-            ]
-          },
           {
             "term": "Lake District",
             "fact": "In England; largest national park in England; voted Britain's favourite view in 2007",
