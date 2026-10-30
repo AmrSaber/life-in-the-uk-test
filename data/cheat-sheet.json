@@ -4,141 +4,136 @@
     "title": "The four nations",
     "blocks": [
       {
-        "kind": "table",
-        "columns": [
-          "",
-          "England",
-          "Scotland",
-          "Wales",
-          "Northern Ireland"
-        ],
-        "rows": [
+        "kind": "cards",
+        "cards": [
           {
-            "cells": [
-              "Patron saint",
-              "St George",
-              "St Andrew",
-              "St David",
-              "St Patrick"
-            ],
-            "questions": [
-              "q0005",
-              "q0062",
-              "q0108",
-              "q0216"
+            "title": "England",
+            "rows": [
+              {
+                "term": "Patron saint",
+                "fact": "St George",
+                "questions": [
+                  "q0216"
+                ]
+              },
+              {
+                "term": "Saint's day",
+                "fact": "23 April",
+                "questions": [
+                  "q0287"
+                ]
+              },
+              {
+                "term": "Capital",
+                "fact": "London",
+                "questions": []
+              },
+              {
+                "term": "National flower",
+                "fact": "Rose",
+                "questions": [
+                  "q0377"
+                ]
+              }
             ]
           },
           {
-            "cells": [
-              "Saint's day",
-              "23 April",
-              "30 November",
-              "1 March",
-              "17 March"
-            ],
-            "questions": [
-              "q0172",
-              "q0257",
-              "q0287",
-              "q0311"
+            "title": "Scotland",
+            "rows": [
+              {
+                "term": "Patron saint",
+                "fact": "St Andrew",
+                "questions": [
+                  "q0005"
+                ]
+              },
+              {
+                "term": "Saint's day",
+                "fact": "30 November",
+                "questions": [
+                  "q0257"
+                ]
+              },
+              {
+                "term": "Capital",
+                "fact": "Edinburgh",
+                "questions": [
+                  "q0154"
+                ]
+              },
+              {
+                "term": "National flower",
+                "fact": "Thistle",
+                "questions": [
+                  "q0169"
+                ]
+              }
             ]
           },
           {
-            "cells": [
-              "Capital",
-              "London",
-              "Edinburgh",
-              "Cardiff",
-              "Belfast"
-            ],
-            "questions": [
-              "q0069",
-              "q0154",
-              "q0200"
+            "title": "Wales",
+            "rows": [
+              {
+                "term": "Patron saint",
+                "fact": "St David",
+                "questions": [
+                  "q0062"
+                ]
+              },
+              {
+                "term": "Saint's day",
+                "fact": "1 March",
+                "questions": [
+                  "q0172"
+                ]
+              },
+              {
+                "term": "Capital",
+                "fact": "Cardiff",
+                "questions": [
+                  "q0069"
+                ]
+              },
+              {
+                "term": "National flower",
+                "fact": "Daffodil",
+                "questions": [
+                  "q0074"
+                ]
+              }
             ]
           },
           {
-            "cells": [
-              "National flower",
-              "Rose",
-              "Thistle",
-              "Daffodil",
-              "Shamrock"
-            ],
-            "questions": [
-              "q0074",
-              "q0169",
-              "q0192",
-              "q0377"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Great Britain, Crown dependencies and overseas territories",
-        "rows": [
-          {
-            "term": "Great Britain",
-            "fact": "England, Scotland and Wales",
-            "questions": [
-              "q0079",
-              "q0125",
-              "q0177"
-            ]
-          },
-          {
-            "term": "Channel Islands, Isle of Man",
-            "fact": "Crown dependencies",
-            "questions": [
-              "q0020",
-              "q0263"
-            ]
-          },
-          {
-            "term": "St Helena, Falkland Islands",
-            "fact": "British overseas territories",
-            "questions": [
-              "q0026",
-              "q0099",
-              "q0157",
-              "q0184",
-              "q0239"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Flag",
-        "rows": [
-          {
-            "term": "Union Jack",
-            "fact": "The flag of the United Kingdom",
-            "questions": [
-              "q0284"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Currency",
-        "rows": [
-          {
-            "term": "Pound sterling",
-            "fact": "UK currency",
-            "questions": [
-              "q0241"
-            ]
-          },
-          {
-            "term": "Scottish and Northern Irish banknotes",
-            "fact": "Scotland and Northern Ireland have their own banknotes, valid everywhere in the UK",
-            "questions": [
-              "q0037",
-              "q0077",
-              "q0175"
+            "title": "Northern Ireland",
+            "rows": [
+              {
+                "term": "Patron saint",
+                "fact": "St Patrick",
+                "questions": [
+                  "q0108"
+                ]
+              },
+              {
+                "term": "Saint's day",
+                "fact": "17 March",
+                "questions": [
+                  "q0311"
+                ]
+              },
+              {
+                "term": "Capital",
+                "fact": "Belfast",
+                "questions": [
+                  "q0200"
+                ]
+              },
+              {
+                "term": "National flower",
+                "fact": "Shamrock",
+                "questions": [
+                  "q0192"
+                ]
+              }
             ]
           }
         ]
@@ -606,157 +601,6 @@
     ]
   },
   {
-    "id": "monarchs",
-    "title": "Kings, queens and leaders",
-    "blocks": [
-      {
-        "kind": "facts",
-        "rows": [
-          {
-            "term": "Alfred the Great",
-            "fact": "Anglo-Saxon kingdoms united under him to defeat the Vikings",
-            "questions": [
-              "q0035",
-              "q0293"
-            ]
-          },
-          {
-            "term": "William the Conqueror",
-            "fact": "From France (Duke of Normandy)",
-            "questions": [
-              "q0398"
-            ]
-          },
-          {
-            "term": "Henry VIII",
-            "fact": "Established the Church of England because the Pope would not let him divorce his first wife, Catherine of Aragon",
-            "questions": [
-              "q0052",
-              "q0136"
-            ]
-          },
-          {
-            "term": "Anne Boleyn",
-            "fact": "Wife of Henry VIII; executed at the Tower of London",
-            "questions": [
-              "q0090"
-            ]
-          },
-          {
-            "term": "Elizabeth I",
-            "fact": "Daughter of Henry VIII; Protestant; balanced Catholic and extreme Protestant views; reigning when English settlers first colonised America's east coast",
-            "questions": [
-              "q0106",
-              "q0130",
-              "q0142",
-              "q0297"
-            ]
-          },
-          {
-            "term": "Mary, Queen of Scots",
-            "fact": "Mary Stuart, a Catholic; imprisoned 20 years by her cousin Elizabeth I, then executed",
-            "questions": [
-              "q0110",
-              "q0173",
-              "q0361"
-            ]
-          },
-          {
-            "term": "James I",
-            "fact": "King of Scotland before becoming King of England",
-            "questions": [
-              "q0305"
-            ]
-          },
-          {
-            "term": "Charles I",
-            "fact": "Believed in the Divine Right of Kings; tried to rule without Parliament",
-            "questions": [
-              "q0283"
-            ]
-          },
-          {
-            "term": "Charles I",
-            "fact": "Executed in 1649; England then became a republic",
-            "questions": [
-              "q0127",
-              "q0337",
-              "q0391"
-            ]
-          },
-          {
-            "term": "Oliver Cromwell",
-            "fact": "Given the title Lord Protector",
-            "questions": [
-              "q0023"
-            ]
-          },
-          {
-            "term": "Charles II",
-            "fact": "Defeated by Cromwell in the Civil War; hid in an oak tree, escaped to Europe",
-            "questions": [
-              "q0105",
-              "q0292"
-            ]
-          },
-          {
-            "term": "Charles II",
-            "fact": "Came from the Netherlands to become the British monarch",
-            "questions": [
-              "q0365"
-            ]
-          },
-          {
-            "term": "Sir Robert Walpole",
-            "fact": "First British Prime Minister",
-            "questions": [
-              "q0313"
-            ]
-          },
-          {
-            "term": "Winston Churchill",
-            "fact": "Prime Minister and inspirational leader in the Second World War; voted greatest Briton of all time in 2002",
-            "questions": [
-              "q0033",
-              "q0081",
-              "q0285"
-            ]
-          },
-          {
-            "term": "Clement Attlee",
-            "fact": "Elected Prime Minister in 1945",
-            "questions": [
-              "q0328"
-            ]
-          },
-          {
-            "term": "Margaret Thatcher",
-            "fact": "First woman Prime Minister of the UK; longest-serving PM of the 20th century",
-            "questions": [
-              "q0009",
-              "q0246",
-              "q0387"
-            ]
-          },
-          {
-            "term": "John Major",
-            "fact": "PM after Margaret Thatcher; important part in the Northern Ireland peace process",
-            "questions": [
-              "q0374"
-            ]
-          },
-          {
-            "term": "Tony Blair",
-            "fact": "Labour leader who introduced a Scottish Parliament and a Welsh Assembly",
-            "questions": [
-              "q0371"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
     "id": "government",
     "title": "Parliament and government",
     "blocks": [
@@ -884,78 +728,6 @@
             "questions": [
               "q0359"
             ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "law",
-    "title": "Values, law and your role",
-    "blocks": [
-      {
-        "kind": "facts",
-        "title": "Fundamental principles of British life",
-        "rows": [
-          {
-            "term": "Principles",
-            "fact": "Democracy, the rule of law, individual liberty",
-            "questions": [
-              "q0049",
-              "q0100"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Courts and juries",
-        "rows": [
-          {
-            "term": "Magistrates' Court",
-            "fact": "Minor criminal cases in England, Wales and Northern Ireland",
-            "questions": [
-              "q0047"
-            ]
-          },
-          {
-            "term": "Justice of the Peace Court",
-            "fact": "Minor criminal offences in Scotland",
-            "questions": [
-              "q0139"
-            ]
-          },
-          {
-            "term": "Youth Court",
-            "fact": "England, Wales and Northern Ireland: heard by up to 3 specially trained magistrates or a District Judge",
-            "questions": [
-              "q0343",
-              "q0364",
-              "q0400"
-            ]
-          }
-        ]
-      },
-      {
-        "kind": "facts",
-        "title": "Community and volunteering",
-        "rows": [
-          {
-            "term": "Friends of the Earth",
-            "fact": "Environmental charity",
-            "questions": [
-              "q0114",
-              "q0244"
-            ]
-          },
-          {
-            "term": "National Citizen Service",
-            "fact": "Open to 16- and 17-year-olds",
-            "questions": [
-              "q0056",
-              "q0366"
-            ],
-            "note": "May be out of date."
           }
         ]
       }
@@ -1121,6 +893,152 @@
     "id": "people",
     "title": "Famous people",
     "blocks": [
+      {
+        "kind": "facts",
+        "rows": [
+          {
+            "term": "Alfred the Great",
+            "fact": "Anglo-Saxon kingdoms united under him to defeat the Vikings",
+            "questions": [
+              "q0035",
+              "q0293"
+            ]
+          },
+          {
+            "term": "William the Conqueror",
+            "fact": "From France (Duke of Normandy)",
+            "questions": [
+              "q0398"
+            ]
+          },
+          {
+            "term": "Henry VIII",
+            "fact": "Established the Church of England because the Pope would not let him divorce his first wife, Catherine of Aragon",
+            "questions": [
+              "q0052",
+              "q0136"
+            ]
+          },
+          {
+            "term": "Anne Boleyn",
+            "fact": "Wife of Henry VIII; executed at the Tower of London",
+            "questions": [
+              "q0090"
+            ]
+          },
+          {
+            "term": "Elizabeth I",
+            "fact": "Daughter of Henry VIII; Protestant; balanced Catholic and extreme Protestant views; reigning when English settlers first colonised America's east coast",
+            "questions": [
+              "q0106",
+              "q0130",
+              "q0142",
+              "q0297"
+            ]
+          },
+          {
+            "term": "Mary, Queen of Scots",
+            "fact": "Mary Stuart, a Catholic; imprisoned 20 years by her cousin Elizabeth I, then executed",
+            "questions": [
+              "q0110",
+              "q0173",
+              "q0361"
+            ]
+          },
+          {
+            "term": "James I",
+            "fact": "King of Scotland before becoming King of England",
+            "questions": [
+              "q0305"
+            ]
+          },
+          {
+            "term": "Charles I",
+            "fact": "Believed in the Divine Right of Kings; tried to rule without Parliament",
+            "questions": [
+              "q0283"
+            ]
+          },
+          {
+            "term": "Charles I",
+            "fact": "Executed in 1649; England then became a republic",
+            "questions": [
+              "q0127",
+              "q0337",
+              "q0391"
+            ]
+          },
+          {
+            "term": "Oliver Cromwell",
+            "fact": "Given the title Lord Protector",
+            "questions": [
+              "q0023"
+            ]
+          },
+          {
+            "term": "Charles II",
+            "fact": "Defeated by Cromwell in the Civil War; hid in an oak tree, escaped to Europe",
+            "questions": [
+              "q0105",
+              "q0292"
+            ]
+          },
+          {
+            "term": "Charles II",
+            "fact": "Came from the Netherlands to become the British monarch",
+            "questions": [
+              "q0365"
+            ]
+          },
+          {
+            "term": "Sir Robert Walpole",
+            "fact": "First British Prime Minister",
+            "questions": [
+              "q0313"
+            ]
+          },
+          {
+            "term": "Winston Churchill",
+            "fact": "Prime Minister and inspirational leader in the Second World War; voted greatest Briton of all time in 2002",
+            "questions": [
+              "q0033",
+              "q0081",
+              "q0285"
+            ]
+          },
+          {
+            "term": "Clement Attlee",
+            "fact": "Elected Prime Minister in 1945",
+            "questions": [
+              "q0328"
+            ]
+          },
+          {
+            "term": "Margaret Thatcher",
+            "fact": "First woman Prime Minister of the UK; longest-serving PM of the 20th century",
+            "questions": [
+              "q0009",
+              "q0246",
+              "q0387"
+            ]
+          },
+          {
+            "term": "John Major",
+            "fact": "PM after Margaret Thatcher; important part in the Northern Ireland peace process",
+            "questions": [
+              "q0374"
+            ]
+          },
+          {
+            "term": "Tony Blair",
+            "fact": "Labour leader who introduced a Scottish Parliament and a Welsh Assembly",
+            "questions": [
+              "q0371"
+            ]
+          }
+        ],
+        "title": "Kings, queens and leaders"
+      },
       {
         "kind": "facts",
         "title": "Writers and poets",

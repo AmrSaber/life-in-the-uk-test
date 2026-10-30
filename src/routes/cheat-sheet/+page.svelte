@@ -1,13 +1,15 @@
 <script lang="ts">
 	import cheatSheet from '../../../data/cheat-sheet.json';
 
-	type Row = { term?: string; fact?: string; cells?: string[]; note?: string; questions: string[] };
-	type Block = { kind: 'facts' | 'table'; title?: string; columns?: string[]; rows: Row[] };
+	type Row = { term: string; fact: string; note?: string; questions: string[] };
+	type Card = { title: string; rows: Row[] };
+	type Block = { kind: 'facts' | 'cards'; title?: string; rows?: Row[]; cards?: Card[] };
 	type Section = { id: string; title: string; blocks: Block[] };
 
 	const sections = cheatSheet as Section[];
+	const blockRows = (b: Block) => b.rows ?? b.cards!.flatMap((c) => c.rows);
 	const questionCount = (s: Section) =>
-		new Set(s.blocks.flatMap((b) => b.rows.flatMap((r) => r.questions))).size;
+		new Set(s.blocks.flatMap((b) => blockRows(b).flatMap((r) => r.questions))).size;
 </script>
 
 <svelte:head>
@@ -35,32 +37,23 @@
 		</h2>
 		{#each s.blocks as block, i (i)}
 			{#if block.title}<h3>{block.title}</h3>{/if}
-			{#if block.kind === 'table'}
-				<div class="table-wrap">
-					<table>
-						<thead>
-							<tr>
-								{#each block.columns ?? [] as col, c (c)}
-									<th scope="col">{col}</th>
+			{#if block.kind === 'cards'}
+				<ul class="cards">
+					{#each block.cards ?? [] as card (card.title)}
+						<li class="card">
+							<h3>{card.title}</h3>
+							<dl class="card-rows">
+								{#each card.rows as row (row.term)}
+									<dt class="muted">{row.term}</dt>
+									<dd>{row.fact}</dd>
 								{/each}
-							</tr>
-						</thead>
-						<tbody>
-							{#each block.rows as row, r (r)}
-								<tr>
-									{#each row.cells ?? [] as cell, c (c)}
-										{#if c === 0}<th scope="row">{cell}</th>{:else}<td
-												data-label={block.columns?.[c]}>{cell}</td
-											>{/if}
-									{/each}
-								</tr>
-							{/each}
-						</tbody>
-					</table>
-				</div>
+							</dl>
+						</li>
+					{/each}
+				</ul>
 			{:else}
 				<dl>
-					{#each block.rows as row, r (r)}
+					{#each block.rows ?? [] as row, r (r)}
 						<div class="row">
 							<dt>{row.term}</dt>
 							<dd>
@@ -134,52 +127,35 @@
 		color: var(--muted);
 		font-style: italic;
 	}
-	.table-wrap {
-		overflow-x: auto;
+	.cards {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+		gap: 0.75rem;
 	}
-	table {
-		width: 100%;
-		border-collapse: collapse;
-		background: var(--surface);
-		border: 1px solid var(--border);
+	.cards h3 {
+		margin: 0 0 0.5rem;
+		font-size: 1.15rem;
 	}
-	th,
-	td {
-		text-align: left;
-		padding: 0.5rem 0.75rem;
-		border: 1px solid var(--border);
-		vertical-align: top;
+	.card-rows {
+		display: grid;
+		grid-template-columns: auto 1fr;
+		gap: 0.3rem 0.75rem;
+		border: 0;
+		background: none;
 	}
-	thead th {
-		background: var(--surface-2);
+	.card-rows dt {
+		font-weight: 400;
+		font-size: 0.9rem;
+	}
+	.card-rows dd {
+		font-weight: 700;
 	}
 	@media (max-width: 40rem) {
 		.row {
 			grid-template-columns: 1fr;
-		}
-		/* Stack each table row as a card: "England: St George" lines under the row heading. */
-		thead {
-			display: none;
-		}
-		table,
-		tbody,
-		tr,
-		th,
-		td {
-			display: block;
-		}
-		tr {
-			border-top: 1px solid var(--border);
-			padding: 0.5rem 0.75rem;
-		}
-		th,
-		td {
-			border: 0;
-			padding: 0.1rem 0;
-		}
-		td::before {
-			content: attr(data-label) ': ';
-			color: var(--muted);
 		}
 	}
 	@media print {
@@ -207,11 +183,8 @@
 		.row {
 			padding: 0.2rem 0.5rem;
 		}
-		th,
-		td {
-			padding: 0.2rem 0.5rem;
-		}
-		.row {
+		.row,
+		.cards li {
 			break-inside: avoid;
 		}
 	}
