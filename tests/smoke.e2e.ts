@@ -33,6 +33,7 @@ test('leaving an unfinished exam asks for confirmation', async ({ page }) => {
 test('bank: filter, select, save to a new exam and start it untimed', async ({ page }) => {
 	await page.goto('/bank');
 	await page.getByRole('searchbox').fill('Shakespeare');
+	await expect(page.getByText('Showing 5 of 406 questions')).toBeVisible();
 	await page.getByRole('button', { name: /^Select all/ }).click();
 	await page.getByRole('button', { name: 'Save to exam…' }).click();
 	await page.getByPlaceholder('New exam name').fill('Shakespeare');

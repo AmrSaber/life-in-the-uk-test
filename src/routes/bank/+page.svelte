@@ -74,8 +74,18 @@
 		filters.tags.length > 0 || filters.search.trim() !== '' || filters.starredOnly
 	);
 
+	// The box updates on every keystroke; the filter follows once typing pauses, because
+	// re-rendering hundreds of cards on each key blocks the input.
+	let searchText = $state('');
+	$effect(() => {
+		const text = searchText;
+		const timer = setTimeout(() => (filters.search = text), 150);
+		return () => clearTimeout(timer);
+	});
+
 	function clearFilters() {
 		Object.assign(filters, emptyFilters());
+		searchText = '';
 	}
 
 	function toggleSelect(id: string) {
@@ -243,7 +253,7 @@
 				id="search"
 				type="search"
 				placeholder="Search questions and answers"
-				bind:value={filters.search}
+				bind:value={searchText}
 			/>
 			<label class="check">
 				<input type="checkbox" bind:checked={filters.includeExplanations} />
@@ -507,6 +517,12 @@
 		margin: 0;
 		display: grid;
 		gap: 1rem;
+	}
+	/* Skip layout and paint for off-screen cards. Not while a card's menu is open, because the
+	   menu hangs outside the card and paint containment would clip it. */
+	.list li:not(:has(details[open])) {
+		content-visibility: auto;
+		contain-intrinsic-size: auto 16rem;
 	}
 	.selected > :global(.card) {
 		border-color: var(--accent);
