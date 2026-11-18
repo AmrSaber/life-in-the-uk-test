@@ -191,10 +191,11 @@
 	.disclaimer {
 		margin: 0;
 		font-size: 0.9rem;
-		max-width: 40rem;
-		margin-right: auto;
+		/* Take the space the link leaves; drop to its own row only when under 20rem. */
+		flex: 1 1 20rem;
 	}
 	.github {
+		flex: none;
 		min-height: 44px;
 		display: inline-flex;
 		align-items: center;
