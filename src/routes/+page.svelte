@@ -67,6 +67,10 @@
 		<em>Life in the UK: A Guide for New Residents</em>. You have {EXAM_MINUTES} minutes and need {PASS_MARK}
 		correct answers (75%) to pass.
 	</p>
+	<p>
+		All the questions here are based on questions and topics reported by people who took the real
+		exam.
+	</p>
 	<p class="muted">
 		This is an independent practice site. It isn't affiliated with the Home Office or the official
 		test.
