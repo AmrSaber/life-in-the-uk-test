@@ -1,13 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import {
-		answerText,
-		examsWith,
-		questions,
-		sectionsOf,
-		topicOf,
-		type Question
-	} from '#lib/data.ts';
+	import { answerText, examsWith, questions, topicOf, trailOf, type Question } from '#lib/data.ts';
+	import Breadcrumb from '#lib/Breadcrumb.svelte';
 	import QuestionCard from '#lib/QuestionCard.svelte';
 	import Seo from '#lib/Seo.svelte';
 	import { SITE_URL, breadcrumbs, truncate } from '#lib/site.ts';
@@ -24,7 +18,7 @@
 	const crumbs = $derived([
 		{ name: 'Home', path: '/' },
 		{ name: 'Question bank', path: '/bank' },
-		...(topic ? [{ name: topic.name, path: `/topic/${topic.slug}` }] : []),
+		...(topic ? trailOf(topic) : []).map((t) => ({ name: t.name, path: `/topic/${t.slug}` })),
 		{ name: q.question, path }
 	]);
 </script>
@@ -44,12 +38,15 @@
 	]}
 />
 
-<nav class="crumbs muted" aria-label="Breadcrumb">
-	<a href={resolve('/bank')}>Question bank</a>
-	{#if topic}
-		› <a href={resolve('/topic/[slug]', { slug: topic.slug })}>{topic.name}</a>
-	{/if}
-</nav>
+<Breadcrumb
+	items={[
+		{ name: 'Question bank', href: resolve('/bank') },
+		...(topic ? trailOf(topic) : []).map((t) => ({
+			name: t.name,
+			href: resolve('/topic/[slug]', { slug: t.slug })
+		}))
+	]}
+/>
 
 <QuestionCard question={q} mode="reveal" h1 expanded />
 
@@ -79,10 +76,6 @@
 </section>
 
 <style>
-	.crumbs {
-		margin-bottom: 0.75rem;
-		font-size: 0.95rem;
-	}
 	.more {
 		margin-top: 1.5rem;
 	}

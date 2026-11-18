@@ -85,3 +85,16 @@ test('question pages show the answer and link to the topic', async ({ page }) =>
 	await expect(page.getByText('✓ Correct answer')).toBeVisible();
 	await expect(page.getByRole('link', { name: 'Places of interest' }).first()).toBeVisible();
 });
+
+test('topic pages link back to the chapter and to sibling sections', async ({ page }) => {
+	await page.goto('/topic/3-4-a-global-power');
+	const crumbs = page.getByRole('navigation', { name: 'Breadcrumb' });
+	await expect(crumbs.getByRole('link', { name: 'A Long and Illustrious History' })).toBeVisible();
+	await expect(page.getByRole('link', { name: '3.3. The Tudors and Stuarts' })).toBeVisible();
+	await expect(
+		page.locator('[aria-current="page"]', { hasText: '3.4. A global power' })
+	).toBeVisible();
+	await crumbs.getByRole('link', { name: 'A Long and Illustrious History' }).click();
+	await expect(page).toHaveURL(/\/topic\/3-a-long-and-illustrious-history$/);
+	await expect(page.getByRole('link', { name: '3.4. A global power' })).toBeVisible();
+});

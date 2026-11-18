@@ -70,10 +70,16 @@ export function topicOf(q: Question): Topic | undefined {
 /** A topic page lists every question tagged with it, so a chapter page includes its sections'. */
 export const questionsForTopic = (t: Topic) => questions.filter((q) => q.tags.includes(t.id));
 
-/** The chapter's sections, with their own page when they have one. */
+/** The chapter a topic belongs to; a chapter is its own. */
+export const chapterOf = (t: Topic) => (t.chapter ? topicById.get(t.chapter)! : t);
+
+/** The topic's chapter, then the topic itself when it is a section. */
+export const trailOf = (t: Topic) => (t.chapter ? [chapterOf(t), t] : [t]);
+
+/** All sections of the topic's chapter, with their own page when they have one. */
 export const sectionsOf = (t: Topic) =>
 	curriculumJson.chapters
-		.find((c) => c.id === t.id)!
+		.find((c) => c.id === chapterOf(t).id)!
 		.sections.map((s) => ({ id: s.id, label: s.name, page: topicById.get(s.id) }));
 
 export const examsWith = (q: Question) => exams.filter((e) => e.questions.includes(q.id));
