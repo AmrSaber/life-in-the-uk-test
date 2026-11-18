@@ -23,9 +23,34 @@ function save(key: string, value: unknown) {
 
 const isStringArray = (v: unknown) => Array.isArray(v) && v.every((x) => typeof x === 'string');
 
+// ---- Loading
+//
+// Pages are prerendered, so the first client render must match the HTML without any saved data.
+// The layout calls loadStored() once it has mounted.
+
+export const client = $state({ ready: false });
+
+export function loadStored() {
+	if (client.ready) return;
+	for (const id of load('lituk:stars', [], isStringArray)) stars.add(id);
+	savedExams.push(
+		...load<SavedExam[]>(
+			'lituk:saved-exams',
+			[],
+			(v) => Array.isArray(v) && v.every(isSavedExam)
+		).map((e) => ({ ...e, questions: e.questions.filter((id) => questionById.has(id)) }))
+	);
+	theme.value = load<Theme>(
+		'lituk:theme',
+		'auto',
+		(v) => v === 'light' || v === 'dark' || v === 'auto'
+	);
+	client.ready = true;
+}
+
 // ---- Stars
 
-export const stars = new SvelteSet<string>(load('lituk:stars', [], isStringArray));
+export const stars = new SvelteSet<string>();
 
 const saveStars = () => save('lituk:stars', [...stars]);
 
@@ -54,11 +79,7 @@ const isSavedExam = (v: unknown) => {
 	);
 };
 
-export const savedExams: SavedExam[] = $state(
-	load<SavedExam[]>('lituk:saved-exams', [], (v) => Array.isArray(v) && v.every(isSavedExam)).map(
-		(e) => ({ ...e, questions: e.questions.filter((id) => questionById.has(id)) })
-	)
-);
+export const savedExams: SavedExam[] = $state([]);
 
 const saveExams = () => save('lituk:saved-exams', savedExams);
 
@@ -105,9 +126,7 @@ export function toggleInSavedExam(examId: string, questionId: string) {
 
 // ---- Theme (also applied before first paint by the inline script in app.html)
 
-export const theme = $state({
-	value: load<Theme>('lituk:theme', 'auto', (v) => v === 'light' || v === 'dark' || v === 'auto')
-});
+export const theme = $state<{ value: Theme }>({ value: 'auto' });
 
 export function setTheme(value: Theme) {
 	theme.value = value;

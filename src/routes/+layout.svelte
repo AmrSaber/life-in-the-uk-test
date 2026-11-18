@@ -2,9 +2,12 @@
 	import { resolve } from '$app/paths';
 	import '../app.css';
 	import { page } from '$app/state';
-	import { setTheme, theme, type Theme } from '#lib/storage.svelte.ts';
+	import { onMount } from 'svelte';
+	import { loadStored, setTheme, theme, type Theme } from '#lib/storage.svelte.ts';
 
 	let { children } = $props();
+
+	onMount(loadStored);
 
 	const links = [
 		{ path: '/', label: 'Home' },

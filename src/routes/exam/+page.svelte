@@ -1,30 +1,39 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
-	import { exams, questionById } from '#lib/data.ts';
-	import { getSavedExam } from '#lib/storage.svelte.ts';
+	import { questionById } from '#lib/data.ts';
+	import Seo from '#lib/Seo.svelte';
+	import { client, getSavedExam } from '#lib/storage.svelte.ts';
 	import Attempt from './Attempt.svelte';
 
-	const params = $derived(page.url.searchParams);
+	// Saved exams live in the browser, so this page has nothing to index. Practice exams
+	// have their own pages at /exam/<id>.
+	// Prerendering can't read the query string.
+	const params = $derived(client.ready ? page.url.searchParams : new URLSearchParams());
 	const savedId = $derived(params.get('saved'));
-	const exam = $derived.by(() => {
-		if (savedId) {
-			const saved = getSavedExam(savedId);
-			return saved && { name: saved.name, questions: saved.questions, timed: false };
-		}
-		const practice = exams.find((e) => e.id === params.get('id'));
-		return practice && { name: practice.name, questions: practice.questions, timed: true };
-	});
+	const saved = $derived(getSavedExam(savedId));
 	// Bumping this remounts the attempt for "Try again" and "Restart".
 	let run = $state(0);
+
+	// Old links used /exam?id=<id>.
+	$effect(() => {
+		const id = params.get('id');
+		if (id) goto(resolve('/exam/[id]', { id: id }), { replaceState: true });
+	});
 </script>
 
-<svelte:head>
-	<title>{exam?.name ?? 'Exam not found'} · Life in the UK practice</title>
-</svelte:head>
+<Seo
+	bare
+	title="Saved exam · Life in the UK practice"
+	description="Practise a saved exam."
+	noindex
+/>
 
-{#if !exam || !exam.questions.length}
-	<h1>{exam ? 'This exam has no questions' : 'Exam not found'}</h1>
+{#if !client.ready || params.has('id')}
+	<!-- Waiting for the browser's saved data (or the redirect). -->
+{:else if !saved || !saved.questions.length}
+	<h1>{saved ? 'This exam has no questions' : 'Exam not found'}</h1>
 	<p>
 		{#if savedId}
 			This saved exam doesn't exist in this browser, or has no questions. Saved exams are kept only
@@ -39,11 +48,11 @@
 		>
 	</p>
 {:else}
-	{#key `${page.url.search}#${run}`}
+	{#key `${savedId}#${run}`}
 		<Attempt
-			name={exam.name}
-			questions={exam.questions.map((id) => questionById.get(id)!)}
-			timed={exam.timed}
+			name={saved.name}
+			questions={saved.questions.map((id) => questionById.get(id)!)}
+			timed={false}
 			onrestart={() => run++}
 		/>
 	{/key}

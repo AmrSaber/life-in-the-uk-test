@@ -14,12 +14,18 @@
 		mode,
 		selected = $bindable([]),
 		label,
+		h1 = false,
+		expanded = false,
 		actions
 	}: {
 		question: Question;
 		mode: Mode;
 		selected?: number[];
 		label?: string;
+		/** Mark the question as the page heading. */
+		h1?: boolean;
+		/** Show the explanation open in reveal mode. */
+		expanded?: boolean;
 		actions?: Snippet;
 	} = $props();
 
@@ -56,7 +62,7 @@
 	<fieldset>
 		<legend>
 			{#if label}<span class="label muted">{label}</span>{/if}
-			<span class="text">{q.question}</span>
+			{#if h1}<h1 class="text">{q.question}</h1>{:else}<span class="text">{q.question}</span>{/if}
 		</legend>
 		<p class="hint muted">
 			{hint}{#if mode === 'answer' && multi}&nbsp;({selected.length} selected){/if}
@@ -92,7 +98,7 @@
 		</p>
 		<p class="explanation">{q.explanation}</p>
 	{:else if mode === 'reveal'}
-		<details>
+		<details open={expanded}>
 			<summary>Explanation</summary>
 			<p class="explanation">{q.explanation}</p>
 		</details>
@@ -120,6 +126,11 @@
 		padding: 0;
 		font-size: 1.15rem;
 		font-weight: 600;
+	}
+	h1.text {
+		margin: 0;
+		font-size: inherit;
+		font-weight: inherit;
 	}
 	.label {
 		display: block;

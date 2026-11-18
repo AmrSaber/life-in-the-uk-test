@@ -6,8 +6,11 @@ import { self } from '$app/service-worker';
 const CACHE = `cache-${version}`;
 // Manifest paths are relative to the base path; the worker's scope is that base.
 // Dotfiles (.nojekyll) are not served, and one missing file would fail the whole install.
+// Question and topic pages exist for search engines: they total several MB, so they're fetched
+// only when visited.
 const urls = [...immutable, ...assets, ...prerendered]
 	.filter((f) => !f.path.split('/').at(-1)!.startsWith('.'))
+	.filter((f) => !/^(question|topic)\//.test(f.path))
 	.map((f) => new URL(f.path, self.registration.scope).href);
 const precached = new Set(urls);
 

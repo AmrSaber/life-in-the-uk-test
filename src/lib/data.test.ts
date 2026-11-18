@@ -7,6 +7,9 @@ import {
 	questions,
 	requiredCount,
 	tagGroups,
+	topicBySlug,
+	topicOf,
+	topics,
 	tagName
 } from './data.ts';
 
@@ -52,5 +55,20 @@ describe('data integrity', () => {
 		expect(tagName('outdated')).toBe('outdated');
 		expect(tagGroups[0].slice(0, 2)).toEqual(['ch1', 'ch1.1']);
 		expect(tagGroups.at(-1)).toEqual(['outdated']);
+	});
+});
+
+describe('topics', () => {
+	it('gives every question a topic page', () => {
+		for (const x of questions) expect(topicOf(x), x.id).toBeDefined();
+	});
+
+	it('uses unique URL slugs', () => {
+		expect(new Set(topics.map((t) => t.slug)).size).toBe(topics.length);
+		expect(topicBySlug.get('3-4-a-global-power')?.id).toBe('ch3.4');
+	});
+
+	it('lists a chapter page for every chapter', () => {
+		expect(topics.filter((t) => !t.chapter)).toHaveLength(5);
 	});
 });

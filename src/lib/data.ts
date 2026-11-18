@@ -22,6 +22,68 @@ export const exams = examsJson as Exam[];
 export const EXAM_MINUTES = 45;
 export const PASS_MARK = 18;
 
+export type Topic = {
+	id: string;
+	/** URL segment, for example "3-4-a-global-power". */
+	slug: string;
+	/** Short name, without numbering. */
+	name: string;
+	/** Name with its curriculum numbering, as in the handbook. */
+	label: string;
+	/** The chapter's id for a section; undefined for a chapter. */
+	chapter?: string;
+};
+
+const slugify = (text: string) =>
+	text
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, '-')
+		.replace(/^-|-$/g, '');
+
+const topic = (id: string, label: string, chapter?: string): Topic => {
+	const name = label.replace(/^(Chapter )?[\d.]+[.:]?\s+/, '');
+	return { id, slug: `${id.slice(2).replace('.', '-')}-${slugify(name)}`, name, label, chapter };
+};
+
+/**
+ * Sections with fewer questions than this are too thin for a page; their chapter lists them.
+ * A chapter with one section has no section page, because it would repeat the chapter's.
+ */
+const MIN_SECTION_QUESTIONS = 3;
+
+/** Each chapter and each substantial section has its own page. */
+export const topics: Topic[] = curriculumJson.chapters.flatMap((c) => [
+	topic(c.id, c.name),
+	...(c.sections.length > 1 ? c.sections : [])
+		.filter((s) => questions.filter((q) => q.tags.includes(s.id)).length >= MIN_SECTION_QUESTIONS)
+		.map((s) => topic(s.id, s.name, c.id))
+]);
+export const topicById = new Map(topics.map((t) => [t.id, t]));
+export const topicBySlug = new Map(topics.map((t) => [t.slug, t]));
+
+/** The most specific topic page a question belongs to: its section's, else its chapter's. */
+export function topicOf(q: Question): Topic | undefined {
+	const found = q.tags.map((t) => topicById.get(t)).filter((t) => t !== undefined);
+	return found.find((t) => t.chapter) ?? found[0];
+}
+
+/** A topic page lists every question tagged with it, so a chapter page includes its sections'. */
+export const questionsForTopic = (t: Topic) => questions.filter((q) => q.tags.includes(t.id));
+
+/** The chapter's sections, with their own page when they have one. */
+export const sectionsOf = (t: Topic) =>
+	curriculumJson.chapters
+		.find((c) => c.id === t.id)!
+		.sections.map((s) => ({ id: s.id, label: s.name, page: topicById.get(s.id) }));
+
+export const examsWith = (q: Question) => exams.filter((e) => e.questions.includes(q.id));
+
+/** The correct options as text, for page descriptions and structured data. */
+export const answerText = (q: Question) =>
+	correctIndexes(q)
+		.map((i) => q.options[i])
+		.join('; ');
+
 const tagNames: Record<string, string> = tagsJson;
 
 export function tagName(slug: string): string {

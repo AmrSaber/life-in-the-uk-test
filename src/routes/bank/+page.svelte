@@ -1,12 +1,15 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
+	import { untrack } from 'svelte';
 	import { SvelteSet } from 'svelte/reactivity';
 	import { afterNavigate, goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import { questions } from '#lib/data.ts';
 	import { emptyFilters, filterQuestions } from '#lib/filter.ts';
+	import Seo from '#lib/Seo.svelte';
 	import {
 		addToSavedExam,
+		client,
 		createSavedExam,
 		deleteSavedExam,
 		getSavedExam,
@@ -23,16 +26,17 @@
 	import TagFilter from '#lib/TagFilter.svelte';
 
 	// The URL picks the view: all questions, ?starred=1, ?saved=<id> or ?edit=<id>.
-	const params = $derived(page.url.searchParams);
+	// Prerendering can't read the query string, and saved exams only exist once the browser has
+	// loaded them, so the first render shows the plain list.
+	const params = $derived(client.ready ? page.url.searchParams : new URLSearchParams());
 	const saved = $derived(getSavedExam(params.get('saved')));
 	const editing = $derived(getSavedExam(params.get('edit')));
-	const missing = $derived((params.has('saved') && !saved) || (params.has('edit') && !editing));
+	const missing = $derived(
+		client.ready && ((params.has('saved') && !saved) || (params.has('edit') && !editing))
+	);
 	const selectable = $derived(!saved);
 
-	const filters = $state({
-		...emptyFilters(),
-		starredOnly: page.url.searchParams.get('starred') === '1'
-	});
+	const filters = $state({ ...emptyFilters(), starredOnly: false });
 	// Temporary and separate from stars; survives filter changes but not a refresh.
 	const selection = new SvelteSet<string>();
 	// Editing works on a draft of the exam's questions; Save writes it back, Cancel drops it.
@@ -44,13 +48,17 @@
 		const p = to.url.searchParams;
 		// The header links set the starred filter; other view changes keep it.
 		if (!to.url.search || p.has('starred')) filters.starredOnly = p.get('starred') === '1';
-		const edit = getSavedExam(p.get('edit'));
-		const wasEditing = from?.url?.searchParams.has('edit');
-		if (edit || wasEditing) selection.clear();
-		if (edit) {
-			draft = [...edit.questions];
-			editName = edit.name;
-		}
+		if (p.has('edit') || from?.url?.searchParams.has('edit')) selection.clear();
+	});
+
+	// Start a fresh draft whenever a different saved exam is opened for editing.
+	const editId = $derived(editing?.id);
+	$effect(() => {
+		if (!editId) return;
+		untrack(() => {
+			draft = [...editing!.questions];
+			editName = editing!.name;
+		});
 	});
 
 	const examIds = $derived(saved?.questions ?? (editing ? draft : null));
@@ -146,9 +154,13 @@
 	);
 </script>
 
-<svelte:head>
-	<title>{title} · Life in the UK practice</title>
-</svelte:head>
+<Seo
+	bare={title === 'Question bank'}
+	title={title === 'Question bank'
+		? 'Life in the UK Test Question Bank: Search All Questions'
+		: title}
+	description="Search all {questions.length} Life in the UK test practice questions. Filter by topic, see the correct answers and explanations, and save your own custom exams."
+/>
 
 {#if missing}
 	<h1>Saved exam not found</h1>

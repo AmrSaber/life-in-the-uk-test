@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Seo from '#lib/Seo.svelte';
 	import cheatSheet from '../../../data/cheat-sheet.json';
 
 	type Row = { term: string; fact: string; note?: string; questions: string[] };
@@ -12,9 +13,11 @@
 		new Set(s.blocks.flatMap((b) => blockRows(b).flatMap((r) => r.questions))).size;
 </script>
 
-<svelte:head>
-	<title>Cheat sheet · Life in the UK practice</title>
-</svelte:head>
+<Seo
+	bare
+	title="Life in the UK Test Cheat Sheet: Key Dates, Facts and Numbers"
+	description="A revision cheat sheet for the Life in the UK test: key dates, battles, acts, famous people, numbers and places, grouped by topic."
+/>
 
 <h1>Cheat sheet</h1>
 <p class="intro muted">

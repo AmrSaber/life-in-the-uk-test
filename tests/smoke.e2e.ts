@@ -22,7 +22,7 @@ test('practice exam: answer, see feedback, finish and score', async ({ page }) =
 });
 
 test('leaving an unfinished exam asks for confirmation', async ({ page }) => {
-	await page.goto('/exam?id=exam-2');
+	await page.goto('/exam/exam-2');
 	await page.locator('.option input').first().check();
 	await page.getByRole('link', { name: 'Question bank' }).click();
 	await expect(page.locator('dialog[open]')).toContainText("can't be resumed");
@@ -52,4 +52,36 @@ test('stars persist and drive the starred view', async ({ page }) => {
 	await page.goto('/');
 	await page.getByRole('link', { name: 'Starred questions' }).click();
 	await expect(page.getByText('Showing 1 of 406 questions')).toBeVisible();
+});
+
+test('pages are prerendered with search metadata', async ({ request }) => {
+	const html = async (path: string) => (await request.get(path)).text();
+
+	const question = await html('/question/q0002');
+	expect(question).toContain('<h1');
+	expect(question).toContain('Where is Big Ben located?');
+	expect(question).toContain('rel="canonical" href="https://lifeinuktest.net/question/q0002"');
+	expect(question).toContain('"@type":"Question"');
+
+	expect(await html('/')).toContain('<h1>Life in the UK test practice exams');
+	expect(await html('/exam/exam-1')).toContain('Questions in this exam');
+	expect(await html('/topic/3-4-a-global-power')).toContain('Life in the UK test questions');
+
+	const sitemap = await html('/sitemap.xml');
+	expect(sitemap).toContain('<loc>https://lifeinuktest.net/question/q0406</loc>');
+	expect(sitemap).not.toContain('life-in-the-uk-test/');
+	expect(await html('/robots.txt')).toContain('Sitemap: https://lifeinuktest.net/sitemap.xml');
+});
+
+test('the old exam link redirects to the exam page', async ({ page }) => {
+	await page.goto('/exam?id=exam-3');
+	await expect(page).toHaveURL(/\/exam\/exam-3$/);
+	await expect(page.getByRole('timer')).toBeVisible();
+});
+
+test('question pages show the answer and link to the topic', async ({ page }) => {
+	await page.goto('/question/q0002');
+	await expect(page.getByRole('heading', { level: 1 })).toHaveText('Where is Big Ben located?');
+	await expect(page.getByText('✓ Correct answer')).toBeVisible();
+	await expect(page.getByRole('link', { name: 'Places of interest' }).first()).toBeVisible();
 });
