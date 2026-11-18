@@ -71,10 +71,6 @@
 		All the questions here are based on questions and topics reported by people who took the real
 		exam.
 	</p>
-	<p class="muted">
-		This is an independent practice site. It isn't affiliated with the Home Office or the official
-		test.
-	</p>
 </section>
 
 <aside class="notice card" aria-label="About your saved data">

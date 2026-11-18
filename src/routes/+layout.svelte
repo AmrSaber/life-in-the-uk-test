@@ -73,6 +73,10 @@
 
 <footer>
 	<div class="inner">
+		<p class="disclaimer muted">
+			This is an independent practice site. It isn't affiliated with the Home Office or the official
+			Life in the UK test.
+		</p>
 		<a
 			class="github"
 			href="https://github.com/AmrSaber/life-in-the-uk-test"
@@ -183,6 +187,12 @@
 	footer {
 		border-top: 1px solid var(--border);
 		background: var(--surface);
+	}
+	.disclaimer {
+		margin: 0;
+		font-size: 0.9rem;
+		max-width: 40rem;
+		margin-right: auto;
 	}
 	.github {
 		min-height: 44px;

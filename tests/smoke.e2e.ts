@@ -105,4 +105,5 @@ test('the footer links to the GitHub repository', async ({ page }) => {
 	const link = page.getByRole('link', { name: /^GitHub/ });
 	await expect(link).toHaveAttribute('href', 'https://github.com/AmrSaber/life-in-the-uk-test');
 	await expect(link).toBeVisible();
+	await expect(page.getByRole('contentinfo')).toContainText('independent practice site');
 });
