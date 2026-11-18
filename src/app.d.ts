@@ -8,6 +8,10 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
+
+	interface Window {
+		goatcounter?: { count?: (vars: { path: string }) => void };
+	}
 }
 
 export {};

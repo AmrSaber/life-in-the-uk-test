@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import '../app.css';
+	import { afterNavigate } from '$app/navigation';
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
 	import { loadStored, setTheme, theme, type Theme } from '#lib/storage.svelte.ts';
@@ -8,6 +9,11 @@
 	let { children } = $props();
 
 	onMount(loadStored);
+
+	// count.js records the first page load itself; count the in-app page changes after it.
+	afterNavigate(({ type, to }) => {
+		if (type !== 'enter' && to) window.goatcounter?.count?.({ path: to.url.pathname });
+	});
 
 	const links = [
 		{ path: '/', label: 'Home' },
