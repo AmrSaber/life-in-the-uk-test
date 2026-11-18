@@ -99,3 +99,10 @@ test('topic pages link back to the chapter and to sibling sections', async ({ pa
 	await expect(page).toHaveURL(/\/topic\/3-a-long-and-illustrious-history$/);
 	await expect(page.getByRole('link', { name: '3.4. A global power' })).toBeVisible();
 });
+
+test('the footer links to the GitHub repository', async ({ page }) => {
+	await page.goto('/');
+	const link = page.getByRole('link', { name: /^GitHub/ });
+	await expect(link).toHaveAttribute('href', 'https://github.com/AmrSaber/life-in-the-uk-test');
+	await expect(link).toBeVisible();
+});
